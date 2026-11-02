@@ -1,0 +1,755 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citations de l'Ancien Testament introduites par γράφω</title>
+<style>
+:root {
+  --ink: #1f1c18;
+  --muted: #6b6357;
+  --rule: #d9d1c2;
+  --bg: #fbf8f1;
+  --accent: #8a1f1f;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 2.5rem 1.25rem 4rem;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+  line-height: 1.55;
+}
+h1 { margin: 0 0 .5rem; font-size: clamp(1.7rem, 3.2vw, 2.35rem); line-height: 1.18; font-weight: 600; }
+h2 { margin: 2.2rem 0 .7rem; font-size: 1.15rem; font-weight: 600; }
+.lede { max-width: 75ch; margin: 0 0 1rem; font-size: 1.05rem; color: #3b352d; }
+.gk { font-family: "SBL Greek", "Gentium Plus", "DejaVu Serif", Georgia, serif; }
+.he { font-family: "SBL Hebrew", "Ezra SIL", "Noto Serif Hebrew", "DejaVu Serif", serif; font-size: 1.15rem; line-height: 1.9; }
+.method { border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule); padding: .9rem 0 .6rem; margin: 1.4rem 0 1.6rem; }
+.method ul { margin: .2rem 0 .4rem; padding-left: 1.1rem; }
+.method li { margin: .25rem 0; font-size: .92rem; color: #3b352d; }
+.count { display: inline-block; margin: 0 0 1rem; padding: .2rem .55rem; border: 1px solid var(--rule); border-radius: 2px; font-size: .82rem; color: var(--muted); }
+.toc { font-size: .88rem; margin: 0 0 1.2rem; }
+.toc a { color: var(--ink); text-decoration: none; border-bottom: 1px solid var(--rule); margin-right: .85rem; }
+.toc a:hover { border-color: var(--accent); }
+table { width: 100%; border-collapse: collapse; }
+thead th { padding: .45rem .55rem; border-bottom: 2px solid var(--ink); text-align: left; font-size: .72rem; letter-spacing: .09em; text-transform: uppercase; color: var(--muted); font-weight: 600; }
+tbody td { padding: .8rem .55rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+tbody tr.book th { padding: 1.15rem .55rem .35rem; border-bottom: 1px solid var(--ink); text-align: left; font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+.nt { width: 11%; font-weight: 700; white-space: nowrap; }
+.gr { width: 43%; font-size: 1.03rem; font-family: "SBL Greek", "Gentium Plus", "DejaVu Serif", Georgia, serif; }
+.otcell { width: 46%; }
+.otref { margin-bottom: .1rem; font-size: .75rem; font-weight: 700; letter-spacing: .04em; color: var(--muted); }
+.ot + .ot { margin-top: .65rem; }
+strong { font-weight: 700; }
+.gr strong { color: var(--accent); }
+.note { margin-top: .45rem; font-size: .82rem; font-style: italic; color: var(--muted); }
+.tag { display: inline-block; padding: 0 .3rem; border: 1px solid var(--rule); border-radius: 2px; font-size: .65rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); vertical-align: .08em; }
+.legend { font-size: .82rem; color: var(--muted); margin: .8rem 0 1.2rem; }
+.footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid var(--rule); font-size: .8rem; color: var(--muted); }
+@media (max-width: 800px) {
+  thead { display: none; }
+  tbody tr { display: block; padding: .6rem 0; border-bottom: 2px solid var(--ink); }
+  tbody tr.book { border: 0; padding: 1rem 0 0; }
+  tbody tr.book th { display: block; }
+  tbody td { display: block; width: auto; border: 0; padding: .2rem 0; }
+  .nt { font-size: 1rem; }
+  .he { text-align: right; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>Citations de l'Ancien Testament introduites par <span class="gk">γράφω</span></h1>
+  <p class="lede">Passages du Nouveau Testament où une citation vétérotestamentaire est introduite par une forme du verbe grec <span class="gk">γράφω</span> — principalement <span class="gk">γέγραπται</span> (« il est écrit ») et <span class="gk">γεγραμμένον</span> (« ce qui est écrit ») — avec le texte hébreu massorétique correspondant.</p>
+</header>
+
+<section class="method">
+  <h2>Repères</h2>
+  <ul>
+    <li><strong>Corpus grec :</strong> <code>f35.txt</code> (texte Family 35). Les formes de <span class="gk">γράφω</span> sont en gras.</li>
+    <li><strong>Texte hébreu :</strong> texte massorétique (<em>Miqra according to the Masorah</em>, via Sefaria), avec la numérotation hébraïque des versets.</li>
+    <li><strong>Citations :</strong> le Nouveau Testament cite souvent la Septante ; le grec peut donc s'écarter du texte massorétique. Les remarques signalent les cas notables.</li>
+    <li><strong>Sélection :</strong> seules les citations introduites par une forme de <span class="gk">γράφω</span>. Les formules voisines (<span class="gk">λέγει ἡ γραφή</span>, <span class="gk">ἀνέγνωτε</span>, etc.) et les <span class="gk">γέγραπται</span> sans citation explicite ne sont pas retenus. Un <span class="gk">γέγραπται</span> situé à l'intérieur de la citation (par ex. <span class="gk">He 10,7</span>) n'est pas non plus une formule d'introduction.</li>
+  </ul>
+</section>
+
+<p class="count">65 passages principaux · 3 cas particuliers</p>
+
+<nav class="toc" aria-label="Sommaire">
+  <a href="#matthieu">Matthieu</a>
+  <a href="#marc">Marc</a>
+  <a href="#luc">Luc</a>
+  <a href="#jean">Jean</a>
+  <a href="#actes">Actes des Apôtres</a>
+  <a href="#romains">Romains</a>
+  <a href="#1-corinthiens">1 Corinthiens</a>
+  <a href="#2-corinthiens">2 Corinthiens</a>
+  <a href="#galates">Galates</a>
+  <a href="#1-pierre">1 Pierre</a>
+</nav>
+
+<p class="legend"><strong>gras</strong> : forme de <span class="gk">γράφω</span> · <span class="tag">cf.</span> : citation secondaire ou allusion</p>
+
+<table>
+    <thead><tr><th>Nouveau Testament</th><th>Texte grec</th><th>Ancien Testament / Texte hébreu</th></tr></thead>
+    <tbody>
+      <tr class="book" id="matthieu"><th colspan="3">Matthieu</th></tr>
+<tr>
+      <td class="nt">Mt 2,5-6</td>
+      <td class="gr" lang="grc">Οἱ δὲ εἶπον αὐτῷ· «Ἐν Βηθλεὲμ τῆς Ἰουδαίας, οὕτως γὰρ <strong>γέγραπται</strong> διὰ τοῦ προφήτου· ‹Καὶ σύ, Βηθλεέμ, γῆ Ἰούδα, οὐδαμῶς ἐλαχίστη εἶ ἐν τοῖς ἡγεμόσιν Ἰούδα, ἐκ σοῦ γὰρ ἐξελεύσεται ἡγούμενος, ὅστις ποιμανεῖ τὸν λαόν μου τὸν Ἰσραήλ.› »<div class="note">Matthieu combine Mi 5,1 et 2 S 5,2. Le grec « γῆ Ἰούδα » s'écarte du TM « Éphrata ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Mi 5,1</div>
+        <div class="he" lang="he" dir="rtl">וְאַתָּ֞ה בֵּֽית־לֶ֣חֶם אֶפְרָ֗תָה צָעִיר֙ לִֽהְיוֹת֙ בְּאַלְפֵ֣י יְהוּדָ֔ה מִמְּךָ֙ לִ֣י יֵצֵ֔א לִֽהְי֥וֹת מוֹשֵׁ֖ל בְּיִשְׂרָאֵ֑ל וּמוֹצָאֹתָ֥יו מִקֶּ֖דֶם מִימֵ֥י עוֹלָֽם׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> 2 S 5,2</div>
+        <div class="he" lang="he" dir="rtl">גַּם־אֶתְמ֣וֹל גַּם־שִׁלְשׁ֗וֹם בִּֽהְי֨וֹת שָׁא֥וּל מֶ֙לֶךְ֙ עָלֵ֔ינוּ אַתָּ֗ה הָיִ֛יתָ הַמּוֹצִ֥יא וְהַמֵּבִ֖י אֶת־יִשְׂרָאֵ֑ל וַיֹּ֨אמֶר יְהֹוָ֜ה לְךָ֗ אַתָּ֨ה תִרְעֶ֤ה אֶת־עַמִּי֙ אֶת־יִשְׂרָאֵ֔ל וְאַתָּ֛ה תִּהְיֶ֥ה לְנָגִ֖יד עַל־יִשְׂרָאֵֽל׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 4,4</td>
+      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν, «<strong>Γέγραπται</strong>· ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος Θεοῦ.› »<div class="note">Le TM : « l'homme ne vivra pas de pain seulement, mais de tout ce qui sort de la bouche du Seigneur ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 8,3</div>
+        <div class="he" lang="he" dir="rtl">וַֽיְעַנְּךָ֮ וַיַּרְעִבֶ֒ךָ֒ וַיַּאֲכִֽלְךָ֤ אֶת־הַמָּן֙ אֲשֶׁ֣ר לֹא־יָדַ֔עְתָּ וְלֹ֥א יָדְע֖וּן אֲבֹתֶ֑יךָ לְמַ֣עַן הוֹדִֽיעֲךָ֗ כִּ֠י לֹ֣א עַל־הַלֶּ֤חֶם לְבַדּוֹ֙ יִחְיֶ֣ה הָֽאָדָ֔ם כִּ֛י עַל־כׇּל־מוֹצָ֥א פִֽי־יְהֹוָ֖ה יִחְיֶ֥ה הָאָדָֽם׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 4,6</td>
+      <td class="gr" lang="grc">καὶ λέγει αὐτῷ, «Εἰ Υἱὸς εἶ τοῦ Θεοῦ, βάλε σεαυτὸν κάτω. <strong>Γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ, καὶ ἐπὶ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.› »</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 91,11-12</div>
+        <div class="he" lang="he" dir="rtl">כִּ֣י מַ֭לְאָכָיו יְצַוֶּה־לָּ֑ךְ לִ֝שְׁמׇרְךָ֗ בְּכׇל־דְּרָכֶֽיךָ׃ עַל־כַּפַּ֥יִם יִשָּׂא֑וּנְךָ פֶּן־תִּגֹּ֖ף בָּאֶ֣בֶן רַגְלֶֽךָ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 4,7</td>
+      <td class="gr" lang="grc">Ἔφη αὐτῷ ὁ Ἰησοῦς, «Πάλιν <strong>γέγραπται</strong>· ‹Οὐκ ἐκπειράσεις Κύριον τὸν Θεόν σου.› »</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 6,16</div>
+        <div class="he" lang="he" dir="rtl">לֹ֣א תְנַסּ֔וּ אֶת־יְהֹוָ֖ה אֱלֹהֵיכֶ֑ם כַּאֲשֶׁ֥ר נִסִּיתֶ֖ם בַּמַּסָּֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 4,10</td>
+      <td class="gr" lang="grc">Τότε λέγει αὐτῷ ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong> γάρ· ‹Κύριον τὸν Θεόν σου προσκυνήσεις, καὶ αὐτῷ μόνῳ λατρεύσεις.› »<div class="note">Le TM porte « tu craindras » (תִּירָא) ; le grec dit « tu adoreras » (προσκυνήσεις).</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 6,13</div>
+        <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א וְאֹת֣וֹ תַעֲבֹ֑ד וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Dt 10,20</div>
+        <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א אֹת֣וֹ תַעֲבֹ֑ד וּב֣וֹ תִדְבָּ֔ק וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 11,10</td>
+      <td class="gr" lang="grc">Οὗτος γάρ ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="note">Citation composite, attribuée au « prophète ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ml 3,1</div>
+        <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Ex 23,20</div>
+        <div class="he" lang="he" dir="rtl">הִנֵּ֨ה אָנֹכִ֜י שֹׁלֵ֤חַ מַלְאָךְ֙ לְפָנֶ֔יךָ לִשְׁמׇרְךָ֖ בַּדָּ֑רֶךְ וְלַהֲבִ֣יאֲךָ֔ אֶל־הַמָּק֖וֹם אֲשֶׁ֥ר הֲכִנֹֽתִי׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 21,13</td>
+      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς, «<strong>Γέγραπται</strong>, ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε ‹σπήλαιον λῃστῶν.› »<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 56,7</div>
+        <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Jr 7,11</div>
+        <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mt 26,31</td>
+      <td class="gr" lang="grc">Τότε λέγει αὐτοῖς ὁ Ἰησοῦς· «Πάντες ὑμεῖς σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, <strong>γέγραπται</strong> γάρ· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα τῆς ποίμνης.›</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Za 13,7</div>
+        <div class="he" lang="he" dir="rtl">חֶ֗רֶב עוּרִ֤י עַל־רֹעִי֙ וְעַל־גֶּ֣בֶר עֲמִיתִ֔י נְאֻ֖ם יְהֹוָ֣ה צְבָא֑וֹת הַ֤ךְ אֶת־הָרֹעֶה֙ וּתְפוּצֶ֣יןָ הַצֹּ֔אן וַהֲשִׁבֹתִ֥י יָדִ֖י עַל־הַצֹּעֲרִֽים׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="marc"><th colspan="3">Marc</th></tr>
+<tr>
+      <td class="nt">Mc 1,2-3</td>
+      <td class="gr" lang="grc">Ὡς <strong>γέγραπται</strong> ἐν τοῖς προφήταις—«Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.» «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.› »—<div class="note">F35 porte « ἐν τοῖς προφήταις » ; le texte combine Ml 3,1 et Is 40,3.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ml 3,1</div>
+        <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Is 40,3</div>
+        <div class="he" lang="he" dir="rtl">ק֣וֹל קוֹרֵ֔א בַּמִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהֹוָ֑ה יַשְּׁרוּ֙ בָּעֲרָבָ֔ה מְסִלָּ֖ה לֵאלֹהֵֽינוּ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mc 7,6-7</td>
+      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς ὅτι «Καλῶς προεφήτευσεν Ἡσαΐας περὶ ὑμῶν τῶν ὑποκριτῶν, ὡς <strong>γέγραπται</strong>· ‹Οὗτος ὁ λαὸς τοῖς χείλεσίν με τιμᾷ, ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ᾿ ἐμοῦ. Μάτην δὲ σέβονταί με, διδάσκοντες διδασκαλίας ἐντάλματα ἀνθρώπων.›<div class="note">Le grec suit la LXX ; le TM dit « ce peuple s'approche de moi de sa bouche et m'honore des lèvres, mais son cœur est loin de moi ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 29,13</div>
+        <div class="he" lang="he" dir="rtl">וַיֹּ֣אמֶר אֲדֹנָ֗י יַ֚עַן כִּ֤י נִגַּשׁ֙ הָעָ֣ם הַזֶּ֔ה בְּפִ֤יו וּבִשְׂפָתָיו֙ כִּבְּד֔וּנִי וְלִבּ֖וֹ רִחַ֣ק מִמֶּ֑נִּי וַתְּהִ֤י יִרְאָתָם֙ אֹתִ֔י מִצְוַ֥ת אֲנָשִׁ֖ים מְלֻמָּדָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mc 11,17</td>
+      <td class="gr" lang="grc">Καὶ ἐδίδασκεν λέγων αὐτοῖς· «Οὐ <strong>γέγραπται</strong> ὅτι ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται πᾶσιν τοῖς ἔθνεσιν›; Ὑμεῖς δὲ ἐποιήσατε αὐτὸν σπήλαιον λῃστῶν.»<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 56,7</div>
+        <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Jr 7,11</div>
+        <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Mc 14,27</td>
+      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς ὁ Ἰησοῦς ὅτι «Πάντες σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, ὅτι <strong>γέγραπται</strong>· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα.›</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Za 13,7</div>
+        <div class="he" lang="he" dir="rtl">חֶ֗רֶב עוּרִ֤י עַל־רֹעִי֙ וְעַל־גֶּ֣בֶר עֲמִיתִ֔י נְאֻ֖ם יְהֹוָ֣ה צְבָא֑וֹת הַ֤ךְ אֶת־הָרֹעֶה֙ וּתְפוּצֶ֣יןָ הַצֹּ֔אן וַהֲשִׁבֹתִ֥י יָדִ֖י עַל־הַצֹּעֲרִֽים׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="luc"><th colspan="3">Luc</th></tr>
+<tr>
+      <td class="nt">Lc 2,23</td>
+      <td class="gr" lang="grc">(καθὼς <strong>γέγραπται</strong> ἐν νόμῳ Κυρίου ὅτι «Πᾶν ἄρσεν διανοῖγον μήτραν ἅγιον τῷ Κυρίῳ κληθήσεται»),<div class="note">« καθὼς γέγραπται ἐν νόμῳ κυρίου ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ex 13,2</div>
+        <div class="he" lang="he" dir="rtl">קַדֶּשׁ־לִ֨י כׇל־בְּכ֜וֹר פֶּ֤טֶר כׇּל־רֶ֙חֶם֙ בִּבְנֵ֣י יִשְׂרָאֵ֔ל בָּאָדָ֖ם וּבַבְּהֵמָ֑ה לִ֖י הֽוּא׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Ex 13,12</div>
+        <div class="he" lang="he" dir="rtl">וְהַעֲבַרְתָּ֥ כׇל־פֶּֽטֶר־רֶ֖חֶם לַֽיהֹוָ֑ה וְכׇל־פֶּ֣טֶר שֶׁ֣גֶר בְּהֵמָ֗ה אֲשֶׁ֨ר יִהְיֶ֥ה לְךָ֛ הַזְּכָרִ֖ים לַיהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 3,4-6</td>
+      <td class="gr" lang="grc">ὡς <strong>γέγραπται</strong> ἐν βίβλῳ λόγων Ἡσαΐου τοῦ προφήτου, λέγοντος· «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ. Πᾶσα φάραγξ πληρωθήσεται, καὶ πᾶν ὄρος καὶ βουνὸς ταπεινωθήσεται· καὶ ἔσται τὰ σκολιὰ εἰς εὐθεῖαν, καὶ αἱ τραχεῖαι εἰς ὁδοὺς λείας· καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ Θεοῦ.› »<div class="note">Citation longue selon la LXX ; le TM dit « toute chair verra la gloire du Seigneur », la LXX « toute chair verra le salut de Dieu ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 40,3-5</div>
+        <div class="he" lang="he" dir="rtl">ק֣וֹל קוֹרֵ֔א בַּמִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהֹוָ֑ה יַשְּׁרוּ֙ בָּעֲרָבָ֔ה מְסִלָּ֖ה לֵאלֹהֵֽינוּ׃ כׇּל־גֶּיא֙ יִנָּשֵׂ֔א וְכׇל־הַ֥ר וְגִבְעָ֖ה יִשְׁפָּ֑לוּ וְהָיָ֤ה הֶֽעָקֹב֙ לְמִישׁ֔וֹר וְהָרְכָסִ֖ים לְבִקְעָֽה׃ וְנִגְלָ֖ה כְּב֣וֹד יְהֹוָ֑ה וְרָא֤וּ כׇל־בָּשָׂר֙ יַחְדָּ֔ו כִּ֛י פִּ֥י יְהֹוָ֖ה דִּבֵּֽר׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 4,4</td>
+      <td class="gr" lang="grc">Καὶ ἀπεκρίθη Ἰησοῦς πρὸς αὐτὸν λέγων, «<strong>Γέγραπται</strong> ὅτι ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι Θεοῦ.› »</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 8,3</div>
+        <div class="he" lang="he" dir="rtl">וַֽיְעַנְּךָ֮ וַיַּרְעִבֶ֒ךָ֒ וַיַּאֲכִֽלְךָ֤ אֶת־הַמָּן֙ אֲשֶׁ֣ר לֹא־יָדַ֔עְתָּ וְלֹ֥א יָדְע֖וּן אֲבֹתֶ֑יךָ לְמַ֣עַן הוֹדִֽיעֲךָ֗ כִּ֠י לֹ֣א עַל־הַלֶּ֤חֶם לְבַדּוֹ֙ יִחְיֶ֣ה הָֽאָדָ֔ם כִּ֛י עַל־כׇּל־מוֹצָ֥א פִֽי־יְהֹוָ֖ה יִחְיֶ֥ה הָאָדָֽם׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 4,8</td>
+      <td class="gr" lang="grc">Καὶ ἀποκριθεὶς αὐτῷ εἶπεν ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong>, ‹Προσκυνήσεις Κύριον τὸν Θεόν σου, καὶ αὐτῷ μόνῳ λατρεύσεις.› »</td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 6,13</div>
+        <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א וְאֹת֣וֹ תַעֲבֹ֑ד וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 4,10</td>
+      <td class="gr" lang="grc"><strong>γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ τοῦ διαφυλάξαι σε,›<div class="note">Le grec ajoute « τοῦ διαφυλάξαι σε » (LXX).</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 91,11</div>
+        <div class="he" lang="he" dir="rtl">כִּ֣י מַ֭לְאָכָיו יְצַוֶּה־לָּ֑ךְ לִ֝שְׁמׇרְךָ֗ בְּכׇל־דְּרָכֶֽיךָ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 7,27</td>
+      <td class="gr" lang="grc">Οὗτός ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="note">Citation composite, attribuée au « prophète ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ml 3,1</div>
+        <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Ex 23,20</div>
+        <div class="he" lang="he" dir="rtl">הִנֵּ֨ה אָנֹכִ֜י שֹׁלֵ֤חַ מַלְאָךְ֙ לְפָנֶ֔יךָ לִשְׁמׇרְךָ֖ בַּדָּ֑רֶךְ וְלַהֲבִ֣יאֲךָ֔ אֶל־הַמָּק֖וֹם אֲשֶׁ֥ר הֲכִנֹֽתִי׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 19,46</td>
+      <td class="gr" lang="grc">λέγων αὐτοῖς, «<strong>Γέγραπται</strong>· ‹Ὁ οἶκός μου οἶκος προσευχῆς ἐστιν,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε σπήλαιον λῃστῶν.»<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 56,7</div>
+        <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Jr 7,11</div>
+        <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 20,17</td>
+      <td class="gr" lang="grc">Ὁ δὲ ἐμβλέψας αὐτοῖς εἶπεν· «Τί οὖν ἐστιν τὸ <strong>γεγραμμένον</strong> τοῦτο· ‹Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας›;<div class="note">« τὸ γεγραμμένον τοῦτο ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 118,22</div>
+        <div class="he" lang="he" dir="rtl">אֶ֭בֶן מָאֲס֣וּ הַבּוֹנִ֑ים הָ֝יְתָ֗ה לְרֹ֣אשׁ פִּנָּֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 22,37</td>
+      <td class="gr" lang="grc">Λέγω γὰρ ὑμῖν ὅτι ἔτι τοῦτο τὸ <strong>γεγραμμένον</strong> δεῖ τελεσθῆναι ἐν ἐμοί· τὸ ‹Καὶ μετὰ ἀνόμων ἐλογίσθη›· καὶ γὰρ τὰ περὶ ἐμοῦ τέλος ἔχει.»<div class="note">« τοῦτο τὸ γεγραμμένον ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 53,12</div>
+        <div class="he" lang="he" dir="rtl">לָכֵ֞ן אֲחַלֶּק־ל֣וֹ בָרַבִּ֗ים וְאֶת־עֲצוּמִים֮ יְחַלֵּ֣ק שָׁלָל֒ תַּ֗חַת אֲשֶׁ֨ר הֶעֱרָ֤ה לַמָּ֙וֶת֙ נַפְשׁ֔וֹ וְאֶת־פֹּשְׁעִ֖ים נִמְנָ֑ה וְהוּא֙ חֵטְא־רַבִּ֣ים נָשָׂ֔א וְלַפֹּשְׁעִ֖ים יַפְגִּֽיעַ׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="jean"><th colspan="3">Jean</th></tr>
+<tr>
+      <td class="nt">Jn 2,17</td>
+      <td class="gr" lang="grc">Ἐμνήσθησαν δὲ οἱ μαθηταὶ αὐτοῦ ὅτι <strong>γεγραμμένον</strong> ἐστίν, «Ὁ ζῆλος τοῦ οἴκου σου καταφάγεταί με.»<div class="note">« γεγραμμένον ἐστίν ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 69,10</div>
+        <div class="he" lang="he" dir="rtl">כִּֽי־קִנְאַ֣ת בֵּיתְךָ֣ אֲכָלָ֑תְנִי וְחֶרְפּ֥וֹת ח֝וֹרְפֶ֗יךָ נָפְל֥וּ עָלָֽי׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 6,31</td>
+      <td class="gr" lang="grc">Οἱ πατέρες ἡμῶν τὸ μάννα ἔφαγον ἐν τῇ ἐρήμῳ, καθώς ἐστιν <strong>γεγραμμένον</strong>· ‹Ἄρτον ἐκ τοῦ οὐρανοῦ ἔδωκεν αὐτοῖς φαγεῖν.› »<div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 78,24</div>
+        <div class="he" lang="he" dir="rtl">וַיַּמְטֵ֬ר עֲלֵיהֶ֣ם מָ֣ן לֶאֱכֹ֑ל וּדְגַן־שָׁ֝מַ֗יִם נָ֣תַן לָֽמוֹ׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Ex 16,4</div>
+        <div class="he" lang="he" dir="rtl">וַיֹּ֤אמֶר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה הִנְנִ֨י מַמְטִ֥יר לָכֶ֛ם לֶ֖חֶם מִן־הַשָּׁמָ֑יִם וְיָצָ֨א הָעָ֤ם וְלָֽקְטוּ֙ דְּבַר־י֣וֹם בְּיוֹמ֔וֹ לְמַ֧עַן אֲנַסֶּ֛נּוּ הֲיֵלֵ֥ךְ בְּתוֹרָתִ֖י אִם־לֹֽא׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 6,45</td>
+      <td class="gr" lang="grc">Ἔστιν <strong>γεγραμμένον</strong> ἐν τοῖς Προφήταις, ‹Καὶ ἔσονται πάντες διδακτοὶ Θεοῦ.› Πᾶς οὖν ὁ ἀκούων παρὰ τοῦ Πατρὸς καὶ μαθὼν ἔρχεται πρός με.<div class="note">« ἔστιν γεγραμμένον ἐν τοῖς προφήταις ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 54,13</div>
+        <div class="he" lang="he" dir="rtl">וְכׇל־בָּנַ֖יִךְ לִמּוּדֵ֣י יְהֹוָ֑ה וְרַ֖ב שְׁל֥וֹם בָּנָֽיִךְ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 8,17</td>
+      <td class="gr" lang="grc">Καὶ ἐν τῷ νόμῳ δὲ τῷ ὑμετέρῳ <strong>γέγραπται</strong> ὅτι δύο ἀνθρώπων ἡ μαρτυρία ἀληθής ἐστιν·<div class="note">« ἐν τῷ νόμῳ ... γέγραπται » : principe juridique.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 19,15</div>
+        <div class="he" lang="he" dir="rtl">לֹֽא־יָקוּם֩ עֵ֨ד אֶחָ֜ד בְּאִ֗ישׁ לְכׇל־עָוֺן֙ וּלְכׇל־חַטָּ֔את בְּכׇל־חֵ֖טְא אֲשֶׁ֣ר יֶֽחֱטָ֑א עַל־פִּ֣י שְׁנֵ֣י עֵדִ֗ים א֛וֹ עַל־פִּ֥י שְׁלֹשָֽׁה־עֵדִ֖ים יָק֥וּם דָּבָֽר׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 10,34</td>
+      <td class="gr" lang="grc">Ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· «Οὐκ ἔστιν <strong>γεγραμμένον</strong> ἐν τῷ νόμῳ ὑμῶν, ‹Ἐγὼ εἶπα, θεοί ἐστε›;<div class="note">« οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 82,6</div>
+        <div class="he" lang="he" dir="rtl">אֲֽנִי־אָ֭מַרְתִּי אֱלֹהִ֣ים אַתֶּ֑ם וּבְנֵ֖י עֶלְי֣וֹן כֻּלְּכֶֽם׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 12,14-15</td>
+      <td class="gr" lang="grc">Εὑρὼν δὲ ὁ Ἰησοῦς ὀνάριον, ἐκάθισεν ἐπ᾿ αὐτῷ· καθώς ἐστιν <strong>γεγραμμένον</strong>· «Μὴ φοβοῦ, θύγατερ Σιών· ἰδού, ὁ Βασιλεύς σου ἔρχεται, καθήμενος ἐπὶ πῶλον ὄνου.»<div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Za 9,9</div>
+        <div class="he" lang="he" dir="rtl">גִּילִ֨י מְאֹ֜ד בַּת־צִיּ֗וֹן הָרִ֙יעִי֙ בַּ֣ת יְרוּשָׁלַ֔͏ִם הִנֵּ֤ה מַלְכֵּךְ֙ יָ֣בוֹא לָ֔ךְ צַדִּ֥יק וְנוֹשָׁ֖ע ה֑וּא עָנִי֙ וְרֹכֵ֣ב עַל־חֲמ֔וֹר וְעַל־עַ֖יִר בֶּן־אֲתֹנֽוֹת׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Jn 15,25</td>
+      <td class="gr" lang="grc">Ἀλλ᾿ ἵνα πληρωθῇ ὁ λόγος ὁ <strong>γεγραμμένος</strong> ἐν τῷ νόμῳ αὐτῶν ὅτι ‹Ἐμίσησάν με δωρεάν.›<div class="note">« ὁ λόγος ὁ ... γεγραμμένος ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 69,5</div>
+        <div class="he" lang="he" dir="rtl">רַבּ֤וּ מִשַּׂעֲר֣וֹת רֹאשִׁי֮ שֹׂנְאַ֢י חִ֫נָּ֥ם עָצְמ֣וּ מַ֭צְמִיתַי אֹיְבַ֣י שֶׁ֑קֶר אֲשֶׁ֥ר לֹֽא־גָ֝זַ֗לְתִּי אָ֣ז אָשִֽׁיב׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Ps 35,19</div>
+        <div class="he" lang="he" dir="rtl">אַֽל־יִשְׂמְחוּ־לִ֣י אֹיְבַ֣י שֶׁ֑קֶר שֹׂנְאַ֥י חִ֝נָּ֗ם יִקְרְצוּ־עָֽיִן׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="actes"><th colspan="3">Actes des Apôtres</th></tr>
+<tr>
+      <td class="nt">Ac 1,20</td>
+      <td class="gr" lang="grc">«<strong>Γέγραπται</strong> γὰρ ἐν Βίβλῳ Ψαλμῶν· ‹Γενηθήτω ἡ ἔπαυλις αὐτοῦ ἔρημος, καὶ μὴ ἔστω ὁ κατοικῶν ἐν αὐτῇ› καί, ‹Τὴν ἐπισκοπὴν αὐτοῦ λάβοι ἕτερος.›<div class="note">« γέγραπται γὰρ ἐν βίβλῳ ψαλμῶν » : deux citations.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 69,26</div>
+        <div class="he" lang="he" dir="rtl">תְּהִי־טִירָתָ֥ם נְשַׁמָּ֑ה בְּ֝אׇהֳלֵיהֶ֗ם אַל־יְהִ֥י יֹשֵֽׁב׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Ps 109,8</div>
+        <div class="he" lang="he" dir="rtl">יִֽהְיוּ־יָמָ֥יו מְעַטִּ֑ים פְּ֝קֻדָּת֗וֹ יִקַּ֥ח אַחֵֽר׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ac 7,42-43</td>
+      <td class="gr" lang="grc">Ἔστρεψεν δὲ ὁ Θεὸς καὶ παρέδωκεν αὐτοὺς λατρεύειν τῇ στρατιᾷ τοῦ οὐρανοῦ, καθὼς <strong>γέγραπται</strong> ἐν Βίβλῳ τῶν Προφητῶν· ‹Μὴ σφάγια καὶ θυσίας προσηνέγκατέ μοι ἐν τῇ ἐρήμῳ ἔτη τεσσαράκοντα, οἶκος Ἰσραήλ; Καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολόχ, καὶ τὸ ἄστρον τοῦ θεοῦ ὑμῶν, Ῥεφφάν, τοὺς τύπους οὓς ἐποιήσατε προσκυνεῖν αὐτοῖς· καὶ μετοικιῶ ὑμᾶς ἐπέκεινα Βαβυλῶνος.›<div class="note">« καθὼς γέγραπται ἐν βίβλῳ τῶν προφητῶν ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Am 5,25-27</div>
+        <div class="he" lang="he" dir="rtl">הַזְּבָחִ֨ים וּמִנְחָ֜ה הִֽגַּשְׁתֶּם־לִ֧י בַמִּדְבָּ֛ר אַרְבָּעִ֥ים שָׁנָ֖ה בֵּ֥ית יִשְׂרָאֵֽל׃ וּנְשָׂאתֶ֗ם אֵ֚ת סִכּ֣וּת מַלְכְּכֶ֔ם וְאֵ֖ת כִּיּ֣וּן צַלְמֵיכֶ֑ם כּוֹכַב֙ אֱלֹ֣הֵיכֶ֔ם אֲשֶׁ֥ר עֲשִׂיתֶ֖ם לָכֶֽם׃ וְהִגְלֵיתִ֥י אֶתְכֶ֖ם מֵהָ֣לְאָה לְדַמָּ֑שֶׂק אָמַ֛ר יְהֹוָ֥ה אֱלֹהֵֽי־צְבָא֖וֹת שְׁמֽוֹ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ac 13,33</td>
+      <td class="gr" lang="grc">ὅτι ταύτην ὁ Θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις αὐτῶν, ἡμῖν, ἀναστήσας Ἰησοῦν· ὡς καὶ ἐν τῷ ψαλμῷ τῷ δευτέρῳ <strong>γέγραπται</strong>· ‹Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.›<div class="note">« ἐν τῷ ψαλμῷ τῷ δευτέρῳ γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 2,7</div>
+        <div class="he" lang="he" dir="rtl">אֲסַפְּרָ֗ה אֶֽ֫ל־חֹ֥ק יְֽהֹוָ֗ה אָמַ֘ר־אֵלַ֥י בְּנִ֥י אַ֑תָּה אֲ֝נִ֗י הַיּ֥וֹם יְלִדְתִּֽיךָ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ac 15,15-18</td>
+      <td class="gr" lang="grc">Καὶ τούτῳ συμφωνοῦσιν οἱ λόγοι τῶν προφητῶν, καθὼς <strong>γέγραπται</strong>· ‹Μετὰ ταῦτα ἀναστρέψω, καὶ ἀνοικοδομήσω τὴν σκηνὴν Δαυίδ, τὴν πεπτωκυῖαν· καὶ τὰ κατεσκαμμένα αὐτῆς ἀνοικοδομήσω καὶ ἀνορθώσω αὐτήν· ὅπως ἂν ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων τὸν Κύριον, καὶ πάντα τὰ ἔθνη—ἐφ᾿ οὓς ἐπικέκληται τὸ ὄνομά μου ἐπ᾿ αὐτούς—λέγει Κύριος ὁ ποιῶν ταῦτα πάντα.› Γνωστὰ ἀπ᾿ αἰῶνός ἐστιν τῷ Θεῷ πάντα τὰ ἔργα αὐτοῦ.<div class="note">« καθὼς γέγραπται » ; citation selon la LXX (v. 16-17).</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Am 9,11-12</div>
+        <div class="he" lang="he" dir="rtl">בַּיּ֣וֹם הַה֔וּא אָקִ֛ים אֶת־סֻכַּ֥ת דָּוִ֖יד הַנֹּפֶ֑לֶת וְגָדַרְתִּ֣י אֶת־פִּרְצֵיהֶ֗ן וַהֲרִֽסֹתָיו֙ אָקִ֔ים וּבְנִיתִ֖יהָ כִּימֵ֥י עוֹלָֽם׃ לְמַ֨עַן יִֽירְשׁ֜וּ אֶת־שְׁאֵרִ֤ית אֱדוֹם֙ וְכׇל־הַגּוֹיִ֔ם אֲשֶׁר־נִקְרָ֥א שְׁמִ֖י עֲלֵיהֶ֑ם נְאֻם־יְהֹוָ֖ה עֹ֥שֶׂה זֹּֽאת׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ac 23,5</td>
+      <td class="gr" lang="grc">Ἔφη τε ὁ Παῦλος· «Οὐκ ᾔδειν, ἀδελφοί, ὅτι ἐστὶν ἀρχιερεύς· <strong>γέγραπται</strong> γάρ, ‹Ἄρχοντα τοῦ λαοῦ σου οὐκ ἐρεῖς κακῶς.› »<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ex 22,27</div>
+        <div class="he" lang="he" dir="rtl">אֱלֹהִ֖ים לֹ֣א תְקַלֵּ֑ל וְנָשִׂ֥יא בְעַמְּךָ֖ לֹ֥א תָאֹֽר׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="romains"><th colspan="3">Romains</th></tr>
+<tr>
+      <td class="nt">Rm 1,17</td>
+      <td class="gr" lang="grc">δικαιοσύνη γὰρ Θεοῦ ἐν αὐτῷ ἀποκαλύπτεται, ἐκ πίστεως εἰς πίστιν· καθὼς <strong>γέγραπται</strong>· «Ὁ δὲ δίκαιος ἐκ πίστεως ζήσεται.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ha 2,4</div>
+        <div class="he" lang="he" dir="rtl">הִנֵּ֣ה עֻפְּלָ֔ה לֹא־יָשְׁרָ֥ה נַפְשׁ֖וֹ בּ֑וֹ וְצַדִּ֖יק בֶּאֱמוּנָת֥וֹ יִֽחְיֶֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 2,24</td>
+      <td class="gr" lang="grc">«Τὸ γὰρ ὄνομα τοῦ Θεοῦ δι᾿ ὑμᾶς βλασφημεῖται ἐν τοῖς ἔθνεσιν,» καθὼς <strong>γέγραπται</strong>.<div class="note">« καθὼς γέγραπται » (formule après la citation).</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 52,5</div>
+        <div class="he" lang="he" dir="rtl">וְעַתָּ֤ה מַה־לִּי־פֹה֙ נְאֻם־יְהֹוָ֔ה כִּֽי־לֻקַּ֥ח עַמִּ֖י חִנָּ֑ם מֹשְׁלָ֤ו יְהֵילִ֙ילוּ֙ נְאֻם־יְהֹוָ֔ה וְתָמִ֥יד כׇּל־הַיּ֖וֹם שְׁמִ֥י מִנֹּאָֽץ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 3,4</td>
+      <td class="gr" lang="grc">Μὴ γένοιτο· γινέσθω δὲ ὁ Θεὸς ἀληθής, πᾶς δὲ ἄνθρωπος ψεύστης· καθὼς <strong>γέγραπται</strong>· «Ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 51,6</div>
+        <div class="he" lang="he" dir="rtl">לְךָ֤ לְבַדְּךָ֨ חָטָאתִי֮ וְהָרַ֥ע בְּעֵינֶ֗יךָ עָ֫שִׂ֥יתִי לְ֭מַעַן תִּצְדַּ֥ק בְּדׇבְרֶ֗ךָ תִּזְכֶּ֥ה בְשׇׁפְטֶֽךָ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 3,10-18</td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Οὐκ ἔστιν δίκαιος, οὐδὲ εἷς· οὐκ ἔστιν ὁ συνιῶν, οὐκ ἔστιν ὁ ἐκζητῶν τὸν Θεόν. Πάντες ἐξέκλιναν, ἅμα ἠχρειώθησαν· οὐκ ἔστιν ποιῶν χρηστότητα, οὐκ ἔστιν ἕως ἑνός.» «Τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν· ταῖς γλώσσαις αὐτῶν ἐδολιοῦσαν.» «Ἰὸς ἀσπίδων ὑπὸ τὰ χείλη αὐτῶν»· «ὧν τὸ στόμα ἀρᾶς καὶ πικρίας γέμει.» «Ὀξεῖς οἱ πόδες αὐτῶν ἐκχέαι αἷμα· σύντριμμα καὶ ταλαιπωρία ἐν ταῖς ὁδοῖς αὐτῶν, καὶ ὁδὸν εἰρήνης οὐκ ἔγνωσαν.» «Οὐκ ἔστιν φόβος Θεοῦ ἀπέναντι τῶν ὀφθαλμῶν αὐτῶν.»<div class="note">Catena de six citations, introduite par « καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 14,1-3</div>
+        <div class="he" lang="he" dir="rtl">לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד אָ֘מַ֤ר נָבָ֣ל בְּ֭לִבּוֹ אֵ֣ין אֱלֹהִ֑ים הִֽשְׁחִ֗יתוּ הִֽתְעִ֥יבוּ עֲלִילָ֗ה אֵ֣ין עֹֽשֵׂה־טֽוֹב׃ יְֽהֹוָ֗ה מִשָּׁמַיִם֮ הִשְׁקִ֢יף עַֽל־בְּנֵי־אָ֫דָ֥ם לִ֭רְאוֹת הֲיֵ֣שׁ מַשְׂכִּ֑יל דֹּ֝רֵ֗שׁ אֶת־אֱלֹהִֽים׃ הַכֹּ֥ל סָר֮ יַחְדָּ֢ו נֶ֫אֱלָ֥חוּ אֵ֤ין עֹֽשֵׂה־ט֑וֹב אֵ֝֗ין גַּם־אֶחָֽד׃</div>
+      </div>
+      <div class="ot catena">
+        <div class="otref">Ps 5,10</div>
+        <div class="he" lang="he" dir="rtl">כִּ֤י אֵ֪ין בְּפִ֡יהוּ נְכוֹנָה֮ קִרְבָּ֢ם הַ֫וּ֥וֹת קֶֽבֶר־פָּת֥וּחַ גְּרֹנָ֑ם לְ֝שׁוֹנָ֗ם יַחֲלִיקֽוּן׃</div>
+      </div>
+      <div class="ot catena">
+        <div class="otref">Ps 140,4</div>
+        <div class="he" lang="he" dir="rtl">שָׁ֥נְנ֣וּ לְשׁוֹנָם֮ כְּֽמוֹ־נָ֫חָ֥שׁ חֲמַ֥ת עַכְשׁ֑וּב תַּ֖חַת שְׂפָתֵ֣ימוֹ סֶֽלָה׃</div>
+      </div>
+      <div class="ot catena">
+        <div class="otref">Ps 10,7</div>
+        <div class="he" lang="he" dir="rtl">אָלָ֤ה פִּ֣יהוּ מָ֭לֵא וּמִרְמ֣וֹת וָתֹ֑ךְ תַּ֥חַת לְ֝שׁוֹנ֗וֹ עָמָ֥ל וָאָֽוֶן׃</div>
+      </div>
+      <div class="ot catena">
+        <div class="otref">Is 59,7-8</div>
+        <div class="he" lang="he" dir="rtl">רַגְלֵיהֶם֙ לָרַ֣ע יָרֻ֔צוּ וִֽימַהֲר֔וּ לִשְׁפֹּ֖ךְ דָּ֣ם נָקִ֑י מַחְשְׁבֹֽתֵיהֶם֙ מַחְשְׁב֣וֹת אָ֔וֶן שֹׁ֥ד וָשֶׁ֖בֶר בִּמְסִלּוֹתָֽם׃ דֶּ֤רֶךְ שָׁלוֹם֙ לֹ֣א יָדָ֔עוּ וְאֵ֥ין מִשְׁפָּ֖ט בְּמַעְגְּלוֹתָ֑ם נְתִיבֽוֹתֵיהֶם֙ עִקְּשׁ֣וּ לָהֶ֔ם כֹּ֚ל דֹּרֵ֣ךְ בָּ֔הּ לֹ֥א יָדַ֖ע שָׁלֽוֹם׃</div>
+      </div>
+      <div class="ot catena">
+        <div class="otref">Ps 36,2</div>
+        <div class="he" lang="he" dir="rtl">נְאֻֽם־פֶּ֣שַׁע לָ֭רָשָׁע בְּקֶ֣רֶב לִבִּ֑י אֵֽין־פַּ֥חַד אֱ֝לֹהִ֗ים לְנֶ֣גֶד עֵינָֽיו׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 4,17</td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong> ὅτι «Πατέρα πολλῶν ἐθνῶν τέθεικά σε»—κατέναντι οὗ ἐπίστευσεν· Θεοῦ, τοῦ ζωοποιοῦντος τοὺς νεκροὺς καὶ καλοῦντος τὰ μὴ ὄντα ὡς ὄντα.<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Gn 17,5</div>
+        <div class="he" lang="he" dir="rtl">וְלֹא־יִקָּרֵ֥א ע֛וֹד אֶת־שִׁמְךָ֖ אַבְרָ֑ם וְהָיָ֤ה שִׁמְךָ֙ אַבְרָהָ֔ם כִּ֛י אַב־הֲמ֥וֹן גּוֹיִ֖ם נְתַתִּֽיךָ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 8,36</td>
+      <td class="gr" lang="grc">(Καθὼς <strong>γέγραπται</strong> ὅτι «Ἕνεκά σου θανατούμεθα ὅλην τὴν ἡμέραν· ἐλογίσθημεν ὡς πρόβατα σφαγῆς.»)<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 44,23</div>
+        <div class="he" lang="he" dir="rtl">כִּֽי־עָ֭לֶיךָ הֹרַ֣גְנוּ כׇל־הַיּ֑וֹם נֶ֝חְשַׁ֗בְנוּ כְּצֹ֣אן טִבְחָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 9,13</td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Τὸν Ἰακὼβ ἠγάπησα, τὸν δὲ Ἡσαῦ ἐμίσησα.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ml 1,2-3</div>
+        <div class="he" lang="he" dir="rtl">אָהַ֤בְתִּי אֶתְכֶם֙ אָמַ֣ר יְהֹוָ֔ה וַאֲמַרְתֶּ֖ם בַּמָּ֣ה אֲהַבְתָּ֑נוּ הֲלוֹא־אָ֨ח עֵשָׂ֤ו לְיַֽעֲקֹב֙ נְאֻם־יְהֹוָ֔ה וָאֹהַ֖ב אֶֽת־יַעֲקֹֽב׃ וְאֶת־עֵשָׂ֖ו שָׂנֵ֑אתִי וָאָשִׂ֤ים אֶת־הָרָיו֙ שְׁמָמָ֔ה וְאֶת־נַחֲלָת֖וֹ לְתַנּ֥וֹת מִדְבָּֽר׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 9,33</td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου, καὶ πᾶς ὁ πιστεύων ἐπ᾿ αὐτῷ οὐ καταισχυνθήσεται.»<div class="note">Citation composite : Is 28,16 et Is 8,14 ; « καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 28,16</div>
+        <div class="he" lang="he" dir="rtl">לָכֵ֗ן כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יֱהֹוִ֔ה הִנְנִ֛י יִסַּ֥ד בְּצִיּ֖וֹן אָ֑בֶן אֶ֣בֶן בֹּ֜חַן פִּנַּ֤ת יִקְרַת֙ מוּסָ֣ד מוּסָּ֔ד הַֽמַּאֲמִ֖ין לֹ֥א יָחִֽישׁ׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Is 8,14</div>
+        <div class="he" lang="he" dir="rtl">וְהָיָ֖ה לְמִקְדָּ֑שׁ וּלְאֶ֣בֶן נֶ֠גֶף וּלְצ֨וּר מִכְשׁ֜וֹל לִשְׁנֵ֨י בָתֵּ֤י יִשְׂרָאֵל֙ לְפַ֣ח וּלְמוֹקֵ֔שׁ לְיוֹשֵׁ֖ב יְרוּשָׁלָֽ͏ִם׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 10,15</td>
+      <td class="gr" lang="grc">Πῶς δὲ κηρύξουσιν ἐὰν μὴ ἀποσταλῶσιν; Καθὼς <strong>γέγραπται</strong>· «Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων εἰρήνην, τῶν εὐαγγελιζομένων τὰ ἀγαθά.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 52,7</div>
+        <div class="he" lang="he" dir="rtl">מַה־נָּאו֨וּ עַל־הֶהָרִ֜ים רַגְלֵ֣י מְבַשֵּׂ֗ר מַשְׁמִ֧יעַ שָׁל֛וֹם מְבַשֵּׂ֥ר ט֖וֹב מַשְׁמִ֣יעַ יְשׁוּעָ֑ה אֹמֵ֥ר לְצִיּ֖וֹן מָלַ֥ךְ אֱלֹהָֽיִךְ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 11,8</td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως, ὀφθαλμοὺς τοῦ μὴ βλέπειν καὶ ὦτα τοῦ μὴ ἀκούειν, ἕως τῆς σήμερον ἡμέρας.»<div class="note">Citation composite : Dt 29,3 et Is 29,10 ; « καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 29,3</div>
+        <div class="he" lang="he" dir="rtl">וְלֹא־נָתַן֩ יְהֹוָ֨ה לָכֶ֥ם לֵב֙ לָדַ֔עַת וְעֵינַ֥יִם לִרְא֖וֹת וְאׇזְנַ֣יִם לִשְׁמֹ֑עַ עַ֖ד הַיּ֥וֹם הַזֶּֽה׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Is 29,10</div>
+        <div class="he" lang="he" dir="rtl">כִּֽי־נָסַ֨ךְ עֲלֵיכֶ֤ם יְהֹוָה֙ ר֣וּחַ תַּרְדֵּמָ֔ה וַיְעַצֵּ֖ם אֶת־עֵינֵיכֶ֑ם אֶת־הַנְּבִיאִ֛ים וְאֶת־רָאשֵׁיכֶ֥ם הַחֹזִ֖ים כִּסָּֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 11,26-27</td>
+      <td class="gr" lang="grc">Καὶ οὕτως πᾶς Ἰσραὴλ σωθήσεται, καθὼς <strong>γέγραπται</strong>· «Ἥξει ἐκ Σιὼν ὁ Ῥυόμενος, καὶ ἀποστρέψει ἀσεβείας ἀπὸ Ἰακώβ· καὶ αὕτη αὐτοῖς ἡ παρ᾿ ἐμοῦ διαθήκη, ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν.»<div class="note">« καθὼς γέγραπται » ; la finale « ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν » évoque Is 27,9.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 59,20-21</div>
+        <div class="he" lang="he" dir="rtl">וּבָ֤א לְצִיּוֹן֙ גּוֹאֵ֔ל וּלְשָׁבֵ֥י פֶ֖שַׁע בְּיַֽעֲקֹ֑ב נְאֻ֖ם יְהֹוָֽה׃ וַאֲנִ֗י זֹ֣את בְּרִיתִ֤י אוֹתָם֙ אָמַ֣ר יְהֹוָ֔ה רוּחִי֙ אֲשֶׁ֣ר עָלֶ֔יךָ וּדְבָרַ֖י אֲשֶׁר־שַׂ֣מְתִּֽי בְּפִ֑יךָ לֹֽא־יָמ֡וּשׁוּ מִפִּ֩יךָ֩ וּמִפִּ֨י זַרְעֲךָ֜ וּמִפִּ֨י זֶ֤רַע זַרְעֲךָ֙ אָמַ֣ר יְהֹוָ֔ה מֵעַתָּ֖ה וְעַד־עוֹלָֽם׃</div>
+      </div>
+      <div class="ot secondary">
+        <div class="otref"><span class="tag">cf.</span> Is 27,9</div>
+        <div class="he" lang="he" dir="rtl">לָכֵ֗ן בְּזֹאת֙ יְכֻפַּ֣ר עֲוֺֽן־יַעֲקֹ֔ב וְזֶ֕ה כׇּל־פְּרִ֖י הָסִ֣ר חַטָּאת֑וֹ בְּשׂוּמ֣וֹ כׇּל־אַבְנֵ֣י מִזְבֵּ֗חַ כְּאַבְנֵי־גִר֙ מְנֻפָּצ֔וֹת לֹא־יָקֻ֥מוּ אֲשֵׁרִ֖ים וְחַמָּנִֽים׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 12,19</td>
+      <td class="gr" lang="grc">Μὴ ἑαυτοὺς ἐκδικοῦντες, ἀγαπητοί· ἀλλὰ δότε τόπον τῇ ὀργῇ· <strong>γέγραπται</strong> γάρ· «Ἐμοὶ ἐκδίκησις· ἐγὼ ἀνταποδώσω,» λέγει Κύριος.<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 32,35</div>
+        <div class="he" lang="he" dir="rtl">לִ֤י נָקָם֙ וְשִׁלֵּ֔ם לְעֵ֖ת תָּמ֣וּט רַגְלָ֑ם כִּ֤י קָרוֹב֙ י֣וֹם אֵידָ֔ם וְחָ֖שׁ עֲתִדֹ֥ת לָֽמוֹ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 14,11</td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· « ‹Ζῶ ἐγώ,› λέγει Κύριος, ‹ὅτι ἐμοὶ κάμψει πᾶν γόνυ, καὶ πᾶσα γλῶσσα ἐξομολογήσεται τῷ Θεῷ.› »<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 45,23</div>
+        <div class="he" lang="he" dir="rtl">בִּ֣י נִשְׁבַּ֔עְתִּי יָצָ֨א מִפִּ֧י צְדָקָ֛ה דָּבָ֖ר וְלֹ֣א יָשׁ֑וּב כִּי־לִי֙ תִּכְרַ֣ע כׇּל־בֶּ֔רֶךְ תִּשָּׁבַ֖ע כׇּל־לָשֽׁוֹן׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 15,3</td>
+      <td class="gr" lang="grc">Καὶ γὰρ ὁ Χριστὸς οὐχ ἑαυτῷ ἤρεσεν· ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἱ ὀνειδισμοὶ τῶν ὀνειδιζόντων σε ἐπέπεσον ἐπ᾿ ἐμέ.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 69,10</div>
+        <div class="he" lang="he" dir="rtl">כִּֽי־קִנְאַ֣ת בֵּיתְךָ֣ אֲכָלָ֑תְנִי וְחֶרְפּ֥וֹת ח֝וֹרְפֶ֗יךָ נָפְל֥וּ עָלָֽי׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 15,9</td>
+      <td class="gr" lang="grc">τὰ δὲ ἔθνη ὑπὲρ ἐλέους δοξάσαι τὸν Θεόν, καθὼς <strong>γέγραπται</strong>· «Διὰ τοῦτο ἐξομολογήσομαί σοι ἐν ἔθνεσιν, Κύριε, καὶ τῷ ὀνόματί σου ψαλῶ.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 18,50</div>
+        <div class="he" lang="he" dir="rtl">עַל־כֵּ֤ן אוֹדְךָ֖ בַגּוֹיִ֥ם יְהֹוָ֑ה וּלְשִׁמְךָ֥ אֲזַמֵּֽרָה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Rm 15,21</td>
+      <td class="gr" lang="grc">ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἷς οὐκ ἀνηγγέλη περὶ αὐτοῦ ὄψονται, καὶ οἳ οὐκ ἀκηκόασιν συνήσουσιν.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 52,15</div>
+        <div class="he" lang="he" dir="rtl">כֵּ֤ן יַזֶּה֙ גּוֹיִ֣ם רַבִּ֔ים עָלָ֛יו יִקְפְּצ֥וּ מְלָכִ֖ים פִּיהֶ֑ם כִּ֠י אֲשֶׁ֨ר לֹֽא־סֻפַּ֤ר לָהֶם֙ רָא֔וּ וַאֲשֶׁ֥ר לֹא־שָׁמְע֖וּ הִתְבּוֹנָֽנוּ׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="1-corinthiens"><th colspan="3">1 Corinthiens</th></tr>
+<tr>
+      <td class="nt">1 Co 1,19</td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Ἀπολῶ τὴν σοφίαν τῶν σοφῶν, καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 29,14</div>
+        <div class="he" lang="he" dir="rtl">לָכֵ֗ן הִנְנִ֥י יוֹסִ֛ף לְהַפְלִ֥יא אֶת־הָעָם־הַזֶּ֖ה הַפְלֵ֣א וָפֶ֑לֶא וְאָֽבְדָה֙ חׇכְמַ֣ת חֲכָמָ֔יו וּבִינַ֥ת נְבֹנָ֖יו תִּסְתַּתָּֽר׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 1,31</td>
+      <td class="gr" lang="grc">ἵνα καθὼς <strong>γέγραπται</strong>· «Ὁ καυχώμενος, ἐν Κυρίῳ καυχάσθω.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Jr 9,23</div>
+        <div class="he" lang="he" dir="rtl">כִּ֣י אִם־בְּזֹ֞את יִתְהַלֵּ֣ל הַמִּתְהַלֵּ֗ל הַשְׂכֵּל֮ וְיָדֹ֣עַ אוֹתִי֒ כִּ֚י אֲנִ֣י יְהֹוָ֔ה עֹ֥שֶׂה חֶ֛סֶד מִשְׁפָּ֥ט וּצְדָקָ֖ה בָּאָ֑רֶץ כִּֽי־בְאֵ֥לֶּה חָפַ֖צְתִּי נְאֻם־יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 2,9</td>
+      <td class="gr" lang="grc">Ἀλλὰ καθὼς <strong>γέγραπται</strong>· «Ἃ ὀφθαλμὸς οὐκ εἶδεν καὶ οὖς οὐκ ἤκουσεν, καὶ ἐπὶ καρδίαν ἀνθρώπου οὐκ ἀνέβη, ἃ ἡτοίμασεν ὁ Θεὸς τοῖς ἀγαπῶσιν αὐτόν.»<div class="note">Citation libre, proche d'Is 64,3 (cf. aussi Is 65,16) ; « καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 64,3</div>
+        <div class="he" lang="he" dir="rtl">וּמֵעוֹלָ֥ם לֹא־שָׁמְע֖וּ לֹ֣א הֶאֱזִ֑ינוּ עַ֣יִן לֹֽא־רָאָ֗תָה אֱלֹהִים֙ זוּלָ֣תְךָ֔ יַעֲשֶׂ֖ה לִמְחַכֵּה־לֽוֹ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 3,19</td>
+      <td class="gr" lang="grc">Ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία παρὰ τῷ Θεῷ ἐστιν. <strong>Γέγραπται</strong> γάρ· «Ὁ δρασσόμενος τοὺς σοφοὺς ἐν τῇ πανουργίᾳ αὐτῶν»·<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Jb 5,13</div>
+        <div class="he" lang="he" dir="rtl">לֹכֵ֣ד חֲכָמִ֣ים בְּעׇרְמָ֑ם וַעֲצַ֖ת נִפְתָּלִ֣ים נִמְהָֽרָה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 9,9</td>
+      <td class="gr" lang="grc">Ἐν γὰρ τῷ Μωσέως νόμῳ <strong>γέγραπται</strong>· «Οὐ φιμώσεις βοῦν ἁλοῶντα.» Μὴ τῶν βοῶν μέλει τῷ Θεῷ,<div class="note">« ἐν γὰρ τῷ Μωϋσέως νόμῳ γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 25,4</div>
+        <div class="he" lang="he" dir="rtl">לֹא־תַחְסֹ֥ם שׁ֖וֹר בְּדִישֽׁוֹ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 10,7</td>
+      <td class="gr" lang="grc">Μηδὲ εἰδωλολάτραι γίνεσθε, καθώς τινες αὐτῶν· ὥσπερ <strong>γέγραπται</strong>· «Ἐκάθισεν ὁ λαὸς φαγεῖν καὶ πιεῖν, καὶ ἀνέστησαν παίζειν.»<div class="note">« ὥσπερ γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ex 32,6</div>
+        <div class="he" lang="he" dir="rtl">וַיַּשְׁכִּ֙ימוּ֙ מִֽמׇּחֳרָ֔ת וַיַּעֲל֣וּ עֹלֹ֔ת וַיַּגִּ֖שׁוּ שְׁלָמִ֑ים וַיֵּ֤שֶׁב הָעָם֙ לֶֽאֱכֹ֣ל וְשָׁת֔וֹ וַיָּקֻ֖מוּ לְצַחֵֽק׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 14,21</td>
+      <td class="gr" lang="grc">Ἐν τῷ νόμῳ <strong>γέγραπται</strong> ὅτι· «Ἐν ἑτερογλώσσοις καὶ ἐν χείλεσιν ἑτέροις λαλήσω τῷ λαῷ τούτῳ, καὶ οὐδ᾿ οὕτως εἰσακούσονταί μου,» λέγει Κύριος.<div class="note">« ἐν τῷ νόμῳ γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 28,11-12</div>
+        <div class="he" lang="he" dir="rtl">כִּ֚י בְּלַעֲגֵ֣י שָׂפָ֔ה וּבְלָשׁ֖וֹן אַחֶ֑רֶת יְדַבֵּ֖ר אֶל־הָעָ֥ם הַזֶּֽה׃ אֲשֶׁ֣ר אָמַ֣ר אֲלֵיהֶ֗ם זֹ֤את הַמְּנוּחָה֙ הָנִ֣יחוּ לֶעָיֵ֔ף וְזֹ֖את הַמַּרְגֵּעָ֑ה וְלֹ֥א אָב֖וּא שְׁמֽוֹעַ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 15,45</td>
+      <td class="gr" lang="grc">Οὕτως καὶ <strong>γέγραπται</strong>· «Ἐγένετο ὁ πρῶτος ἄνθρωπος, Ἀδάμ, εἰς ψυχὴν ζῶσαν»· ὁ ἔσχατος Ἀδὰμ εἰς πνεῦμα ζωοποιοῦν.<div class="note">« οὕτως καὶ γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Gn 2,7</div>
+        <div class="he" lang="he" dir="rtl">וַיִּ֩יצֶר֩ יְהֹוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">1 Co 15,54</td>
+      <td class="gr" lang="grc">Ὅταν δὲ τὸ φθαρτὸν τοῦτο ἐνδύσηται ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν, τότε γενήσεται ὁ λόγος ὁ <strong>γεγραμμένος</strong>· «Κατεπόθη ὁ θάνατος εἰς νῖκος.»<div class="note">« ὁ λόγος ὁ γεγραμμένος ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 25,8</div>
+        <div class="he" lang="he" dir="rtl">בִּלַּ֤ע הַמָּ֙וֶת֙ לָנֶ֔צַח וּמָחָ֨ה אֲדֹנָ֧י יֱהֹוִ֛ה דִּמְעָ֖ה מֵעַ֣ל כׇּל־פָּנִ֑ים וְחֶרְפַּ֣ת עַמּ֗וֹ יָסִיר֙ מֵעַ֣ל כׇּל־הָאָ֔רֶץ כִּ֥י יְהֹוָ֖ה דִּבֵּֽר׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="2-corinthiens"><th colspan="3">2 Corinthiens</th></tr>
+<tr>
+      <td class="nt">2 Co 4,13</td>
+      <td class="gr" lang="grc">Ἔχοντες δὲ τὸ αὐτὸ πνεῦμα τῆς πίστεως, κατὰ τὸ <strong>γεγραμμένον</strong>, «Ἐπίστευσα· διὸ ἐλάλησα,» καὶ ἡμεῖς πιστεύομεν, διὸ καὶ λαλοῦμεν,<div class="note">« κατὰ τὸ γεγραμμένον ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 116,10</div>
+        <div class="he" lang="he" dir="rtl">הֶ֭אֱמַנְתִּי כִּ֣י אֲדַבֵּ֑ר אֲ֝נִ֗י עָנִ֥יתִי מְאֹֽד׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">2 Co 8,15</td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ὁ τὸ πολὺ οὐκ ἐπλεόνασεν, καὶ ὁ τὸ ὀλίγον οὐκ ἠλαττόνησεν.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ex 16,18</div>
+        <div class="he" lang="he" dir="rtl">וַיָּמֹ֣דּוּ בָעֹ֔מֶר וְלֹ֤א הֶעְדִּיף֙ הַמַּרְבֶּ֔ה וְהַמַּמְעִ֖יט לֹ֣א הֶחְסִ֑יר אִ֥ישׁ לְפִֽי־אׇכְל֖וֹ לָקָֽטוּ׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">2 Co 9,9</td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἐσκόρπισεν, ἔδωκεν τοῖς πένησιν· ἡ δικαιοσύνη αὐτοῦ μένει εἰς τὸν αἰῶνα»—<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Ps 112,9</div>
+        <div class="he" lang="he" dir="rtl">פִּזַּ֤ר נָ֘תַ֤ן לָאֶבְיוֹנִ֗ים צִ֭דְקָתוֹ עֹמֶ֣דֶת לָעַ֑ד קַ֝רְנ֗וֹ תָּר֥וּם בְּכָבֽוֹד׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="galates"><th colspan="3">Galates</th></tr>
+<tr>
+      <td class="nt">Ga 3,10</td>
+      <td class="gr" lang="grc">Ὅσοι γὰρ ἐξ ἔργων νόμου εἰσίν, ὑπὸ κατάραν εἰσίν· <strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει ἐν πᾶσιν τοῖς <strong>γεγραμμένοις</strong> ἐν τῷ βιβλίῳ τοῦ νόμου, τοῦ ποιῆσαι αὐτά.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 27,26</div>
+        <div class="he" lang="he" dir="rtl">אָר֗וּר אֲשֶׁ֧ר לֹא־יָקִ֛ים אֶת־דִּבְרֵ֥י הַתּוֹרָֽה־הַזֹּ֖את לַעֲשׂ֣וֹת אוֹתָ֑ם וְאָמַ֥ר כׇּל־הָעָ֖ם אָמֵֽן׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ga 3,13</td>
+      <td class="gr" lang="grc">Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου, γενόμενος ὑπὲρ ἡμῶν κατάρα—<strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου»—<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 21,23</div>
+        <div class="he" lang="he" dir="rtl">לֹא־תָלִ֨ין נִבְלָת֜וֹ עַל־הָעֵ֗ץ כִּֽי־קָב֤וֹר תִּקְבְּרֶ֙נּוּ֙ בַּיּ֣וֹם הַה֔וּא כִּֽי־קִלְלַ֥ת אֱלֹהִ֖ים תָּל֑וּי וְלֹ֤א תְטַמֵּא֙ אֶת־אַדְמָ֣תְךָ֔ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ga 4,27</td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Εὐφράνθητι, στεῖρα, ἡ οὐ τίκτουσα· ῥῆξον καὶ βόησον, ἡ οὐκ ὠδίνουσα· ὅτι πολλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον ἢ τῆς ἐχούσης τὸν ἄνδρα.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 54,1</div>
+        <div class="he" lang="he" dir="rtl">רׇנִּ֥י עֲקָרָ֖ה לֹ֣א יָלָ֑דָה פִּצְחִ֨י רִנָּ֤ה וְצַֽהֲלִי֙ לֹא־חָ֔לָה כִּֽי־רַבִּ֧ים בְּֽנֵי־שׁוֹמֵמָ֛ה מִבְּנֵ֥י בְעוּלָ֖ה אָמַ֥ר יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+      <tr class="book" id="1-pierre"><th colspan="3">1 Pierre</th></tr>
+<tr>
+      <td class="nt">1 P 1,16</td>
+      <td class="gr" lang="grc">διότι <strong>γέγραπται</strong>, «Ἅγιοι γίνεσθε, ὅτι ἐγὼ ἅγιός εἰμι.»<div class="note">« διότι γέγραπται ».</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Lv 19,2</div>
+        <div class="he" lang="he" dir="rtl">דַּבֵּ֞ר אֶל־כׇּל־עֲדַ֧ת בְּנֵי־יִשְׂרָאֵ֛ל וְאָמַרְתָּ֥ אֲלֵהֶ֖ם קְדֹשִׁ֣ים תִּהְי֑וּ כִּ֣י קָד֔וֹשׁ אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃</div>
+      </div></td>
+    </tr>
+    </tbody>
+  </table>
+
+<h2 id="cas-particuliers">Cas particuliers</h2>
+<p class="lede">Trois passages où la formule emploie bien <span class="gk">γράφω</span>, mais où l'introduction de la citation est narrative, interrogative ou résumée.</p>
+<table>
+    <thead><tr><th>Nouveau Testament</th><th>Texte grec</th><th>Ancien Testament / Texte hébreu</th></tr></thead>
+    <tbody>
+<tr>
+      <td class="nt">Lc 4,17-19</td>
+      <td class="gr" lang="grc">Καὶ ἐπεδόθη αὐτῷ βιβλίον Ἡσαΐου τοῦ προφήτου· καὶ ἀναπτύξας τὸ βιβλίον εὗρεν τὸν τόπον οὗ ἦν <strong>γεγραμμένον</strong>· «Πνεῦμα Κυρίου ἐπ᾿ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς. Ἀπέσταλκέν με ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν, κηρύξαι αἰχμαλώτοις ἄφεσιν καὶ τυφλοῖς ἀνάβλεψιν, ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει, κηρύξαι ἐνιαυτὸν Κυρίου δεκτόν.»<div class="note">« οὗ ἦν γεγραμμένον » : formule narrative ; Jésus lit Is 61,1-2 dans la synagogue de Nazareth.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Is 61,1-2</div>
+        <div class="he" lang="he" dir="rtl">ר֛וּחַ אֲדֹנָ֥י יֱהֹוִ֖ה עָלָ֑י יַ֡עַן מָשַׁח֩ יְהֹוָ֨ה אֹתִ֜י לְבַשֵּׂ֣ר עֲנָוִ֗ים שְׁלָחַ֙נִי֙ לַחֲבֹ֣שׁ לְנִשְׁבְּרֵי־לֵ֔ב לִקְרֹ֤א לִשְׁבוּיִם֙ דְּר֔וֹר וְלַאֲסוּרִ֖ים פְּקַח־קֽוֹחַ׃ לִקְרֹ֤א שְׁנַת־רָצוֹן֙ לַֽיהֹוָ֔ה וְי֥וֹם נָקָ֖ם לֵאלֹהֵ֑ינוּ לְנַחֵ֖ם כׇּל־אֲבֵלִֽים׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Lc 10,26-27</td>
+      <td class="gr" lang="grc">Ὁ δὲ εἶπεν πρὸς αὐτόν· «Ἐν τῷ νόμῳ τί <strong>γέγραπται</strong>; Πῶς ἀναγινώσκεις;» Ὁ δὲ ἀποκριθεὶς εἶπεν· «Ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καί, τὸν πλησίον σου ὡς σεαυτόν.»<div class="note">« τί γέγραπται; » : formule interrogative ; la réponse du légiste cite Dt 6,5 et Lv 19,18.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Dt 6,5</div>
+        <div class="he" lang="he" dir="rtl">וְאָ֣הַבְתָּ֔ אֵ֖ת יְהֹוָ֣ה אֱלֹהֶ֑יךָ בְּכׇל־לְבָבְךָ֥ וּבְכׇל־נַפְשְׁךָ֖ וּבְכׇל־מְאֹדֶֽךָ׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Lv 19,18</div>
+        <div class="he" lang="he" dir="rtl">לֹֽא־תִקֹּ֤ם וְלֹֽא־תִטֹּר֙ אֶת־בְּנֵ֣י עַמֶּ֔ךָ וְאָֽהַבְתָּ֥ לְרֵעֲךָ֖ כָּמ֑וֹךָ אֲנִ֖י יְהֹוָֽה׃</div>
+      </div></td>
+    </tr>
+<tr>
+      <td class="nt">Ga 4,22</td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γὰρ ὅτι Ἁβραὰμ δύο υἱοὺς ἔσχεν· ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.<div class="note">« γέγραπται γάρ » introduit un résumé narratif de Gn 16 et 21, non une citation verbatim.</div></td>
+      <td class="otcell"><div class="ot">
+        <div class="otref">Gn 16,15</div>
+        <div class="he" lang="he" dir="rtl">וַתֵּ֧לֶד הָגָ֛ר לְאַבְרָ֖ם בֵּ֑ן וַיִּקְרָ֨א אַבְרָ֧ם שֶׁם־בְּנ֛וֹ אֲשֶׁר־יָלְדָ֥ה הָגָ֖ר יִשְׁמָעֵֽאל׃</div>
+      </div>
+      <div class="ot">
+        <div class="otref">Gn 21,2-3</div>
+        <div class="he" lang="he" dir="rtl">וַתַּ֩הַר֩ וַתֵּ֨לֶד שָׂרָ֧ה לְאַבְרָהָ֛ם בֵּ֖ן לִזְקֻנָ֑יו לַמּוֹעֵ֕ד אֲשֶׁר־דִּבֶּ֥ר אֹת֖וֹ אֱלֹהִֽים׃ וַיִּקְרָ֨א אַבְרָהָ֜ם אֶֽת־שֶׁם־בְּנ֧וֹ הַנּֽוֹלַד־ל֛וֹ אֲשֶׁר־יָלְדָה־לּ֥וֹ שָׂרָ֖ה יִצְחָֽק׃</div>
+      </div></td>
+    </tr>
+    </tbody>
+  </table>
+
+<p class="footer">Sources : texte grec <code>f35.txt</code> (Family 35) ; texte hébreu <em>Miqra according to the Masorah</em>, via Sefaria (CC-BY-SA). Les références vétérotestamentaires suivent la numérotation hébraïque.</p>
+</body>
+</html>
