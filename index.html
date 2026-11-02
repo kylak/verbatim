@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Citations de l'Ancien Testament introduites par γράφω</title>
+<title>Citations de l'Ancien Testament introduites par γράφω — grec, hébreu, français</title>
 <style>
 :root {
   --ink: #1f1c18;
@@ -46,6 +46,8 @@ tbody tr.book th { padding: 1.15rem .55rem .35rem; border-bottom: 1px solid var(
 .ot + .ot { margin-top: .65rem; }
 strong { font-weight: 700; }
 .gr strong { color: var(--accent); }
+.fr { margin-top: .5rem; padding-left: .6rem; border-left: 2px solid var(--rule); font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; font-size: .9rem; line-height: 1.5; color: #4a443a; direction: ltr; text-align: left; }
+.ot .fr { margin-top: .25rem; font-size: .86rem; }
 .note { margin-top: .45rem; font-size: .82rem; font-style: italic; color: var(--muted); }
 .tag { display: inline-block; padding: 0 .3rem; border: 1px solid var(--rule); border-radius: 2px; font-size: .65rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); vertical-align: .08em; }
 .legend { font-size: .82rem; color: var(--muted); margin: .8rem 0 1.2rem; }
@@ -64,7 +66,7 @@ strong { font-weight: 700; }
 <body>
 <header>
   <h1>Citations de l'Ancien Testament introduites par <span class="gk">γράφω</span></h1>
-  <p class="lede">Passages du Nouveau Testament où une citation vétérotestamentaire est introduite par une forme du verbe grec <span class="gk">γράφω</span> — principalement <span class="gk">γέγραπται</span> (« il est écrit ») et <span class="gk">γεγραμμένον</span> (« ce qui est écrit ») — avec le texte hébreu massorétique correspondant.</p>
+  <p class="lede">Passages du Nouveau Testament où une citation vétérotestamentaire est introduite par une forme du verbe grec <span class="gk">γράφω</span> — principalement <span class="gk">γέγραπται</span> (« il est écrit ») et <span class="gk">γεγραμμένον</span> (« ce qui est écrit ») — avec le texte hébreu massorétique correspondant et une traduction française.</p>
 </header>
 
 <section class="method">
@@ -72,6 +74,7 @@ strong { font-weight: 700; }
   <ul>
     <li><strong>Corpus grec :</strong> <code>f35.txt</code> (texte Family 35). Les formes de <span class="gk">γράφω</span> sont en gras.</li>
     <li><strong>Texte hébreu :</strong> texte massorétique (<em>Miqra according to the Masorah</em>, via Sefaria), avec la numérotation hébraïque des versets.</li>
+    <li><strong>Traduction :</strong> texte français de David Martin (1707), placé sous chaque original. Fondée sur le <em>Textus Receptus</em>, cette version est proche du texte byzantin de la famille 35.</li>
     <li><strong>Citations :</strong> le Nouveau Testament cite souvent la Septante ; le grec peut donc s'écarter du texte massorétique. Les remarques signalent les cas notables.</li>
     <li><strong>Sélection :</strong> seules les citations introduites par une forme de <span class="gk">γράφω</span>. Les formules voisines (<span class="gk">λέγει ἡ γραφή</span>, <span class="gk">ἀνέγνωτε</span>, etc.) et les <span class="gk">γέγραπται</span> sans citation explicite ne sont pas retenus. Un <span class="gk">γέγραπται</span> situé à l'intérieur de la citation (par ex. <span class="gk">He 10,7</span>) n'est pas non plus une formule d'introduction.</li>
   </ul>
@@ -92,7 +95,7 @@ strong { font-weight: 700; }
   <a href="#1-pierre">1 Pierre</a>
 </nav>
 
-<p class="legend"><strong>gras</strong> : forme de <span class="gk">γράφω</span> · <span class="tag">cf.</span> : citation secondaire ou allusion</p>
+<p class="legend"><strong>gras</strong> : forme de <span class="gk">γράφω</span> · <span class="tag">cf.</span> : citation secondaire ou allusion · texte en retrait : traduction française (Martin, 1707)</p>
 
 <table>
     <thead><tr><th>Nouveau Testament</th><th>Texte grec</th><th>Ancien Testament / Texte hébreu</th></tr></thead>
@@ -100,611 +103,696 @@ strong { font-weight: 700; }
       <tr class="book" id="matthieu"><th colspan="3">Matthieu</th></tr>
 <tr>
       <td class="nt">Mt 2,5-6</td>
-      <td class="gr" lang="grc">Οἱ δὲ εἶπον αὐτῷ· «Ἐν Βηθλεὲμ τῆς Ἰουδαίας, οὕτως γὰρ <strong>γέγραπται</strong> διὰ τοῦ προφήτου· ‹Καὶ σύ, Βηθλεέμ, γῆ Ἰούδα, οὐδαμῶς ἐλαχίστη εἶ ἐν τοῖς ἡγεμόσιν Ἰούδα, ἐκ σοῦ γὰρ ἐξελεύσεται ἡγούμενος, ὅστις ποιμανεῖ τὸν λαόν μου τὸν Ἰσραήλ.› »<div class="note">Matthieu combine Mi 5,1 et 2 S 5,2. Le grec « γῆ Ἰούδα » s'écarte du TM « Éphrata ».</div></td>
+      <td class="gr" lang="grc">Οἱ δὲ εἶπον αὐτῷ· «Ἐν Βηθλεὲμ τῆς Ἰουδαίας, οὕτως γὰρ <strong>γέγραπται</strong> διὰ τοῦ προφήτου· ‹Καὶ σύ, Βηθλεέμ, γῆ Ἰούδα, οὐδαμῶς ἐλαχίστη εἶ ἐν τοῖς ἡγεμόσιν Ἰούδα, ἐκ σοῦ γὰρ ἐξελεύσεται ἡγούμενος, ὅστις ποιμανεῖ τὸν λαόν μου τὸν Ἰσραήλ.› »<div class="fr" lang="fr">Et ils lui dirent; À Bethléhem [ville] de Judée: car il est ainsi écrit par le Prophète: Et toi Bethléhem, terre de Juda, tu n’es nullement la plus petite entre les Gouverneurs de Juda, car de toi sortira le Conducteur qui paîtra mon peuple d’Israël.</div><div class="note">Matthieu combine Mi 5,1 et 2 S 5,2. Le grec « γῆ Ἰούδα » s'écarte du TM « Éphrata ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Mi 5,1</div>
         <div class="he" lang="he" dir="rtl">וְאַתָּ֞ה בֵּֽית־לֶ֣חֶם אֶפְרָ֗תָה צָעִיר֙ לִֽהְיוֹת֙ בְּאַלְפֵ֣י יְהוּדָ֔ה מִמְּךָ֙ לִ֣י יֵצֵ֔א לִֽהְי֥וֹת מוֹשֵׁ֖ל בְּיִשְׂרָאֵ֑ל וּמוֹצָאֹתָ֥יו מִקֶּ֖דֶם מִימֵ֥י עוֹלָֽם׃</div>
+        <div class="fr" lang="fr">Mais toi, Bethléhem Éphrata, petite pour être entre les milliers de Juda, de toi me sortira [quelqu’un] pour être Dominateur en Israël; et ses issues [sont] d’ancienneté, dès les jours éternels.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> 2 S 5,2</div>
         <div class="he" lang="he" dir="rtl">גַּם־אֶתְמ֣וֹל גַּם־שִׁלְשׁ֗וֹם בִּֽהְי֨וֹת שָׁא֥וּל מֶ֙לֶךְ֙ עָלֵ֔ינוּ אַתָּ֗ה הָיִ֛יתָ הַמּוֹצִ֥יא וְהַמֵּבִ֖י אֶת־יִשְׂרָאֵ֑ל וַיֹּ֨אמֶר יְהֹוָ֜ה לְךָ֗ אַתָּ֨ה תִרְעֶ֤ה אֶת־עַמִּי֙ אֶת־יִשְׂרָאֵ֔ל וְאַתָּ֛ה תִּהְיֶ֥ה לְנָגִ֖יד עַל־יִשְׂרָאֵֽל׃</div>
+        <div class="fr" lang="fr">Et même auparavant, quand Saül était Roi sur nous, tu étais celui qui menais et qui ramenais Israël: et de plus l’Éternel t’a dit: Tu paîtras mon peuple d’Israël, et tu seras Conducteur d’Israël.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 4,4</td>
-      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν, «<strong>Γέγραπται</strong>· ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος Θεοῦ.› »<div class="note">Le TM : « l'homme ne vivra pas de pain seulement, mais de tout ce qui sort de la bouche du Seigneur ».</div></td>
+      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν, «<strong>Γέγραπται</strong>· ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι ἐκπορευομένῳ διὰ στόματος Θεοῦ.› »<div class="fr" lang="fr">Mais [Jésus] répondit, et dit; Il est écrit; L’homme ne vivra point de pain seulement, mais de toute parole qui sort de la bouche de Dieu.</div><div class="note">Le TM : « l'homme ne vivra pas de pain seulement, mais de tout ce qui sort de la bouche du Seigneur ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 8,3</div>
         <div class="he" lang="he" dir="rtl">וַֽיְעַנְּךָ֮ וַיַּרְעִבֶ֒ךָ֒ וַיַּאֲכִֽלְךָ֤ אֶת־הַמָּן֙ אֲשֶׁ֣ר לֹא־יָדַ֔עְתָּ וְלֹ֥א יָדְע֖וּן אֲבֹתֶ֑יךָ לְמַ֣עַן הוֹדִֽיעֲךָ֗ כִּ֠י לֹ֣א עַל־הַלֶּ֤חֶם לְבַדּוֹ֙ יִחְיֶ֣ה הָֽאָדָ֔ם כִּ֛י עַל־כׇּל־מוֹצָ֥א פִֽי־יְהֹוָ֖ה יִחְיֶ֥ה הָאָדָֽם׃</div>
+        <div class="fr" lang="fr">Il t’a donc humilié, et t’a fait avoir faim, mais il t’a repu de Manne, laquelle tu n’avais point connue, ni tes pères aussi; afin de te faire connaître que l’homme ne vivra pas de pain seulement, mais que l’homme vivra de tout ce qui sort de la bouche de Dieu.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 4,6</td>
-      <td class="gr" lang="grc">καὶ λέγει αὐτῷ, «Εἰ Υἱὸς εἶ τοῦ Θεοῦ, βάλε σεαυτὸν κάτω. <strong>Γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ, καὶ ἐπὶ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.› »</td>
+      <td class="gr" lang="grc">καὶ λέγει αὐτῷ, «Εἰ Υἱὸς εἶ τοῦ Θεοῦ, βάλε σεαυτὸν κάτω. <strong>Γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ, καὶ ἐπὶ χειρῶν ἀροῦσίν σε, μήποτε προσκόψῃς πρὸς λίθον τὸν πόδα σου.› »<div class="fr" lang="fr">Et lui dit; Si tu es le Fils de Dieu, jette-toi en bas: car il est écrit, Il donnera charge de toi à ses Anges, et ils te porteront en leurs mains, de peur que tu ne heurtes ton pied contre quelque pierre.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 91,11-12</div>
         <div class="he" lang="he" dir="rtl">כִּ֣י מַ֭לְאָכָיו יְצַוֶּה־לָּ֑ךְ לִ֝שְׁמׇרְךָ֗ בְּכׇל־דְּרָכֶֽיךָ׃ עַל־כַּפַּ֥יִם יִשָּׂא֑וּנְךָ פֶּן־תִּגֹּ֖ף בָּאֶ֣בֶן רַגְלֶֽךָ׃</div>
+        <div class="fr" lang="fr">Car il donnera charge de toi à ses Anges, afin qu’ils te gardent en toutes tes voies. Ils te porteront dans leurs mains, de peur que ton pied ne heurte contre la pierre.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 4,7</td>
-      <td class="gr" lang="grc">Ἔφη αὐτῷ ὁ Ἰησοῦς, «Πάλιν <strong>γέγραπται</strong>· ‹Οὐκ ἐκπειράσεις Κύριον τὸν Θεόν σου.› »</td>
+      <td class="gr" lang="grc">Ἔφη αὐτῷ ὁ Ἰησοῦς, «Πάλιν <strong>γέγραπται</strong>· ‹Οὐκ ἐκπειράσεις Κύριον τὸν Θεόν σου.› »<div class="fr" lang="fr">Jésus lui dit, il est aussi écrit; Tu ne tenteras point le Seigneur ton Dieu.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 6,16</div>
         <div class="he" lang="he" dir="rtl">לֹ֣א תְנַסּ֔וּ אֶת־יְהֹוָ֖ה אֱלֹהֵיכֶ֑ם כַּאֲשֶׁ֥ר נִסִּיתֶ֖ם בַּמַּסָּֽה׃</div>
+        <div class="fr" lang="fr">Vous ne tenterez point l’Éternel votre Dieu, comme vous l’avez tenté en Massa.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 4,10</td>
-      <td class="gr" lang="grc">Τότε λέγει αὐτῷ ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong> γάρ· ‹Κύριον τὸν Θεόν σου προσκυνήσεις, καὶ αὐτῷ μόνῳ λατρεύσεις.› »<div class="note">Le TM porte « tu craindras » (תִּירָא) ; le grec dit « tu adoreras » (προσκυνήσεις).</div></td>
+      <td class="gr" lang="grc">Τότε λέγει αὐτῷ ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong> γάρ· ‹Κύριον τὸν Θεόν σου προσκυνήσεις, καὶ αὐτῷ μόνῳ λατρεύσεις.› »<div class="fr" lang="fr">Mais Jésus lui dit; Va Satan: car il est écrit, Tu adoreras le Seigneur ton Dieu, et tu le serviras lui seul.</div><div class="note">Le TM porte « tu craindras » (תִּירָא) ; le grec dit « tu adoreras » (προσκυνήσεις).</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 6,13</div>
         <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א וְאֹת֣וֹ תַעֲבֹ֑ד וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+        <div class="fr" lang="fr">Tu craindras l’Éternel ton Dieu, tu le serviras, et tu jureras par son Nom.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Dt 10,20</div>
         <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א אֹת֣וֹ תַעֲבֹ֑ד וּב֣וֹ תִדְבָּ֔ק וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+        <div class="fr" lang="fr">Tu craindras l’Éternel ton Dieu, tu le serviras, et tu t’attacheras à lui, et jureras par son Nom.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 11,10</td>
-      <td class="gr" lang="grc">Οὗτος γάρ ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="note">Citation composite, attribuée au « prophète ».</div></td>
+      <td class="gr" lang="grc">Οὗτος γάρ ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="fr" lang="fr">Car il est celui duquel il a été [ainsi] écrit; Voici, j’envoie mon messager devant ta face, lequel préparera ton chemin devant toi.</div><div class="note">Citation composite, attribuée au « prophète ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ml 3,1</div>
         <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+        <div class="fr" lang="fr">Voici, je m’en vais envoyer mon messager, et il préparera la voie devant moi, et incontinent le Seigneur que vous cherchez entrera dans son Temple, l’Ange, dis-je, de l’alliance, lequel vous souhaitez: voici, il vient, a dit l’Éternel des armées.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Ex 23,20</div>
         <div class="he" lang="he" dir="rtl">הִנֵּ֨ה אָנֹכִ֜י שֹׁלֵ֤חַ מַלְאָךְ֙ לְפָנֶ֔יךָ לִשְׁמׇרְךָ֖ בַּדָּ֑רֶךְ וְלַהֲבִ֣יאֲךָ֔ אֶל־הַמָּק֖וֹם אֲשֶׁ֥ר הֲכִנֹֽתִי׃</div>
+        <div class="fr" lang="fr">Voici, j’envoie un Ange devant toi, afin qu’il te garde dans le chemin, et qu’il t’introduise au lieu que je t’ai préparé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 21,13</td>
-      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς, «<strong>Γέγραπται</strong>, ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε ‹σπήλαιον λῃστῶν.› »<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς, «<strong>Γέγραπται</strong>, ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε ‹σπήλαιον λῃστῶν.› »<div class="fr" lang="fr">Et il leur dit; Il est écrit, Ma Maison sera appelée Maison de prière, mais vous en avez fait une caverne de voleurs.</div><div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 56,7</div>
         <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+        <div class="fr" lang="fr">Je les amènerai aussi à la montagne de ma sainteté, et les réjouirai dans la maison dans laquelle on m’invoque; leurs holocaustes et leurs sacrifices [seront] agréables sur mon autel: car ma maison sera appelée: La maison de prière pour tous les peuples.</div>
       </div>
       <div class="ot">
         <div class="otref">Jr 7,11</div>
         <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Cette maison, sur laquelle mon Nom est réclamé devant vos yeux, n’est-elle pas devenue une caverne de brigands? et voici, moi-même je l’ai vu, dit l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mt 26,31</td>
-      <td class="gr" lang="grc">Τότε λέγει αὐτοῖς ὁ Ἰησοῦς· «Πάντες ὑμεῖς σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, <strong>γέγραπται</strong> γάρ· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα τῆς ποίμνης.›</td>
+      <td class="gr" lang="grc">Τότε λέγει αὐτοῖς ὁ Ἰησοῦς· «Πάντες ὑμεῖς σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, <strong>γέγραπται</strong> γάρ· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα τῆς ποίμνης.›<div class="fr" lang="fr">Alors Jésus leur dit; Vous serez tous cette nuit scandalisés en moi: car il est écrit; Je frapperai le Berger, et les brebis du troupeau seront dispersées.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Za 13,7</div>
         <div class="he" lang="he" dir="rtl">חֶ֗רֶב עוּרִ֤י עַל־רֹעִי֙ וְעַל־גֶּ֣בֶר עֲמִיתִ֔י נְאֻ֖ם יְהֹוָ֣ה צְבָא֑וֹת הַ֤ךְ אֶת־הָרֹעֶה֙ וּתְפוּצֶ֣יןָ הַצֹּ֔אן וַהֲשִׁבֹתִ֥י יָדִ֖י עַל־הַצֹּעֲרִֽים׃</div>
+        <div class="fr" lang="fr">Épée, réveille-toi sur mon Pasteur, et sur l’homme [qui est] mon compagnon, dit l’Éternel des armées: frappe le Pasteur, et les brebis seront dispersées, et je tournerai ma main sur les petits.</div>
       </div></td>
     </tr>
       <tr class="book" id="marc"><th colspan="3">Marc</th></tr>
 <tr>
       <td class="nt">Mc 1,2-3</td>
-      <td class="gr" lang="grc">Ὡς <strong>γέγραπται</strong> ἐν τοῖς προφήταις—«Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.» «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.› »—<div class="note">F35 porte « ἐν τοῖς προφήταις » ; le texte combine Ml 3,1 et Is 40,3.</div></td>
+      <td class="gr" lang="grc">Ὡς <strong>γέγραπται</strong> ἐν τοῖς προφήταις—«Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.» «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ.› »—<div class="fr" lang="fr">Selon qu’il est écrit dans les Prophètes; Voici, j’envoie mon messager devant ta face, lequel préparera ta voie devant toi. La voix de celui qui crie dans le désert [est]; Préparez le chemin du Seigneur, dressez ses sentiers.</div><div class="note">F35 porte « ἐν τοῖς προφήταις » ; le texte combine Ml 3,1 et Is 40,3.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ml 3,1</div>
         <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+        <div class="fr" lang="fr">Voici, je m’en vais envoyer mon messager, et il préparera la voie devant moi, et incontinent le Seigneur que vous cherchez entrera dans son Temple, l’Ange, dis-je, de l’alliance, lequel vous souhaitez: voici, il vient, a dit l’Éternel des armées.</div>
       </div>
       <div class="ot">
         <div class="otref">Is 40,3</div>
         <div class="he" lang="he" dir="rtl">ק֣וֹל קוֹרֵ֔א בַּמִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהֹוָ֑ה יַשְּׁרוּ֙ בָּעֲרָבָ֔ה מְסִלָּ֖ה לֵאלֹהֵֽינוּ׃</div>
+        <div class="fr" lang="fr">La voix de celui qui crie au désert [est]: Préparez le chemin de l’Éternel, dressez parmi les landes les sentiers à notre Dieu.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mc 7,6-7</td>
-      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς ὅτι «Καλῶς προεφήτευσεν Ἡσαΐας περὶ ὑμῶν τῶν ὑποκριτῶν, ὡς <strong>γέγραπται</strong>· ‹Οὗτος ὁ λαὸς τοῖς χείλεσίν με τιμᾷ, ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ᾿ ἐμοῦ. Μάτην δὲ σέβονταί με, διδάσκοντες διδασκαλίας ἐντάλματα ἀνθρώπων.›<div class="note">Le grec suit la LXX ; le TM dit « ce peuple s'approche de moi de sa bouche et m'honore des lèvres, mais son cœur est loin de moi ».</div></td>
+      <td class="gr" lang="grc">Ὁ δὲ ἀποκριθεὶς εἶπεν αὐτοῖς ὅτι «Καλῶς προεφήτευσεν Ἡσαΐας περὶ ὑμῶν τῶν ὑποκριτῶν, ὡς <strong>γέγραπται</strong>· ‹Οὗτος ὁ λαὸς τοῖς χείλεσίν με τιμᾷ, ἡ δὲ καρδία αὐτῶν πόρρω ἀπέχει ἀπ᾿ ἐμοῦ. Μάτην δὲ σέβονταί με, διδάσκοντες διδασκαλίας ἐντάλματα ἀνθρώπων.›<div class="fr" lang="fr">Et il leur répondit, et leur dit; Certainement Ésaïe a bien prophétisé de vous, hypocrites, comme il est écrit; Ce peuple m’honore des lèvres, mais leur coeur est bien éloigné de moi. Mais ils m’honorent en vain, enseignant des doctrines [qui ne sont que] des commandements d’hommes.</div><div class="note">Le grec suit la LXX ; le TM dit « ce peuple s'approche de moi de sa bouche et m'honore des lèvres, mais son cœur est loin de moi ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 29,13</div>
         <div class="he" lang="he" dir="rtl">וַיֹּ֣אמֶר אֲדֹנָ֗י יַ֚עַן כִּ֤י נִגַּשׁ֙ הָעָ֣ם הַזֶּ֔ה בְּפִ֤יו וּבִשְׂפָתָיו֙ כִּבְּד֔וּנִי וְלִבּ֖וֹ רִחַ֣ק מִמֶּ֑נִּי וַתְּהִ֤י יִרְאָתָם֙ אֹתִ֔י מִצְוַ֥ת אֲנָשִׁ֖ים מְלֻמָּדָֽה׃</div>
+        <div class="fr" lang="fr">C’est pourquoi le Seigneur dit: Parce que ce peuple s’approche de moi de sa bouche, et qu’ils m’honorent de leurs lèvres, mais il a éloigné son coeur de moi, et la crainte qu’ils ont de moi [est] un commandement d’hommes, enseigné [par des hommes];</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mc 11,17</td>
-      <td class="gr" lang="grc">Καὶ ἐδίδασκεν λέγων αὐτοῖς· «Οὐ <strong>γέγραπται</strong> ὅτι ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται πᾶσιν τοῖς ἔθνεσιν›; Ὑμεῖς δὲ ἐποιήσατε αὐτὸν σπήλαιον λῃστῶν.»<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="gr" lang="grc">Καὶ ἐδίδασκεν λέγων αὐτοῖς· «Οὐ <strong>γέγραπται</strong> ὅτι ‹Ὁ οἶκός μου οἶκος προσευχῆς κληθήσεται πᾶσιν τοῖς ἔθνεσιν›; Ὑμεῖς δὲ ἐποιήσατε αὐτὸν σπήλαιον λῃστῶν.»<div class="fr" lang="fr">Et il enseignait, en leur disant; N’est-il pas écrit? Ma Maison sera appelée Maison de prière par toutes les nations; mais vous en avez fait une caverne de voleurs.</div><div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 56,7</div>
         <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+        <div class="fr" lang="fr">Je les amènerai aussi à la montagne de ma sainteté, et les réjouirai dans la maison dans laquelle on m’invoque; leurs holocaustes et leurs sacrifices [seront] agréables sur mon autel: car ma maison sera appelée: La maison de prière pour tous les peuples.</div>
       </div>
       <div class="ot">
         <div class="otref">Jr 7,11</div>
         <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Cette maison, sur laquelle mon Nom est réclamé devant vos yeux, n’est-elle pas devenue une caverne de brigands? et voici, moi-même je l’ai vu, dit l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Mc 14,27</td>
-      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς ὁ Ἰησοῦς ὅτι «Πάντες σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, ὅτι <strong>γέγραπται</strong>· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα.›</td>
+      <td class="gr" lang="grc">Καὶ λέγει αὐτοῖς ὁ Ἰησοῦς ὅτι «Πάντες σκανδαλισθήσεσθε ἐν ἐμοὶ ἐν τῇ νυκτὶ ταύτῃ, ὅτι <strong>γέγραπται</strong>· ‹Πατάξω τὸν Ποιμένα, καὶ διασκορπισθήσεται τὰ πρόβατα.›<div class="fr" lang="fr">Et Jésus leur dit; Vous serez tous cette nuit scandalisés en moi: car il est écrit; Je frapperai le Berger, et les brebis seront dispersées.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Za 13,7</div>
         <div class="he" lang="he" dir="rtl">חֶ֗רֶב עוּרִ֤י עַל־רֹעִי֙ וְעַל־גֶּ֣בֶר עֲמִיתִ֔י נְאֻ֖ם יְהֹוָ֣ה צְבָא֑וֹת הַ֤ךְ אֶת־הָרֹעֶה֙ וּתְפוּצֶ֣יןָ הַצֹּ֔אן וַהֲשִׁבֹתִ֥י יָדִ֖י עַל־הַצֹּעֲרִֽים׃</div>
+        <div class="fr" lang="fr">Épée, réveille-toi sur mon Pasteur, et sur l’homme [qui est] mon compagnon, dit l’Éternel des armées: frappe le Pasteur, et les brebis seront dispersées, et je tournerai ma main sur les petits.</div>
       </div></td>
     </tr>
       <tr class="book" id="luc"><th colspan="3">Luc</th></tr>
 <tr>
       <td class="nt">Lc 2,23</td>
-      <td class="gr" lang="grc">(καθὼς <strong>γέγραπται</strong> ἐν νόμῳ Κυρίου ὅτι «Πᾶν ἄρσεν διανοῖγον μήτραν ἅγιον τῷ Κυρίῳ κληθήσεται»),<div class="note">« καθὼς γέγραπται ἐν νόμῳ κυρίου ».</div></td>
+      <td class="gr" lang="grc">(καθὼς <strong>γέγραπται</strong> ἐν νόμῳ Κυρίου ὅτι «Πᾶν ἄρσεν διανοῖγον μήτραν ἅγιον τῷ Κυρίῳ κληθήσεται»),<div class="fr" lang="fr">(Selon ce qui est écrit dans la Loi du Seigneur; Que tout mâle ouvrant la matrice sera appelé saint au Seigneur.)</div><div class="note">« καθὼς γέγραπται ἐν νόμῳ κυρίου ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ex 13,2</div>
         <div class="he" lang="he" dir="rtl">קַדֶּשׁ־לִ֨י כׇל־בְּכ֜וֹר פֶּ֤טֶר כׇּל־רֶ֙חֶם֙ בִּבְנֵ֣י יִשְׂרָאֵ֔ל בָּאָדָ֖ם וּבַבְּהֵמָ֑ה לִ֖י הֽוּא׃</div>
+        <div class="fr" lang="fr">Sanctifie-moi tout premier-né, tout ce qui ouvre la matrice entre les enfants d’Israël, tant des hommes que des bêtes, [car il est] à moi.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Ex 13,12</div>
         <div class="he" lang="he" dir="rtl">וְהַעֲבַרְתָּ֥ כׇל־פֶּֽטֶר־רֶ֖חֶם לַֽיהֹוָ֑ה וְכׇל־פֶּ֣טֶר שֶׁ֣גֶר בְּהֵמָ֗ה אֲשֶׁ֨ר יִהְיֶ֥ה לְךָ֛ הַזְּכָרִ֖ים לַיהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Alors tu présenteras à l’Éternel tout ce qui ouvre la matrice, même tout ce qui en sortant ouvre la portière des bêtes; ce que tu auras de mâles [sera] à l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 3,4-6</td>
-      <td class="gr" lang="grc">ὡς <strong>γέγραπται</strong> ἐν βίβλῳ λόγων Ἡσαΐου τοῦ προφήτου, λέγοντος· «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ. Πᾶσα φάραγξ πληρωθήσεται, καὶ πᾶν ὄρος καὶ βουνὸς ταπεινωθήσεται· καὶ ἔσται τὰ σκολιὰ εἰς εὐθεῖαν, καὶ αἱ τραχεῖαι εἰς ὁδοὺς λείας· καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ Θεοῦ.› »<div class="note">Citation longue selon la LXX ; le TM dit « toute chair verra la gloire du Seigneur », la LXX « toute chair verra le salut de Dieu ».</div></td>
+      <td class="gr" lang="grc">ὡς <strong>γέγραπται</strong> ἐν βίβλῳ λόγων Ἡσαΐου τοῦ προφήτου, λέγοντος· «Φωνὴ βοῶντος· ‹Ἐν τῇ ἐρήμῳ ἑτοιμάσατε τὴν ὁδὸν Κυρίου, εὐθείας ποιεῖτε τὰς τρίβους αὐτοῦ. Πᾶσα φάραγξ πληρωθήσεται, καὶ πᾶν ὄρος καὶ βουνὸς ταπεινωθήσεται· καὶ ἔσται τὰ σκολιὰ εἰς εὐθεῖαν, καὶ αἱ τραχεῖαι εἰς ὁδοὺς λείας· καὶ ὄψεται πᾶσα σὰρξ τὸ σωτήριον τοῦ Θεοῦ.› »<div class="fr" lang="fr">Comme il est écrit au Livre des paroles d’Ésaïe le Prophète, disant; La voix de celui qui crie dans le désert, [est], Préparez le chemin du Seigneur, dressez ses sentiers. Toute vallée sera comblée, et toute montagne et toute colline sera abaissée, et les choses tortues seront redressées, et les chemins raboteux seront aplanis: Et toute chair verra le salut de Dieu.</div><div class="note">Citation longue selon la LXX ; le TM dit « toute chair verra la gloire du Seigneur », la LXX « toute chair verra le salut de Dieu ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 40,3-5</div>
         <div class="he" lang="he" dir="rtl">ק֣וֹל קוֹרֵ֔א בַּמִּדְבָּ֕ר פַּנּ֖וּ דֶּ֣רֶךְ יְהֹוָ֑ה יַשְּׁרוּ֙ בָּעֲרָבָ֔ה מְסִלָּ֖ה לֵאלֹהֵֽינוּ׃ כׇּל־גֶּיא֙ יִנָּשֵׂ֔א וְכׇל־הַ֥ר וְגִבְעָ֖ה יִשְׁפָּ֑לוּ וְהָיָ֤ה הֶֽעָקֹב֙ לְמִישׁ֔וֹר וְהָרְכָסִ֖ים לְבִקְעָֽה׃ וְנִגְלָ֖ה כְּב֣וֹד יְהֹוָ֑ה וְרָא֤וּ כׇל־בָּשָׂר֙ יַחְדָּ֔ו כִּ֛י פִּ֥י יְהֹוָ֖ה דִּבֵּֽר׃</div>
+        <div class="fr" lang="fr">La voix de celui qui crie au désert [est]: Préparez le chemin de l’Éternel, dressez parmi les landes les sentiers à notre Dieu. Toute vallée sera comblée, et toute montagne et [tout] coteau seront abaissés, et les lieux tortus seront redressés, et les lieux raboteux seront aplanis. Alors la gloire de l’Éternel se manifestera, et toute chair ensemble [la] verra: car la bouche de l’Éternel a parlé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 4,4</td>
-      <td class="gr" lang="grc">Καὶ ἀπεκρίθη Ἰησοῦς πρὸς αὐτὸν λέγων, «<strong>Γέγραπται</strong> ὅτι ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι Θεοῦ.› »</td>
+      <td class="gr" lang="grc">Καὶ ἀπεκρίθη Ἰησοῦς πρὸς αὐτὸν λέγων, «<strong>Γέγραπται</strong> ὅτι ‹Οὐκ ἐπ᾿ ἄρτῳ μόνῳ ζήσεται ἄνθρωπος, ἀλλ᾿ ἐπὶ παντὶ ῥήματι Θεοῦ.› »<div class="fr" lang="fr">Et Jésus lui répondit, en disant; Il est écrit; Que l’homme ne vivra pas seulement de pain, mais de toute parole de Dieu.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 8,3</div>
         <div class="he" lang="he" dir="rtl">וַֽיְעַנְּךָ֮ וַיַּרְעִבֶ֒ךָ֒ וַיַּאֲכִֽלְךָ֤ אֶת־הַמָּן֙ אֲשֶׁ֣ר לֹא־יָדַ֔עְתָּ וְלֹ֥א יָדְע֖וּן אֲבֹתֶ֑יךָ לְמַ֣עַן הוֹדִֽיעֲךָ֗ כִּ֠י לֹ֣א עַל־הַלֶּ֤חֶם לְבַדּוֹ֙ יִחְיֶ֣ה הָֽאָדָ֔ם כִּ֛י עַל־כׇּל־מוֹצָ֥א פִֽי־יְהֹוָ֖ה יִחְיֶ֥ה הָאָדָֽם׃</div>
+        <div class="fr" lang="fr">Il t’a donc humilié, et t’a fait avoir faim, mais il t’a repu de Manne, laquelle tu n’avais point connue, ni tes pères aussi; afin de te faire connaître que l’homme ne vivra pas de pain seulement, mais que l’homme vivra de tout ce qui sort de la bouche de Dieu.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 4,8</td>
-      <td class="gr" lang="grc">Καὶ ἀποκριθεὶς αὐτῷ εἶπεν ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong>, ‹Προσκυνήσεις Κύριον τὸν Θεόν σου, καὶ αὐτῷ μόνῳ λατρεύσεις.› »</td>
+      <td class="gr" lang="grc">Καὶ ἀποκριθεὶς αὐτῷ εἶπεν ὁ Ἰησοῦς· «Ὕπαγε ὀπίσω μου, Σατανᾶ· <strong>γέγραπται</strong>, ‹Προσκυνήσεις Κύριον τὸν Θεόν σου, καὶ αὐτῷ μόνῳ λατρεύσεις.› »<div class="fr" lang="fr">Mais Jésus répondant, lui dit; Va arrière de moi, satan: car il est écrit; Tu adoreras le Seigneur ton Dieu, et tu le serviras lui seul.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 6,13</div>
         <div class="he" lang="he" dir="rtl">אֶת־יְהֹוָ֧ה אֱלֹהֶ֛יךָ תִּירָ֖א וְאֹת֣וֹ תַעֲבֹ֑ד וּבִשְׁמ֖וֹ תִּשָּׁבֵֽעַ׃</div>
+        <div class="fr" lang="fr">Tu craindras l’Éternel ton Dieu, tu le serviras, et tu jureras par son Nom.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 4,10</td>
-      <td class="gr" lang="grc"><strong>γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ τοῦ διαφυλάξαι σε,›<div class="note">Le grec ajoute « τοῦ διαφυλάξαι σε » (LXX).</div></td>
+      <td class="gr" lang="grc"><strong>γέγραπται</strong> γὰρ ὅτι ‹Τοῖς ἀγγέλοις αὐτοῦ ἐντελεῖται περὶ σοῦ τοῦ διαφυλάξαι σε,›<div class="fr" lang="fr">Car il est écrit, qu’il donnera charge de toi à ses Anges pour te conserver:</div><div class="note">Le grec ajoute « τοῦ διαφυλάξαι σε » (LXX).</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 91,11</div>
         <div class="he" lang="he" dir="rtl">כִּ֣י מַ֭לְאָכָיו יְצַוֶּה־לָּ֑ךְ לִ֝שְׁמׇרְךָ֗ בְּכׇל־דְּרָכֶֽיךָ׃</div>
+        <div class="fr" lang="fr">Car il donnera charge de toi à ses Anges, afin qu’ils te gardent en toutes tes voies.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 7,27</td>
-      <td class="gr" lang="grc">Οὗτός ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="note">Citation composite, attribuée au « prophète ».</div></td>
+      <td class="gr" lang="grc">Οὗτός ἐστιν περὶ οὗ <strong>γέγραπται</strong>· ‹Ἰδού, ἐγὼ ἀποστέλλω τὸν ἄγγελόν μου πρὸ προσώπου σου, ὃς κατασκευάσει τὴν ὁδόν σου ἔμπροσθέν σου.›<div class="fr" lang="fr">C’est de lui qu’il est écrit; Voici, j’envoie mon Messager devant ta face, et il préparera ta voie devant toi.</div><div class="note">Citation composite, attribuée au « prophète ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ml 3,1</div>
         <div class="he" lang="he" dir="rtl">הִנְנִ֤י שֹׁלֵ֙חַ֙ מַלְאָכִ֔י וּפִנָּה־דֶ֖רֶךְ לְפָנָ֑י וּפִתְאֹם֩ יָב֨וֹא אֶל־הֵיכָל֜וֹ הָאָד֣וֹן אֲשֶׁר־אַתֶּ֣ם מְבַקְשִׁ֗ים וּמַלְאַ֨ךְ הַבְּרִ֜ית אֲשֶׁר־אַתֶּ֤ם חֲפֵצִים֙ הִנֵּה־בָ֔א אָמַ֖ר יְהֹוָ֥ה צְבָאֽוֹת׃</div>
+        <div class="fr" lang="fr">Voici, je m’en vais envoyer mon messager, et il préparera la voie devant moi, et incontinent le Seigneur que vous cherchez entrera dans son Temple, l’Ange, dis-je, de l’alliance, lequel vous souhaitez: voici, il vient, a dit l’Éternel des armées.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Ex 23,20</div>
         <div class="he" lang="he" dir="rtl">הִנֵּ֨ה אָנֹכִ֜י שֹׁלֵ֤חַ מַלְאָךְ֙ לְפָנֶ֔יךָ לִשְׁמׇרְךָ֖ בַּדָּ֑רֶךְ וְלַהֲבִ֣יאֲךָ֔ אֶל־הַמָּק֖וֹם אֲשֶׁ֥ר הֲכִנֹֽתִי׃</div>
+        <div class="fr" lang="fr">Voici, j’envoie un Ange devant toi, afin qu’il te garde dans le chemin, et qu’il t’introduise au lieu que je t’ai préparé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 19,46</td>
-      <td class="gr" lang="grc">λέγων αὐτοῖς, «<strong>Γέγραπται</strong>· ‹Ὁ οἶκός μου οἶκος προσευχῆς ἐστιν,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε σπήλαιον λῃστῶν.»<div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
+      <td class="gr" lang="grc">λέγων αὐτοῖς, «<strong>Γέγραπται</strong>· ‹Ὁ οἶκός μου οἶκος προσευχῆς ἐστιν,› ὑμεῖς δὲ αὐτὸν ἐποιήσατε σπήλαιον λῃστῶν.»<div class="fr" lang="fr">Leur disant; Il est écrit; Ma Maison est la Maison de prière: mais vous en avez fait une caverne de voleurs.</div><div class="note">Citation composite : Is 56,7 et Jr 7,11.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 56,7</div>
         <div class="he" lang="he" dir="rtl">וַהֲבִיאוֹתִ֞ים אֶל־הַ֣ר קׇדְשִׁ֗י וְשִׂמַּחְתִּים֙ בְּבֵ֣ית תְּפִלָּתִ֔י עוֹלֹתֵיהֶ֧ם וְזִבְחֵיהֶ֛ם לְרָצ֖וֹן עַֽל־מִזְבְּחִ֑י כִּ֣י בֵיתִ֔י בֵּית־תְּפִלָּ֥ה יִקָּרֵ֖א לְכׇל־הָעַמִּֽים׃</div>
+        <div class="fr" lang="fr">Je les amènerai aussi à la montagne de ma sainteté, et les réjouirai dans la maison dans laquelle on m’invoque; leurs holocaustes et leurs sacrifices [seront] agréables sur mon autel: car ma maison sera appelée: La maison de prière pour tous les peuples.</div>
       </div>
       <div class="ot">
         <div class="otref">Jr 7,11</div>
         <div class="he" lang="he" dir="rtl">הַֽמְעָרַ֣ת פָּרִצִ֗ים הָיָ֨ה הַבַּ֧יִת הַזֶּ֛ה אֲשֶׁר־נִקְרָֽא־שְׁמִ֥י עָלָ֖יו בְּעֵינֵיכֶ֑ם גַּ֧ם אָנֹכִ֛י הִנֵּ֥ה רָאִ֖יתִי נְאֻם־יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Cette maison, sur laquelle mon Nom est réclamé devant vos yeux, n’est-elle pas devenue une caverne de brigands? et voici, moi-même je l’ai vu, dit l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 20,17</td>
-      <td class="gr" lang="grc">Ὁ δὲ ἐμβλέψας αὐτοῖς εἶπεν· «Τί οὖν ἐστιν τὸ <strong>γεγραμμένον</strong> τοῦτο· ‹Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας›;<div class="note">« τὸ γεγραμμένον τοῦτο ».</div></td>
+      <td class="gr" lang="grc">Ὁ δὲ ἐμβλέψας αὐτοῖς εἶπεν· «Τί οὖν ἐστιν τὸ <strong>γεγραμμένον</strong> τοῦτο· ‹Λίθον ὃν ἀπεδοκίμασαν οἱ οἰκοδομοῦντες, οὗτος ἐγενήθη εἰς κεφαλὴν γωνίας›;<div class="fr" lang="fr">Alors il les regarda, et dit; Que veut donc dire ce qui est écrit; La pierre que les Édifiants ont rejetée, est devenue la maîtresse pierre du coin.</div><div class="note">« τὸ γεγραμμένον τοῦτο ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 118,22</div>
         <div class="he" lang="he" dir="rtl">אֶ֭בֶן מָאֲס֣וּ הַבּוֹנִ֑ים הָ֝יְתָ֗ה לְרֹ֣אשׁ פִּנָּֽה׃</div>
+        <div class="fr" lang="fr">La Pierre, que les édifiants avaient rejetée, est devenue le principal du coin.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 22,37</td>
-      <td class="gr" lang="grc">Λέγω γὰρ ὑμῖν ὅτι ἔτι τοῦτο τὸ <strong>γεγραμμένον</strong> δεῖ τελεσθῆναι ἐν ἐμοί· τὸ ‹Καὶ μετὰ ἀνόμων ἐλογίσθη›· καὶ γὰρ τὰ περὶ ἐμοῦ τέλος ἔχει.»<div class="note">« τοῦτο τὸ γεγραμμένον ».</div></td>
+      <td class="gr" lang="grc">Λέγω γὰρ ὑμῖν ὅτι ἔτι τοῦτο τὸ <strong>γεγραμμένον</strong> δεῖ τελεσθῆναι ἐν ἐμοί· τὸ ‹Καὶ μετὰ ἀνόμων ἐλογίσθη›· καὶ γὰρ τὰ περὶ ἐμοῦ τέλος ἔχει.»<div class="fr" lang="fr">Car je vous dis, qu’il faut que ceci aussi qui est écrit, soit accompli en moi; Et il a été mis au rang des iniques. Car certainement les choses qui [ont été prédites] de moi, s’en vont être accomplies.</div><div class="note">« τοῦτο τὸ γεγραμμένον ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 53,12</div>
         <div class="he" lang="he" dir="rtl">לָכֵ֞ן אֲחַלֶּק־ל֣וֹ בָרַבִּ֗ים וְאֶת־עֲצוּמִים֮ יְחַלֵּ֣ק שָׁלָל֒ תַּ֗חַת אֲשֶׁ֨ר הֶעֱרָ֤ה לַמָּ֙וֶת֙ נַפְשׁ֔וֹ וְאֶת־פֹּשְׁעִ֖ים נִמְנָ֑ה וְהוּא֙ חֵטְא־רַבִּ֣ים נָשָׂ֔א וְלַפֹּשְׁעִ֖ים יַפְגִּֽיעַ׃</div>
+        <div class="fr" lang="fr">C’est pourquoi je lui donnerai son partage parmi les grands, [et] il partagera le butin avec les puissants, parce qu’il aura épandu son âme à la mort, qu’il aura été tenu au rang des transgresseurs, et que lui-même aura porté les péchés de plusieurs, et qu’il aura intercédé pour les transgresseurs.</div>
       </div></td>
     </tr>
       <tr class="book" id="jean"><th colspan="3">Jean</th></tr>
 <tr>
       <td class="nt">Jn 2,17</td>
-      <td class="gr" lang="grc">Ἐμνήσθησαν δὲ οἱ μαθηταὶ αὐτοῦ ὅτι <strong>γεγραμμένον</strong> ἐστίν, «Ὁ ζῆλος τοῦ οἴκου σου καταφάγεταί με.»<div class="note">« γεγραμμένον ἐστίν ».</div></td>
+      <td class="gr" lang="grc">Ἐμνήσθησαν δὲ οἱ μαθηταὶ αὐτοῦ ὅτι <strong>γεγραμμένον</strong> ἐστίν, «Ὁ ζῆλος τοῦ οἴκου σου καταφάγεταί με.»<div class="fr" lang="fr">Alors ses Disciples se souvinrent qu’il était écrit; Le zèle de ta Maison m’a rongé.</div><div class="note">« γεγραμμένον ἐστίν ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 69,10</div>
         <div class="he" lang="he" dir="rtl">כִּֽי־קִנְאַ֣ת בֵּיתְךָ֣ אֲכָלָ֑תְנִי וְחֶרְפּ֥וֹת ח֝וֹרְפֶ֗יךָ נָפְל֥וּ עָלָֽי׃</div>
+        <div class="fr" lang="fr">Car le zèle de ta maison m’a rongé, et les blâmes de ceux qui te blâmaient sont tombés sur moi.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 6,31</td>
-      <td class="gr" lang="grc">Οἱ πατέρες ἡμῶν τὸ μάννα ἔφαγον ἐν τῇ ἐρήμῳ, καθώς ἐστιν <strong>γεγραμμένον</strong>· ‹Ἄρτον ἐκ τοῦ οὐρανοῦ ἔδωκεν αὐτοῖς φαγεῖν.› »<div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
+      <td class="gr" lang="grc">Οἱ πατέρες ἡμῶν τὸ μάννα ἔφαγον ἐν τῇ ἐρήμῳ, καθώς ἐστιν <strong>γεγραμμένον</strong>· ‹Ἄρτον ἐκ τοῦ οὐρανοῦ ἔδωκεν αὐτοῖς φαγεῖν.› »<div class="fr" lang="fr">Nos pères ont mangé la manne au désert; selon ce qui est écrit; Il leur a donné à manger le pain du Ciel.</div><div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 78,24</div>
         <div class="he" lang="he" dir="rtl">וַיַּמְטֵ֬ר עֲלֵיהֶ֣ם מָ֣ן לֶאֱכֹ֑ל וּדְגַן־שָׁ֝מַ֗יִם נָ֣תַן לָֽמוֹ׃</div>
+        <div class="fr" lang="fr">Et qu’il eût fait pleuvoir la manne sur eux afin qu’ils en mangeassent, et qu’il leur eût donné le froment des cieux:</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Ex 16,4</div>
         <div class="he" lang="he" dir="rtl">וַיֹּ֤אמֶר יְהֹוָה֙ אֶל־מֹשֶׁ֔ה הִנְנִ֨י מַמְטִ֥יר לָכֶ֛ם לֶ֖חֶם מִן־הַשָּׁמָ֑יִם וְיָצָ֨א הָעָ֤ם וְלָֽקְטוּ֙ דְּבַר־י֣וֹם בְּיוֹמ֔וֹ לְמַ֧עַן אֲנַסֶּ֛נּוּ הֲיֵלֵ֥ךְ בְּתוֹרָתִ֖י אִם־לֹֽא׃</div>
+        <div class="fr" lang="fr">Et l’Éternel dit à Moïse: voici je vais vous faire pleuvoir des cieux du pain, et le peuple sortira, et [en] recueillera chaque jour la provision d’un jour, afin que je l’éprouve, [pour voir] s’il cheminera dans ma Loi; ou non.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 6,45</td>
-      <td class="gr" lang="grc">Ἔστιν <strong>γεγραμμένον</strong> ἐν τοῖς Προφήταις, ‹Καὶ ἔσονται πάντες διδακτοὶ Θεοῦ.› Πᾶς οὖν ὁ ἀκούων παρὰ τοῦ Πατρὸς καὶ μαθὼν ἔρχεται πρός με.<div class="note">« ἔστιν γεγραμμένον ἐν τοῖς προφήταις ».</div></td>
+      <td class="gr" lang="grc">Ἔστιν <strong>γεγραμμένον</strong> ἐν τοῖς Προφήταις, ‹Καὶ ἔσονται πάντες διδακτοὶ Θεοῦ.› Πᾶς οὖν ὁ ἀκούων παρὰ τοῦ Πατρὸς καὶ μαθὼν ἔρχεται πρός με.<div class="fr" lang="fr">Il est écrit dans les Prophètes; Et ils seront tous enseignés de Dieu. Quiconque donc a ouï du Père, et a appris, vient à moi.</div><div class="note">« ἔστιν γεγραμμένον ἐν τοῖς προφήταις ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 54,13</div>
         <div class="he" lang="he" dir="rtl">וְכׇל־בָּנַ֖יִךְ לִמּוּדֵ֣י יְהֹוָ֑ה וְרַ֖ב שְׁל֥וֹם בָּנָֽיִךְ׃</div>
+        <div class="fr" lang="fr">Aussi tous tes enfants [seront] enseignés de l’Éternel, et la paix de tes fils sera abondante.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 8,17</td>
-      <td class="gr" lang="grc">Καὶ ἐν τῷ νόμῳ δὲ τῷ ὑμετέρῳ <strong>γέγραπται</strong> ὅτι δύο ἀνθρώπων ἡ μαρτυρία ἀληθής ἐστιν·<div class="note">« ἐν τῷ νόμῳ ... γέγραπται » : principe juridique.</div></td>
+      <td class="gr" lang="grc">Καὶ ἐν τῷ νόμῳ δὲ τῷ ὑμετέρῳ <strong>γέγραπται</strong> ὅτι δύο ἀνθρώπων ἡ μαρτυρία ἀληθής ἐστιν·<div class="fr" lang="fr">Il est même écrit dans votre Loi, que le témoignage de deux hommes est digne de foi.</div><div class="note">« ἐν τῷ νόμῳ ... γέγραπται » : principe juridique.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 19,15</div>
         <div class="he" lang="he" dir="rtl">לֹֽא־יָקוּם֩ עֵ֨ד אֶחָ֜ד בְּאִ֗ישׁ לְכׇל־עָוֺן֙ וּלְכׇל־חַטָּ֔את בְּכׇל־חֵ֖טְא אֲשֶׁ֣ר יֶֽחֱטָ֑א עַל־פִּ֣י שְׁנֵ֣י עֵדִ֗ים א֛וֹ עַל־פִּ֥י שְׁלֹשָֽׁה־עֵדִ֖ים יָק֥וּם דָּבָֽר׃</div>
+        <div class="fr" lang="fr">Un témoin seul ne sera point valable contre un homme, en quelque crime et péché que ce soit, en quelque péché qu’on ait commis: mais sur la parole de deux ou de trois témoins la chose sera valable.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 10,34</td>
-      <td class="gr" lang="grc">Ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· «Οὐκ ἔστιν <strong>γεγραμμένον</strong> ἐν τῷ νόμῳ ὑμῶν, ‹Ἐγὼ εἶπα, θεοί ἐστε›;<div class="note">« οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ».</div></td>
+      <td class="gr" lang="grc">Ἀπεκρίθη αὐτοῖς ὁ Ἰησοῦς· «Οὐκ ἔστιν <strong>γεγραμμένον</strong> ἐν τῷ νόμῳ ὑμῶν, ‹Ἐγὼ εἶπα, θεοί ἐστε›;<div class="fr" lang="fr">Jésus leur répondit; N’est-il pas écrit en votre Loi, J’ai dit; Vous êtes des dieux:</div><div class="note">« οὐκ ἔστιν γεγραμμένον ἐν τῷ νόμῳ ὑμῶν ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 82,6</div>
         <div class="he" lang="he" dir="rtl">אֲֽנִי־אָ֭מַרְתִּי אֱלֹהִ֣ים אַתֶּ֑ם וּבְנֵ֖י עֶלְי֣וֹן כֻּלְּכֶֽם׃</div>
+        <div class="fr" lang="fr">J’ai dit: Vous [êtes] des dieux, et vous [êtes] tous enfants du Souverain:</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 12,14-15</td>
-      <td class="gr" lang="grc">Εὑρὼν δὲ ὁ Ἰησοῦς ὀνάριον, ἐκάθισεν ἐπ᾿ αὐτῷ· καθώς ἐστιν <strong>γεγραμμένον</strong>· «Μὴ φοβοῦ, θύγατερ Σιών· ἰδού, ὁ Βασιλεύς σου ἔρχεται, καθήμενος ἐπὶ πῶλον ὄνου.»<div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
+      <td class="gr" lang="grc">Εὑρὼν δὲ ὁ Ἰησοῦς ὀνάριον, ἐκάθισεν ἐπ᾿ αὐτῷ· καθώς ἐστιν <strong>γεγραμμένον</strong>· «Μὴ φοβοῦ, θύγατερ Σιών· ἰδού, ὁ Βασιλεύς σου ἔρχεται, καθήμενος ἐπὶ πῶλον ὄνου.»<div class="fr" lang="fr">Et Jésus ayant recouvré un ânon, s’assit dessus, suivant ce qui est écrit; Ne crains point, Fille de Sion: voici, ton Roi vient, assis sur le poulain d’une ânesse.</div><div class="note">« καθώς ἐστιν γεγραμμένον ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Za 9,9</div>
         <div class="he" lang="he" dir="rtl">גִּילִ֨י מְאֹ֜ד בַּת־צִיּ֗וֹן הָרִ֙יעִי֙ בַּ֣ת יְרוּשָׁלַ֔͏ִם הִנֵּ֤ה מַלְכֵּךְ֙ יָ֣בוֹא לָ֔ךְ צַדִּ֥יק וְנוֹשָׁ֖ע ה֑וּא עָנִי֙ וְרֹכֵ֣ב עַל־חֲמ֔וֹר וְעַל־עַ֖יִר בֶּן־אֲתֹנֽוֹת׃</div>
+        <div class="fr" lang="fr">Égaie-toi grandement, fille de Sion: jette des cris de réjouissance, fille de Jérusalem: voici, ton Roi viendra à toi, [étant] juste, et qui se garantit par soi-même, abject, et monté sur un âne, et sur un ânon, poulain d’une ânesse.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Jn 15,25</td>
-      <td class="gr" lang="grc">Ἀλλ᾿ ἵνα πληρωθῇ ὁ λόγος ὁ <strong>γεγραμμένος</strong> ἐν τῷ νόμῳ αὐτῶν ὅτι ‹Ἐμίσησάν με δωρεάν.›<div class="note">« ὁ λόγος ὁ ... γεγραμμένος ».</div></td>
+      <td class="gr" lang="grc">Ἀλλ᾿ ἵνα πληρωθῇ ὁ λόγος ὁ <strong>γεγραμμένος</strong> ἐν τῷ νόμῳ αὐτῶν ὅτι ‹Ἐμίσησάν με δωρεάν.›<div class="fr" lang="fr">Mais [c’est] afin que soit accomplie la parole qui est écrite en leur Loi; Ils m’ont eu en haine sans cause.</div><div class="note">« ὁ λόγος ὁ ... γεγραμμένος ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 69,5</div>
         <div class="he" lang="he" dir="rtl">רַבּ֤וּ מִשַּׂעֲר֣וֹת רֹאשִׁי֮ שֹׂנְאַ֢י חִ֫נָּ֥ם עָצְמ֣וּ מַ֭צְמִיתַי אֹיְבַ֣י שֶׁ֑קֶר אֲשֶׁ֥ר לֹֽא־גָ֝זַ֗לְתִּי אָ֣ז אָשִֽׁיב׃</div>
+        <div class="fr" lang="fr">Ceux qui me haïssent sans cause, passent en nombre les cheveux de ma tête: ceux qui tâchent à me ruiner, et qui me sont ennemis à tort, se sont renforcés: j’ai alors rendu ce que je n’avais point ravi.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Ps 35,19</div>
         <div class="he" lang="he" dir="rtl">אַֽל־יִשְׂמְחוּ־לִ֣י אֹיְבַ֣י שֶׁ֑קֶר שֹׂנְאַ֥י חִ֝נָּ֗ם יִקְרְצוּ־עָֽיִן׃</div>
+        <div class="fr" lang="fr">Que ceux qui me sont ennemis à fausses enseignes, ne se réjouissent point de moi: et que ceux qui me haïssent sans cause [ne] guignent point de l’oeil.</div>
       </div></td>
     </tr>
       <tr class="book" id="actes"><th colspan="3">Actes des Apôtres</th></tr>
 <tr>
       <td class="nt">Ac 1,20</td>
-      <td class="gr" lang="grc">«<strong>Γέγραπται</strong> γὰρ ἐν Βίβλῳ Ψαλμῶν· ‹Γενηθήτω ἡ ἔπαυλις αὐτοῦ ἔρημος, καὶ μὴ ἔστω ὁ κατοικῶν ἐν αὐτῇ› καί, ‹Τὴν ἐπισκοπὴν αὐτοῦ λάβοι ἕτερος.›<div class="note">« γέγραπται γὰρ ἐν βίβλῳ ψαλμῶν » : deux citations.</div></td>
+      <td class="gr" lang="grc">«<strong>Γέγραπται</strong> γὰρ ἐν Βίβλῳ Ψαλμῶν· ‹Γενηθήτω ἡ ἔπαυλις αὐτοῦ ἔρημος, καὶ μὴ ἔστω ὁ κατοικῶν ἐν αὐτῇ› καί, ‹Τὴν ἐπισκοπὴν αὐτοῦ λάβοι ἕτερος.›<div class="fr" lang="fr">Car il est écrit au Livre des Psaumes; Que sa demeure soit déserte, et qu’il n’y ait nul qui y habite. Et, qu’un autre prenne son administration.</div><div class="note">« γέγραπται γὰρ ἐν βίβλῳ ψαλμῶν » : deux citations.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 69,26</div>
         <div class="he" lang="he" dir="rtl">תְּהִי־טִירָתָ֥ם נְשַׁמָּ֑ה בְּ֝אׇהֳלֵיהֶ֗ם אַל־יְהִ֥י יֹשֵֽׁב׃</div>
+        <div class="fr" lang="fr">Que leur palais soit désolé, et qu’[il] n’[y ait] personne qui habite dans leurs tentes.</div>
       </div>
       <div class="ot">
         <div class="otref">Ps 109,8</div>
         <div class="he" lang="he" dir="rtl">יִֽהְיוּ־יָמָ֥יו מְעַטִּ֑ים פְּ֝קֻדָּת֗וֹ יִקַּ֥ח אַחֵֽר׃</div>
+        <div class="fr" lang="fr">Que sa vie soit courte, et qu’un autre prenne sa charge.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ac 7,42-43</td>
-      <td class="gr" lang="grc">Ἔστρεψεν δὲ ὁ Θεὸς καὶ παρέδωκεν αὐτοὺς λατρεύειν τῇ στρατιᾷ τοῦ οὐρανοῦ, καθὼς <strong>γέγραπται</strong> ἐν Βίβλῳ τῶν Προφητῶν· ‹Μὴ σφάγια καὶ θυσίας προσηνέγκατέ μοι ἐν τῇ ἐρήμῳ ἔτη τεσσαράκοντα, οἶκος Ἰσραήλ; Καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολόχ, καὶ τὸ ἄστρον τοῦ θεοῦ ὑμῶν, Ῥεφφάν, τοὺς τύπους οὓς ἐποιήσατε προσκυνεῖν αὐτοῖς· καὶ μετοικιῶ ὑμᾶς ἐπέκεινα Βαβυλῶνος.›<div class="note">« καθὼς γέγραπται ἐν βίβλῳ τῶν προφητῶν ».</div></td>
+      <td class="gr" lang="grc">Ἔστρεψεν δὲ ὁ Θεὸς καὶ παρέδωκεν αὐτοὺς λατρεύειν τῇ στρατιᾷ τοῦ οὐρανοῦ, καθὼς <strong>γέγραπται</strong> ἐν Βίβλῳ τῶν Προφητῶν· ‹Μὴ σφάγια καὶ θυσίας προσηνέγκατέ μοι ἐν τῇ ἐρήμῳ ἔτη τεσσαράκοντα, οἶκος Ἰσραήλ; Καὶ ἀνελάβετε τὴν σκηνὴν τοῦ Μολόχ, καὶ τὸ ἄστρον τοῦ θεοῦ ὑμῶν, Ῥεφφάν, τοὺς τύπους οὓς ἐποιήσατε προσκυνεῖν αὐτοῖς· καὶ μετοικιῶ ὑμᾶς ἐπέκεινα Βαβυλῶνος.›<div class="fr" lang="fr">C’est pourquoi aussi Dieu se détourna, et les abandonna à servir l’armée du ciel, ainsi qu’il est écrit au Livre des Prophètes; Maison d’Israël, m’avez-vous offert des sacrifices et des oblations durant quarante ans au désert? Mais vous avez porté le tabernacle de Moloc, et l’étoile de votre Dieu Remphan: qui sont des figures que vous avez faites pour les adorer: c’est pourquoi je vous transporterai au-delà de Babylone.</div><div class="note">« καθὼς γέγραπται ἐν βίβλῳ τῶν προφητῶν ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Am 5,25-27</div>
         <div class="he" lang="he" dir="rtl">הַזְּבָחִ֨ים וּמִנְחָ֜ה הִֽגַּשְׁתֶּם־לִ֧י בַמִּדְבָּ֛ר אַרְבָּעִ֥ים שָׁנָ֖ה בֵּ֥ית יִשְׂרָאֵֽל׃ וּנְשָׂאתֶ֗ם אֵ֚ת סִכּ֣וּת מַלְכְּכֶ֔ם וְאֵ֖ת כִּיּ֣וּן צַלְמֵיכֶ֑ם כּוֹכַב֙ אֱלֹ֣הֵיכֶ֔ם אֲשֶׁ֥ר עֲשִׂיתֶ֖ם לָכֶֽם׃ וְהִגְלֵיתִ֥י אֶתְכֶ֖ם מֵהָ֣לְאָה לְדַמָּ֑שֶׂק אָמַ֛ר יְהֹוָ֥ה אֱלֹהֵֽי־צְבָא֖וֹת שְׁמֽוֹ׃</div>
+        <div class="fr" lang="fr">Est-ce à moi, maison d’Israël, que vous avez offert des sacrifices et des gâteaux dans le désert pendant quarante ans? Au contraire vous avez porté le tabernacle de votre Moloc, [et] Kijun vos images, et l’étoile de vos dieux, que vous vous êtes faits. C’est pourquoi je vous transporterai au-delà de Damas, a dit l’Éternel, duquel le nom [est] le Dieu des armées.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ac 13,33</td>
-      <td class="gr" lang="grc">ὅτι ταύτην ὁ Θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις αὐτῶν, ἡμῖν, ἀναστήσας Ἰησοῦν· ὡς καὶ ἐν τῷ ψαλμῷ τῷ δευτέρῳ <strong>γέγραπται</strong>· ‹Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.›<div class="note">« ἐν τῷ ψαλμῷ τῷ δευτέρῳ γέγραπται ».</div></td>
+      <td class="gr" lang="grc">ὅτι ταύτην ὁ Θεὸς ἐκπεπλήρωκεν τοῖς τέκνοις αὐτῶν, ἡμῖν, ἀναστήσας Ἰησοῦν· ὡς καὶ ἐν τῷ ψαλμῷ τῷ δευτέρῳ <strong>γέγραπται</strong>· ‹Υἱός μου εἶ σύ, ἐγὼ σήμερον γεγέννηκά σε.›<div class="fr" lang="fr">Que Dieu l’a accomplie envers nous [qui sommes] leurs enfants, ayant suscité Jésus, selon qu’il est écrit au Psaume second; Tu es mon Fils, je t’ai aujourd’hui engendré.</div><div class="note">« ἐν τῷ ψαλμῷ τῷ δευτέρῳ γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 2,7</div>
         <div class="he" lang="he" dir="rtl">אֲסַפְּרָ֗ה אֶֽ֫ל־חֹ֥ק יְֽהֹוָ֗ה אָמַ֘ר־אֵלַ֥י בְּנִ֥י אַ֑תָּה אֲ֝נִ֗י הַיּ֥וֹם יְלִדְתִּֽיךָ׃</div>
+        <div class="fr" lang="fr">Je raconterai de point en point l’ordonnance: l’Éternel m’a dit: Tu [es] mon Fils, je t’ai aujourd’hui engendré.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ac 15,15-18</td>
-      <td class="gr" lang="grc">Καὶ τούτῳ συμφωνοῦσιν οἱ λόγοι τῶν προφητῶν, καθὼς <strong>γέγραπται</strong>· ‹Μετὰ ταῦτα ἀναστρέψω, καὶ ἀνοικοδομήσω τὴν σκηνὴν Δαυίδ, τὴν πεπτωκυῖαν· καὶ τὰ κατεσκαμμένα αὐτῆς ἀνοικοδομήσω καὶ ἀνορθώσω αὐτήν· ὅπως ἂν ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων τὸν Κύριον, καὶ πάντα τὰ ἔθνη—ἐφ᾿ οὓς ἐπικέκληται τὸ ὄνομά μου ἐπ᾿ αὐτούς—λέγει Κύριος ὁ ποιῶν ταῦτα πάντα.› Γνωστὰ ἀπ᾿ αἰῶνός ἐστιν τῷ Θεῷ πάντα τὰ ἔργα αὐτοῦ.<div class="note">« καθὼς γέγραπται » ; citation selon la LXX (v. 16-17).</div></td>
+      <td class="gr" lang="grc">Καὶ τούτῳ συμφωνοῦσιν οἱ λόγοι τῶν προφητῶν, καθὼς <strong>γέγραπται</strong>· ‹Μετὰ ταῦτα ἀναστρέψω, καὶ ἀνοικοδομήσω τὴν σκηνὴν Δαυίδ, τὴν πεπτωκυῖαν· καὶ τὰ κατεσκαμμένα αὐτῆς ἀνοικοδομήσω καὶ ἀνορθώσω αὐτήν· ὅπως ἂν ἐκζητήσωσιν οἱ κατάλοιποι τῶν ἀνθρώπων τὸν Κύριον, καὶ πάντα τὰ ἔθνη—ἐφ᾿ οὓς ἐπικέκληται τὸ ὄνομά μου ἐπ᾿ αὐτούς—λέγει Κύριος ὁ ποιῶν ταῦτα πάντα.› Γνωστὰ ἀπ᾿ αἰῶνός ἐστιν τῷ Θεῷ πάντα τὰ ἔργα αὐτοῦ.<div class="fr" lang="fr">Et c’est à cela que s’accordent les paroles des Prophètes, selon qu’il est écrit: Après cela je retournerai et rebâtirai le Tabernacle de David, qui est tombé, et je réparerai ses ruines, et le relèverai. Afin que le reste des hommes recherche le Seigneur, et toutes les nations aussi sur lesquelles mon Nom est réclamé, dit le Seigneur, qui fait toutes ces choses. De tout temps sont connues à Dieu toutes ses oeuvres.</div><div class="note">« καθὼς γέγραπται » ; citation selon la LXX (v. 16-17).</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Am 9,11-12</div>
         <div class="he" lang="he" dir="rtl">בַּיּ֣וֹם הַה֔וּא אָקִ֛ים אֶת־סֻכַּ֥ת דָּוִ֖יד הַנֹּפֶ֑לֶת וְגָדַרְתִּ֣י אֶת־פִּרְצֵיהֶ֗ן וַהֲרִֽסֹתָיו֙ אָקִ֔ים וּבְנִיתִ֖יהָ כִּימֵ֥י עוֹלָֽם׃ לְמַ֨עַן יִֽירְשׁ֜וּ אֶת־שְׁאֵרִ֤ית אֱדוֹם֙ וְכׇל־הַגּוֹיִ֔ם אֲשֶׁר־נִקְרָ֥א שְׁמִ֖י עֲלֵיהֶ֑ם נְאֻם־יְהֹוָ֖ה עֹ֥שֶׂה זֹּֽאת׃</div>
+        <div class="fr" lang="fr">En ce temps-là je relèverai le Tabernacle de David qui sera tombé, et je réparerai ses brèches, et redresserai ses ruines: je le rebâtirai comme [il était] aux jours anciens. Afin qu’ils possèdent le reste de l’Idumée, et toutes les nations sur lesquelles mon Nom sera invoqué; dit l’Éternel, qui fait cela.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ac 23,5</td>
-      <td class="gr" lang="grc">Ἔφη τε ὁ Παῦλος· «Οὐκ ᾔδειν, ἀδελφοί, ὅτι ἐστὶν ἀρχιερεύς· <strong>γέγραπται</strong> γάρ, ‹Ἄρχοντα τοῦ λαοῦ σου οὐκ ἐρεῖς κακῶς.› »<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc">Ἔφη τε ὁ Παῦλος· «Οὐκ ᾔδειν, ἀδελφοί, ὅτι ἐστὶν ἀρχιερεύς· <strong>γέγραπται</strong> γάρ, ‹Ἄρχοντα τοῦ λαοῦ σου οὐκ ἐρεῖς κακῶς.› »<div class="fr" lang="fr">Et Paul dit: [Mes] frères, je ne savais pas qu’il fût souverain Sacrificateur: car il est écrit; Tu ne médiras point du Prince de ton peuple.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ex 22,27</div>
         <div class="he" lang="he" dir="rtl">אֱלֹהִ֖ים לֹ֣א תְקַלֵּ֑ל וְנָשִׂ֥יא בְעַמְּךָ֖ לֹ֥א תָאֹֽר׃</div>
+        <div class="fr" lang="fr">Car c’est sa seule couverture, c’[est] son vêtement pour [couvrir] sa peau: où coucherait-il? s’il arrive donc qu’il crie à moi, je l’entendrai: car je suis miséricordieux.</div>
       </div></td>
     </tr>
       <tr class="book" id="romains"><th colspan="3">Romains</th></tr>
 <tr>
       <td class="nt">Rm 1,17</td>
-      <td class="gr" lang="grc">δικαιοσύνη γὰρ Θεοῦ ἐν αὐτῷ ἀποκαλύπτεται, ἐκ πίστεως εἰς πίστιν· καθὼς <strong>γέγραπται</strong>· «Ὁ δὲ δίκαιος ἐκ πίστεως ζήσεται.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">δικαιοσύνη γὰρ Θεοῦ ἐν αὐτῷ ἀποκαλύπτεται, ἐκ πίστεως εἰς πίστιν· καθὼς <strong>γέγραπται</strong>· «Ὁ δὲ δίκαιος ἐκ πίστεως ζήσεται.»<div class="fr" lang="fr">Car la justice de Dieu se révèle en lui [pleinement] de foi en foi: selon qu’il est écrit; Or le juste vivra de foi.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ha 2,4</div>
         <div class="he" lang="he" dir="rtl">הִנֵּ֣ה עֻפְּלָ֔ה לֹא־יָשְׁרָ֥ה נַפְשׁ֖וֹ בּ֑וֹ וְצַדִּ֖יק בֶּאֱמוּנָת֥וֹ יִֽחְיֶֽה׃</div>
+        <div class="fr" lang="fr">Voici, l’âme qui s’élève [en quelqu’un] n’est point droite en lui: mais le juste vivra de sa foi.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 2,24</td>
-      <td class="gr" lang="grc">«Τὸ γὰρ ὄνομα τοῦ Θεοῦ δι᾿ ὑμᾶς βλασφημεῖται ἐν τοῖς ἔθνεσιν,» καθὼς <strong>γέγραπται</strong>.<div class="note">« καθὼς γέγραπται » (formule après la citation).</div></td>
+      <td class="gr" lang="grc">«Τὸ γὰρ ὄνομα τοῦ Θεοῦ δι᾿ ὑμᾶς βλασφημεῖται ἐν τοῖς ἔθνεσιν,» καθὼς <strong>γέγραπται</strong>.<div class="fr" lang="fr">Car le nom de Dieu est blasphémé à cause de vous parmi les Gentils, comme il est écrit.</div><div class="note">« καθὼς γέγραπται » (formule après la citation).</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 52,5</div>
         <div class="he" lang="he" dir="rtl">וְעַתָּ֤ה מַה־לִּי־פֹה֙ נְאֻם־יְהֹוָ֔ה כִּֽי־לֻקַּ֥ח עַמִּ֖י חִנָּ֑ם מֹשְׁלָ֤ו יְהֵילִ֙ילוּ֙ נְאֻם־יְהֹוָ֔ה וְתָמִ֥יד כׇּל־הַיּ֖וֹם שְׁמִ֥י מִנֹּאָֽץ׃</div>
+        <div class="fr" lang="fr">Et maintenant, qu’ai-je à faire ici, dit l’Éternel, que mon peuple ait été enlevé pour néant? Ceux qui dominent sur lui le font hurler, dit l’Éternel, et ils ont fait continuellement chaque jour, que mon Nom est blasphémé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 3,4</td>
-      <td class="gr" lang="grc">Μὴ γένοιτο· γινέσθω δὲ ὁ Θεὸς ἀληθής, πᾶς δὲ ἄνθρωπος ψεύστης· καθὼς <strong>γέγραπται</strong>· «Ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Μὴ γένοιτο· γινέσθω δὲ ὁ Θεὸς ἀληθής, πᾶς δὲ ἄνθρωπος ψεύστης· καθὼς <strong>γέγραπται</strong>· «Ὅπως ἂν δικαιωθῇς ἐν τοῖς λόγοις σου, καὶ νικήσῃς ἐν τῷ κρίνεσθαί σε.»<div class="fr" lang="fr">Ainsi n’advienne! mais Dieu soit véritable, et tout homme menteur: selon ce qui est écrit; Afin que tu sois trouvé juste en tes paroles, et que tu aies gain de cause quand tu es jugé.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 51,6</div>
         <div class="he" lang="he" dir="rtl">לְךָ֤ לְבַדְּךָ֨ חָטָאתִי֮ וְהָרַ֥ע בְּעֵינֶ֗יךָ עָ֫שִׂ֥יתִי לְ֭מַעַן תִּצְדַּ֥ק בְּדׇבְרֶ֗ךָ תִּזְכֶּ֥ה בְשׇׁפְטֶֽךָ׃</div>
+        <div class="fr" lang="fr">J’ai péché contre toi, contre toi proprement, et j’ai fait ce qui est déplaisant devant tes yeux: afin que tu sois connu juste quand tu parles, [et] trouvé pur, quand tu juges.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 3,10-18</td>
-      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Οὐκ ἔστιν δίκαιος, οὐδὲ εἷς· οὐκ ἔστιν ὁ συνιῶν, οὐκ ἔστιν ὁ ἐκζητῶν τὸν Θεόν. Πάντες ἐξέκλιναν, ἅμα ἠχρειώθησαν· οὐκ ἔστιν ποιῶν χρηστότητα, οὐκ ἔστιν ἕως ἑνός.» «Τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν· ταῖς γλώσσαις αὐτῶν ἐδολιοῦσαν.» «Ἰὸς ἀσπίδων ὑπὸ τὰ χείλη αὐτῶν»· «ὧν τὸ στόμα ἀρᾶς καὶ πικρίας γέμει.» «Ὀξεῖς οἱ πόδες αὐτῶν ἐκχέαι αἷμα· σύντριμμα καὶ ταλαιπωρία ἐν ταῖς ὁδοῖς αὐτῶν, καὶ ὁδὸν εἰρήνης οὐκ ἔγνωσαν.» «Οὐκ ἔστιν φόβος Θεοῦ ἀπέναντι τῶν ὀφθαλμῶν αὐτῶν.»<div class="note">Catena de six citations, introduite par « καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Οὐκ ἔστιν δίκαιος, οὐδὲ εἷς· οὐκ ἔστιν ὁ συνιῶν, οὐκ ἔστιν ὁ ἐκζητῶν τὸν Θεόν. Πάντες ἐξέκλιναν, ἅμα ἠχρειώθησαν· οὐκ ἔστιν ποιῶν χρηστότητα, οὐκ ἔστιν ἕως ἑνός.» «Τάφος ἀνεῳγμένος ὁ λάρυγξ αὐτῶν· ταῖς γλώσσαις αὐτῶν ἐδολιοῦσαν.» «Ἰὸς ἀσπίδων ὑπὸ τὰ χείλη αὐτῶν»· «ὧν τὸ στόμα ἀρᾶς καὶ πικρίας γέμει.» «Ὀξεῖς οἱ πόδες αὐτῶν ἐκχέαι αἷμα· σύντριμμα καὶ ταλαιπωρία ἐν ταῖς ὁδοῖς αὐτῶν, καὶ ὁδὸν εἰρήνης οὐκ ἔγνωσαν.» «Οὐκ ἔστιν φόβος Θεοῦ ἀπέναντι τῶν ὀφθαλμῶν αὐτῶν.»<div class="fr" lang="fr">Selon qu’il est écrit; Il n’y a point de juste, non pas même un seul. Il n’y a nul qui entende, il n’y a nul qui recherche Dieu. Ils se sont tous égarés, ils se sont tous ensemble rendus inutiles: il n’y en a nul qui fasse bien, non pas même jusqu’à un seul. C’est un sépulcre ouvert que leur gosier: ils ont frauduleusement usé de leurs langues, il y a du venin d’aspic sous leurs lèvres. Leur bouche est pleine de malédiction et d’amertume. Leurs pieds sont légers pour répandre le sang. La destruction et la misère est en leurs voies. Et ils n’ont point connu la voie de la paix. La crainte de Dieu n’est point devant leurs yeux.</div><div class="note">Catena de six citations, introduite par « καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 14,1-3</div>
         <div class="he" lang="he" dir="rtl">לַמְנַצֵּ֗חַ לְדָ֫וִ֥ד אָ֘מַ֤ר נָבָ֣ל בְּ֭לִבּוֹ אֵ֣ין אֱלֹהִ֑ים הִֽשְׁחִ֗יתוּ הִֽתְעִ֥יבוּ עֲלִילָ֗ה אֵ֣ין עֹֽשֵׂה־טֽוֹב׃ יְֽהֹוָ֗ה מִשָּׁמַיִם֮ הִשְׁקִ֢יף עַֽל־בְּנֵי־אָ֫דָ֥ם לִ֭רְאוֹת הֲיֵ֣שׁ מַשְׂכִּ֑יל דֹּ֝רֵ֗שׁ אֶת־אֱלֹהִֽים׃ הַכֹּ֥ל סָר֮ יַחְדָּ֢ו נֶ֫אֱלָ֥חוּ אֵ֤ין עֹֽשֵׂה־ט֑וֹב אֵ֝֗ין גַּם־אֶחָֽד׃</div>
+        <div class="fr" lang="fr">Psaume de David, [donné] au maître chantre. L’Insensé a dit en son coeur: [Il] n’[y a] point de Dieu. Ils se sont corrompus, [et] se sont rendus abominables [en] leurs actions; [il n’y a] personne qui fasse bien. L’Éternel a regardé des Cieux sur les fils des hommes, pour voir s’il y en a [quelqu’un qui soit] entendu, [et] qui cherche Dieu. Ils se sont tous égarés, [et] se sont ensemble rendus puants, [il n’y a] personne qui fasse bien, non pas même un seul.</div>
       </div>
       <div class="ot catena">
         <div class="otref">Ps 5,10</div>
         <div class="he" lang="he" dir="rtl">כִּ֤י אֵ֪ין בְּפִ֡יהוּ נְכוֹנָה֮ קִרְבָּ֢ם הַ֫וּ֥וֹת קֶֽבֶר־פָּת֥וּחַ גְּרֹנָ֑ם לְ֝שׁוֹנָ֗ם יַחֲלִיקֽוּן׃</div>
+        <div class="fr" lang="fr">Car [il] n’[y a] rien de droit en sa bouche, leur intérieur [n’est] que malice: leur gosier est un sépulcre ouvert, ils flattent de leur langue.</div>
       </div>
       <div class="ot catena">
         <div class="otref">Ps 140,4</div>
         <div class="he" lang="he" dir="rtl">שָׁ֥נְנ֣וּ לְשׁוֹנָם֮ כְּֽמוֹ־נָ֫חָ֥שׁ חֲמַ֥ת עַכְשׁ֑וּב תַּ֖חַת שְׂפָתֵ֣ימוֹ סֶֽלָה׃</div>
+        <div class="fr" lang="fr">Ils affilent leur langue comme un serpent: il y a du venin de vipères sous leurs lèvres: Sélah.</div>
       </div>
       <div class="ot catena">
         <div class="otref">Ps 10,7</div>
         <div class="he" lang="he" dir="rtl">אָלָ֤ה פִּ֣יהוּ מָ֭לֵא וּמִרְמ֣וֹת וָתֹ֑ךְ תַּ֥חַת לְ֝שׁוֹנ֗וֹ עָמָ֥ל וָאָֽוֶן׃</div>
+        <div class="fr" lang="fr">Sa bouche est pleine de malédictions, et de tromperies, et de fraude: [il n’y a] sous sa langue qu’oppression et qu’outrage.</div>
       </div>
       <div class="ot catena">
         <div class="otref">Is 59,7-8</div>
         <div class="he" lang="he" dir="rtl">רַגְלֵיהֶם֙ לָרַ֣ע יָרֻ֔צוּ וִֽימַהֲר֔וּ לִשְׁפֹּ֖ךְ דָּ֣ם נָקִ֑י מַחְשְׁבֹֽתֵיהֶם֙ מַחְשְׁב֣וֹת אָ֔וֶן שֹׁ֥ד וָשֶׁ֖בֶר בִּמְסִלּוֹתָֽם׃ דֶּ֤רֶךְ שָׁלוֹם֙ לֹ֣א יָדָ֔עוּ וְאֵ֥ין מִשְׁפָּ֖ט בְּמַעְגְּלוֹתָ֑ם נְתִיבֽוֹתֵיהֶם֙ עִקְּשׁ֣וּ לָהֶ֔ם כֹּ֚ל דֹּרֵ֣ךְ בָּ֔הּ לֹ֥א יָדַ֖ע שָׁלֽוֹם׃</div>
+        <div class="fr" lang="fr">Leurs pieds courent au mal, et se hâtent pour répandre le sang innocent: leurs pensées [sont] des pensées de tourment; le dégât et la froissure [est] dans leurs voies. Ils ne connaissent point le chemin de la paix, et [il] n’[y a] point de jugement dans leurs ornières, ils se sont pervertis dans leurs sentiers, tous ceux qui y marchent ignorent la paix.</div>
       </div>
       <div class="ot catena">
         <div class="otref">Ps 36,2</div>
         <div class="he" lang="he" dir="rtl">נְאֻֽם־פֶּ֣שַׁע לָ֭רָשָׁע בְּקֶ֣רֶב לִבִּ֑י אֵֽין־פַּ֥חַד אֱ֝לֹהִ֗ים לְנֶ֣גֶד עֵינָֽיו׃</div>
+        <div class="fr" lang="fr">La transgression du méchant me dit au-dedans du coeur, [qu’il] n’y [a point] de crainte de Dieu devant ses yeux.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 4,17</td>
-      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong> ὅτι «Πατέρα πολλῶν ἐθνῶν τέθεικά σε»—κατέναντι οὗ ἐπίστευσεν· Θεοῦ, τοῦ ζωοποιοῦντος τοὺς νεκροὺς καὶ καλοῦντος τὰ μὴ ὄντα ὡς ὄντα.<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong> ὅτι «Πατέρα πολλῶν ἐθνῶν τέθεικά σε»—κατέναντι οὗ ἐπίστευσεν· Θεοῦ, τοῦ ζωοποιοῦντος τοὺς νεκροὺς καὶ καλοῦντος τὰ μὴ ὄντα ὡς ὄντα.<div class="fr" lang="fr">Selon qu’il est écrit; Je t’ai établi père de plusieurs nations, devant Dieu, en qui il a cru, lequel fait vivre les morts, et qui appelle les choses qui ne sont point, comme si elles étaient.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Gn 17,5</div>
         <div class="he" lang="he" dir="rtl">וְלֹא־יִקָּרֵ֥א ע֛וֹד אֶת־שִׁמְךָ֖ אַבְרָ֑ם וְהָיָ֤ה שִׁמְךָ֙ אַבְרָהָ֔ם כִּ֛י אַב־הֲמ֥וֹן גּוֹיִ֖ם נְתַתִּֽיךָ׃</div>
+        <div class="fr" lang="fr">Et ton nom ne sera plus appelé Abram, mais ton nom sera Abraham: car je t’ai établi [pour être] le père d’une multitude de nations.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 8,36</td>
-      <td class="gr" lang="grc">(Καθὼς <strong>γέγραπται</strong> ὅτι «Ἕνεκά σου θανατούμεθα ὅλην τὴν ἡμέραν· ἐλογίσθημεν ὡς πρόβατα σφαγῆς.»)<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">(Καθὼς <strong>γέγραπται</strong> ὅτι «Ἕνεκά σου θανατούμεθα ὅλην τὴν ἡμέραν· ἐλογίσθημεν ὡς πρόβατα σφαγῆς.»)<div class="fr" lang="fr">Ainsi qu’il est écrit: Nous sommes livrés à la mort pour l’amour de toi tous les jours, et nous sommes estimés comme des brebis de la boucherie.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 44,23</div>
         <div class="he" lang="he" dir="rtl">כִּֽי־עָ֭לֶיךָ הֹרַ֣גְנוּ כׇל־הַיּ֑וֹם נֶ֝חְשַׁ֗בְנוּ כְּצֹ֣אן טִבְחָֽה׃</div>
+        <div class="fr" lang="fr">Mais nous sommes tous les jours mis à mort pour l’amour de toi, [et] nous sommes regardés comme des brebis de la boucherie.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 9,13</td>
-      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Τὸν Ἰακὼβ ἠγάπησα, τὸν δὲ Ἡσαῦ ἐμίσησα.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Τὸν Ἰακὼβ ἠγάπησα, τὸν δὲ Ἡσαῦ ἐμίσησα.»<div class="fr" lang="fr">Ainsi qu’il est écrit; J’ai aimé Jacob, et j’ai haï Ésaü.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ml 1,2-3</div>
         <div class="he" lang="he" dir="rtl">אָהַ֤בְתִּי אֶתְכֶם֙ אָמַ֣ר יְהֹוָ֔ה וַאֲמַרְתֶּ֖ם בַּמָּ֣ה אֲהַבְתָּ֑נוּ הֲלוֹא־אָ֨ח עֵשָׂ֤ו לְיַֽעֲקֹב֙ נְאֻם־יְהֹוָ֔ה וָאֹהַ֖ב אֶֽת־יַעֲקֹֽב׃ וְאֶת־עֵשָׂ֖ו שָׂנֵ֑אתִי וָאָשִׂ֤ים אֶת־הָרָיו֙ שְׁמָמָ֔ה וְאֶת־נַחֲלָת֖וֹ לְתַנּ֥וֹת מִדְבָּֽר׃</div>
+        <div class="fr" lang="fr">Je vous ai aimés, a dit l’Éternel; et vous avez dit: En quoi nous as-tu aimés? Ésaü [n’était-il] pas frère de Jacob, dit l’Éternel? Or j’ai aimé Jacob; Mais j’ai haï Ésaü, et j’ai mis ses montagnes en désolation, et son héritage pour les dragons du désert.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 9,33</td>
-      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου, καὶ πᾶς ὁ πιστεύων ἐπ᾿ αὐτῷ οὐ καταισχυνθήσεται.»<div class="note">Citation composite : Is 28,16 et Is 8,14 ; « καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἰδοὺ τίθημι ἐν Σιὼν λίθον προσκόμματος καὶ πέτραν σκανδάλου, καὶ πᾶς ὁ πιστεύων ἐπ᾿ αὐτῷ οὐ καταισχυνθήσεται.»<div class="fr" lang="fr">Selon ce qui est écrit; Voici, je mets en Sion la pierre d’achoppement: et la pierre de trébuchement: et quiconque croit en lui ne sera point confus.</div><div class="note">Citation composite : Is 28,16 et Is 8,14 ; « καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 28,16</div>
         <div class="he" lang="he" dir="rtl">לָכֵ֗ן כֹּ֤ה אָמַר֙ אֲדֹנָ֣י יֱהֹוִ֔ה הִנְנִ֛י יִסַּ֥ד בְּצִיּ֖וֹן אָ֑בֶן אֶ֣בֶן בֹּ֜חַן פִּנַּ֤ת יִקְרַת֙ מוּסָ֣ד מוּסָּ֔ד הַֽמַּאֲמִ֖ין לֹ֥א יָחִֽישׁ׃</div>
+        <div class="fr" lang="fr">C’est pourquoi ainsi a dit le Seigneur, l’Éternel: Voici je mettrai pour fondement une pierre en Sion, une pierre éprouvée, [la pierre] de l’angle le plus précieux, pour être un fondement solide: celui qui croira ne se hâtera point.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Is 8,14</div>
         <div class="he" lang="he" dir="rtl">וְהָיָ֖ה לְמִקְדָּ֑שׁ וּלְאֶ֣בֶן נֶ֠גֶף וּלְצ֨וּר מִכְשׁ֜וֹל לִשְׁנֵ֨י בָתֵּ֤י יִשְׂרָאֵל֙ לְפַ֣ח וּלְמוֹקֵ֔שׁ לְיוֹשֵׁ֖ב יְרוּשָׁלָֽ͏ִם׃</div>
+        <div class="fr" lang="fr">Et il [vous] sera pour sanctuaire: mais il sera une pierre d’achoppement, et un rocher de trébuchement aux deux maisons d’Israël: en piège et en lacs aux habitants de Jérusalem.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 10,15</td>
-      <td class="gr" lang="grc">Πῶς δὲ κηρύξουσιν ἐὰν μὴ ἀποσταλῶσιν; Καθὼς <strong>γέγραπται</strong>· «Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων εἰρήνην, τῶν εὐαγγελιζομένων τὰ ἀγαθά.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Πῶς δὲ κηρύξουσιν ἐὰν μὴ ἀποσταλῶσιν; Καθὼς <strong>γέγραπται</strong>· «Ὡς ὡραῖοι οἱ πόδες τῶν εὐαγγελιζομένων εἰρήνην, τῶν εὐαγγελιζομένων τὰ ἀγαθά.»<div class="fr" lang="fr">Et comment prêchera-t-on sinon qu’il y en ait qui soient envoyés? ainsi qu’il est écrit; Ô que les pieds de ceux qui annoncent la paix sont beaux, [les pieds, dis-je,] de ceux qui annoncent de bonnes choses.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 52,7</div>
         <div class="he" lang="he" dir="rtl">מַה־נָּאו֨וּ עַל־הֶהָרִ֜ים רַגְלֵ֣י מְבַשֵּׂ֗ר מַשְׁמִ֧יעַ שָׁל֛וֹם מְבַשֵּׂ֥ר ט֖וֹב מַשְׁמִ֣יעַ יְשׁוּעָ֑ה אֹמֵ֥ר לְצִיּ֖וֹן מָלַ֥ךְ אֱלֹהָֽיִךְ׃</div>
+        <div class="fr" lang="fr">Combien sont beaux sur les montagnes les pieds de celui qui apporte de bonnes nouvelles, qui publie la paix, qui apporte de bonnes nouvelles touchant le bien, qui publie le salut, et qui dit à Sion: Ton Dieu règne!</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 11,8</td>
-      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως, ὀφθαλμοὺς τοῦ μὴ βλέπειν καὶ ὦτα τοῦ μὴ ἀκούειν, ἕως τῆς σήμερον ἡμέρας.»<div class="note">Citation composite : Dt 29,3 et Is 29,10 ; « καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Καθὼς <strong>γέγραπται</strong>· «Ἔδωκεν αὐτοῖς ὁ Θεὸς πνεῦμα κατανύξεως, ὀφθαλμοὺς τοῦ μὴ βλέπειν καὶ ὦτα τοῦ μὴ ἀκούειν, ἕως τῆς σήμερον ἡμέρας.»<div class="fr" lang="fr">Ainsi qu’il est écrit; Dieu leur a donné un esprit assoupi, [et] des yeux pour ne point voir, et des oreilles pour ne point ouïr, jusqu’au jour présent.</div><div class="note">Citation composite : Dt 29,3 et Is 29,10 ; « καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 29,3</div>
         <div class="he" lang="he" dir="rtl">וְלֹא־נָתַן֩ יְהֹוָ֨ה לָכֶ֥ם לֵב֙ לָדַ֔עַת וְעֵינַ֥יִם לִרְא֖וֹת וְאׇזְנַ֣יִם לִשְׁמֹ֑עַ עַ֖ד הַיּ֥וֹם הַזֶּֽה׃</div>
+        <div class="fr" lang="fr">Mais l’Éternel ne vous a point donné un coeur pour entendre, ni des yeux pour voir, ni des oreilles pour ouïr, jusqu’à aujourd’hui.</div>
       </div>
       <div class="ot">
         <div class="otref">Is 29,10</div>
         <div class="he" lang="he" dir="rtl">כִּֽי־נָסַ֨ךְ עֲלֵיכֶ֤ם יְהֹוָה֙ ר֣וּחַ תַּרְדֵּמָ֔ה וַיְעַצֵּ֖ם אֶת־עֵינֵיכֶ֑ם אֶת־הַנְּבִיאִ֛ים וְאֶת־רָאשֵׁיכֶ֥ם הַחֹזִ֖ים כִּסָּֽה׃</div>
+        <div class="fr" lang="fr">Car l’Éternel a répandu sur vous un esprit d’un profond dormir: il a bouché vos yeux: il a bandé [ceux] de vos Prophètes, et de vos principaux Voyants.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 11,26-27</td>
-      <td class="gr" lang="grc">Καὶ οὕτως πᾶς Ἰσραὴλ σωθήσεται, καθὼς <strong>γέγραπται</strong>· «Ἥξει ἐκ Σιὼν ὁ Ῥυόμενος, καὶ ἀποστρέψει ἀσεβείας ἀπὸ Ἰακώβ· καὶ αὕτη αὐτοῖς ἡ παρ᾿ ἐμοῦ διαθήκη, ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν.»<div class="note">« καθὼς γέγραπται » ; la finale « ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν » évoque Is 27,9.</div></td>
+      <td class="gr" lang="grc">Καὶ οὕτως πᾶς Ἰσραὴλ σωθήσεται, καθὼς <strong>γέγραπται</strong>· «Ἥξει ἐκ Σιὼν ὁ Ῥυόμενος, καὶ ἀποστρέψει ἀσεβείας ἀπὸ Ἰακώβ· καὶ αὕτη αὐτοῖς ἡ παρ᾿ ἐμοῦ διαθήκη, ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν.»<div class="fr" lang="fr">Et ainsi tout Israël sera sauvé: selon ce qui est écrit; Le Libérateur viendra de Sion, et il détournera de Jacob les infidélités: Et c’est là l’alliance que je ferai avec eux, lorsque j’ôterai leurs péchés.</div><div class="note">« καθὼς γέγραπται » ; la finale « ὅταν ἀφέλωμαι τὰς ἁμαρτίας αὐτῶν » évoque Is 27,9.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 59,20-21</div>
         <div class="he" lang="he" dir="rtl">וּבָ֤א לְצִיּוֹן֙ גּוֹאֵ֔ל וּלְשָׁבֵ֥י פֶ֖שַׁע בְּיַֽעֲקֹ֑ב נְאֻ֖ם יְהֹוָֽה׃ וַאֲנִ֗י זֹ֣את בְּרִיתִ֤י אוֹתָם֙ אָמַ֣ר יְהֹוָ֔ה רוּחִי֙ אֲשֶׁ֣ר עָלֶ֔יךָ וּדְבָרַ֖י אֲשֶׁר־שַׂ֣מְתִּֽי בְּפִ֑יךָ לֹֽא־יָמ֡וּשׁוּ מִפִּ֩יךָ֩ וּמִפִּ֨י זַרְעֲךָ֜ וּמִפִּ֨י זֶ֤רַע זַרְעֲךָ֙ אָמַ֣ר יְהֹוָ֔ה מֵעַתָּ֖ה וְעַד־עוֹלָֽם׃</div>
+        <div class="fr" lang="fr">Et le Rédempteur viendra en Sion, et vers ceux de Jacob qui se convertissent de [leur] forfait, dit l’Éternel. Et quant à moi; c’[est] ici mon alliance [que je ferai] avec eux, a dit l’Éternel: Mon Esprit qui [est] sur toi, et mes paroles que j’ai mises en ta bouche, ne bougeront point de ta bouche, ni de la bouche de ta postérité, ni de la bouche de la postérité de ta postérité, a dit l’Éternel, dès maintenant et à jamais.</div>
       </div>
       <div class="ot secondary">
         <div class="otref"><span class="tag">cf.</span> Is 27,9</div>
         <div class="he" lang="he" dir="rtl">לָכֵ֗ן בְּזֹאת֙ יְכֻפַּ֣ר עֲוֺֽן־יַעֲקֹ֔ב וְזֶ֕ה כׇּל־פְּרִ֖י הָסִ֣ר חַטָּאת֑וֹ בְּשׂוּמ֣וֹ כׇּל־אַבְנֵ֣י מִזְבֵּ֗חַ כְּאַבְנֵי־גִר֙ מְנֻפָּצ֔וֹת לֹא־יָקֻ֥מוּ אֲשֵׁרִ֖ים וְחַמָּנִֽים׃</div>
+        <div class="fr" lang="fr">C’est pourquoi l’expiation de l’iniquité de Jacob sera faite par ce moyen, et ceci en [sera] le fruit entier, que son péché sera ôté: quand il aura mis toutes les pierres de l’autel comme des pierres de plâtre menuisées, et lorsque les bocages, et les tabernacles ne seront plus debout.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 12,19</td>
-      <td class="gr" lang="grc">Μὴ ἑαυτοὺς ἐκδικοῦντες, ἀγαπητοί· ἀλλὰ δότε τόπον τῇ ὀργῇ· <strong>γέγραπται</strong> γάρ· «Ἐμοὶ ἐκδίκησις· ἐγὼ ἀνταποδώσω,» λέγει Κύριος.<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc">Μὴ ἑαυτοὺς ἐκδικοῦντες, ἀγαπητοί· ἀλλὰ δότε τόπον τῇ ὀργῇ· <strong>γέγραπται</strong> γάρ· «Ἐμοὶ ἐκδίκησις· ἐγὼ ἀνταποδώσω,» λέγει Κύριος.<div class="fr" lang="fr">Ne vous vengez point vous-mêmes, mes bien-aimés, mais donnez lieu à la colère: car il est écrit; À moi [appartient] la vengeance: je le rendrai, dit le Seigneur.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 32,35</div>
         <div class="he" lang="he" dir="rtl">לִ֤י נָקָם֙ וְשִׁלֵּ֔ם לְעֵ֖ת תָּמ֣וּט רַגְלָ֑ם כִּ֤י קָרוֹב֙ י֣וֹם אֵידָ֔ם וְחָ֖שׁ עֲתִדֹ֥ת לָֽמוֹ׃</div>
+        <div class="fr" lang="fr">La vengeance m’appartient, et la rétribution, au temps que leur pied glissera: car le jour de leur calamité est près, et les choses qui leur doivent arriver se hâtent.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 14,11</td>
-      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· « ‹Ζῶ ἐγώ,› λέγει Κύριος, ‹ὅτι ἐμοὶ κάμψει πᾶν γόνυ, καὶ πᾶσα γλῶσσα ἐξομολογήσεται τῷ Θεῷ.› »<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· « ‹Ζῶ ἐγώ,› λέγει Κύριος, ‹ὅτι ἐμοὶ κάμψει πᾶν γόνυ, καὶ πᾶσα γλῶσσα ἐξομολογήσεται τῷ Θεῷ.› »<div class="fr" lang="fr">Car il est écrit; Je suis vivant, dit le Seigneur, que tout genou se ploiera devant moi, et que toute langue donnera louange à Dieu.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 45,23</div>
         <div class="he" lang="he" dir="rtl">בִּ֣י נִשְׁבַּ֔עְתִּי יָצָ֨א מִפִּ֧י צְדָקָ֛ה דָּבָ֖ר וְלֹ֣א יָשׁ֑וּב כִּי־לִי֙ תִּכְרַ֣ע כׇּל־בֶּ֔רֶךְ תִּשָּׁבַ֖ע כׇּל־לָשֽׁוֹן׃</div>
+        <div class="fr" lang="fr">J’ai juré par moi-même, et la parole est sortie en justice de ma bouche, et ne sera point révoquée, que tout genou se pliera devant moi, et que toute langue jurera [par moi].</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 15,3</td>
-      <td class="gr" lang="grc">Καὶ γὰρ ὁ Χριστὸς οὐχ ἑαυτῷ ἤρεσεν· ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἱ ὀνειδισμοὶ τῶν ὀνειδιζόντων σε ἐπέπεσον ἐπ᾿ ἐμέ.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Καὶ γὰρ ὁ Χριστὸς οὐχ ἑαυτῷ ἤρεσεν· ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἱ ὀνειδισμοὶ τῶν ὀνειδιζόντων σε ἐπέπεσον ἐπ᾿ ἐμέ.»<div class="fr" lang="fr">Car même [Jésus-]Christ n’a point voulu complaire à soi-même, mais selon ce qui est écrit [de lui]; Les blâmes de ceux qui te blâment sont tombés sur moi.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 69,10</div>
         <div class="he" lang="he" dir="rtl">כִּֽי־קִנְאַ֣ת בֵּיתְךָ֣ אֲכָלָ֑תְנִי וְחֶרְפּ֥וֹת ח֝וֹרְפֶ֗יךָ נָפְל֥וּ עָלָֽי׃</div>
+        <div class="fr" lang="fr">Car le zèle de ta maison m’a rongé, et les blâmes de ceux qui te blâmaient sont tombés sur moi.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 15,9</td>
-      <td class="gr" lang="grc">τὰ δὲ ἔθνη ὑπὲρ ἐλέους δοξάσαι τὸν Θεόν, καθὼς <strong>γέγραπται</strong>· «Διὰ τοῦτο ἐξομολογήσομαί σοι ἐν ἔθνεσιν, Κύριε, καὶ τῷ ὀνόματί σου ψαλῶ.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">τὰ δὲ ἔθνη ὑπὲρ ἐλέους δοξάσαι τὸν Θεόν, καθὼς <strong>γέγραπται</strong>· «Διὰ τοῦτο ἐξομολογήσομαί σοι ἐν ἔθνεσιν, Κύριε, καὶ τῷ ὀνόματί σου ψαλῶ.»<div class="fr" lang="fr">Et [afin] que les Gentils honorent Dieu pour sa miséricorde: selon ce qui est écrit; Je célébrerai à cause de cela ta louange parmi les Gentils, et je psalmodierai à ton Nom.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 18,50</div>
         <div class="he" lang="he" dir="rtl">עַל־כֵּ֤ן אוֹדְךָ֖ בַגּוֹיִ֥ם יְהֹוָ֑ה וּלְשִׁמְךָ֥ אֲזַמֵּֽרָה׃</div>
+        <div class="fr" lang="fr">C’est pourquoi, ô Éternel, je te célébrerai parmi les nations, et je chanterai des Psaumes à ton Nom.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Rm 15,21</td>
-      <td class="gr" lang="grc">ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἷς οὐκ ἀνηγγέλη περὶ αὐτοῦ ὄψονται, καὶ οἳ οὐκ ἀκηκόασιν συνήσουσιν.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">ἀλλά, καθὼς <strong>γέγραπται</strong>· «Οἷς οὐκ ἀνηγγέλη περὶ αὐτοῦ ὄψονται, καὶ οἳ οὐκ ἀκηκόασιν συνήσουσιν.»<div class="fr" lang="fr">Mais, selon qu’il est écrit; Ceux à qui il n’a point été annoncé le verront; et ceux qui n’en ont point ouï parler l’entendront.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 52,15</div>
         <div class="he" lang="he" dir="rtl">כֵּ֤ן יַזֶּה֙ גּוֹיִ֣ם רַבִּ֔ים עָלָ֛יו יִקְפְּצ֥וּ מְלָכִ֖ים פִּיהֶ֑ם כִּ֠י אֲשֶׁ֨ר לֹֽא־סֻפַּ֤ר לָהֶם֙ רָא֔וּ וַאֲשֶׁ֥ר לֹא־שָׁמְע֖וּ הִתְבּוֹנָֽנוּ׃</div>
+        <div class="fr" lang="fr">Ainsi il fera rejaillir [le sang] de plusieurs nations, [et] les Rois fermeront la bouche sur toi: car ceux auxquels on n’en avait rien raconté, [le] verront; et ceux qui n’en avaient rien ouï, l’entendront.</div>
       </div></td>
     </tr>
       <tr class="book" id="1-corinthiens"><th colspan="3">1 Corinthiens</th></tr>
 <tr>
       <td class="nt">1 Co 1,19</td>
-      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Ἀπολῶ τὴν σοφίαν τῶν σοφῶν, καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Ἀπολῶ τὴν σοφίαν τῶν σοφῶν, καὶ τὴν σύνεσιν τῶν συνετῶν ἀθετήσω.»<div class="fr" lang="fr">Vu qu’il est écrit; J’abolirai la sagesse des sages, et j’anéantirai l’intelligence des entendus.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 29,14</div>
         <div class="he" lang="he" dir="rtl">לָכֵ֗ן הִנְנִ֥י יוֹסִ֛ף לְהַפְלִ֥יא אֶת־הָעָם־הַזֶּ֖ה הַפְלֵ֣א וָפֶ֑לֶא וְאָֽבְדָה֙ חׇכְמַ֣ת חֲכָמָ֔יו וּבִינַ֥ת נְבֹנָ֖יו תִּסְתַּתָּֽר׃</div>
+        <div class="fr" lang="fr">À cause de cela, voici, je continuerai de faire à l’égard de ce peuple-ci des merveilles et des prodiges étranges: [c’est] que la sapience de ses sages périra, et l’intelligence de ses [hommes] entendus disparaîtra.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 1,31</td>
-      <td class="gr" lang="grc">ἵνα καθὼς <strong>γέγραπται</strong>· «Ὁ καυχώμενος, ἐν Κυρίῳ καυχάσθω.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">ἵνα καθὼς <strong>γέγραπται</strong>· «Ὁ καυχώμενος, ἐν Κυρίῳ καυχάσθω.»<div class="fr" lang="fr">Afin que, comme il est écrit, celui qui se glorifie, se glorifie au Seigneur.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Jr 9,23</div>
         <div class="he" lang="he" dir="rtl">כִּ֣י אִם־בְּזֹ֞את יִתְהַלֵּ֣ל הַמִּתְהַלֵּ֗ל הַשְׂכֵּל֮ וְיָדֹ֣עַ אוֹתִי֒ כִּ֚י אֲנִ֣י יְהֹוָ֔ה עֹ֥שֶׂה חֶ֛סֶד מִשְׁפָּ֥ט וּצְדָקָ֖ה בָּאָ֑רֶץ כִּֽי־בְאֵ֥לֶּה חָפַ֖צְתִּי נְאֻם־יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Mais que celui qui se glorifie, se glorifie en ce qu’il a de l’intelligence, et qu’il me connaît: car je [suis] l’Éternel, qui fais gratuité, et jugement, et justice sur la terre: parce que je prends plaisir en ces choses-là, dit l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 2,9</td>
-      <td class="gr" lang="grc">Ἀλλὰ καθὼς <strong>γέγραπται</strong>· «Ἃ ὀφθαλμὸς οὐκ εἶδεν καὶ οὖς οὐκ ἤκουσεν, καὶ ἐπὶ καρδίαν ἀνθρώπου οὐκ ἀνέβη, ἃ ἡτοίμασεν ὁ Θεὸς τοῖς ἀγαπῶσιν αὐτόν.»<div class="note">Citation libre, proche d'Is 64,3 (cf. aussi Is 65,16) ; « καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Ἀλλὰ καθὼς <strong>γέγραπται</strong>· «Ἃ ὀφθαλμὸς οὐκ εἶδεν καὶ οὖς οὐκ ἤκουσεν, καὶ ἐπὶ καρδίαν ἀνθρώπου οὐκ ἀνέβη, ἃ ἡτοίμασεν ὁ Θεὸς τοῖς ἀγαπῶσιν αὐτόν.»<div class="fr" lang="fr">Mais ainsi qu’il est écrit; Ce sont des choses que l’oeil n’a point vues; que l’oreille n’a point ouïes, et qui ne sont point montées au coeur de l’homme, lesquelles Dieu a préparées à ceux qui l’aiment.</div><div class="note">Citation libre, proche d'Is 64,3 (cf. aussi Is 65,16) ; « καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 64,3</div>
         <div class="he" lang="he" dir="rtl">וּמֵעוֹלָ֥ם לֹא־שָׁמְע֖וּ לֹ֣א הֶאֱזִ֑ינוּ עַ֣יִן לֹֽא־רָאָ֗תָה אֱלֹהִים֙ זוּלָ֣תְךָ֔ יַעֲשֶׂ֖ה לִמְחַכֵּה־לֽוֹ׃</div>
+        <div class="fr" lang="fr">Et on n’a jamais ouï ni entendu des oreilles, ni l’oeil n’a [jamais] vu de Dieu hormis toi, [qui] fît de [telles choses] pour ceux qui s’attendent à lui.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 3,19</td>
-      <td class="gr" lang="grc">Ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία παρὰ τῷ Θεῷ ἐστιν. <strong>Γέγραπται</strong> γάρ· «Ὁ δρασσόμενος τοὺς σοφοὺς ἐν τῇ πανουργίᾳ αὐτῶν»·<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc">Ἡ γὰρ σοφία τοῦ κόσμου τούτου μωρία παρὰ τῷ Θεῷ ἐστιν. <strong>Γέγραπται</strong> γάρ· «Ὁ δρασσόμενος τοὺς σοφοὺς ἐν τῇ πανουργίᾳ αὐτῶν»·<div class="fr" lang="fr">Parce que la sagesse de ce monde est une folie devant Dieu: car il est écrit; Il surprend les sages en leur ruse.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Jb 5,13</div>
         <div class="he" lang="he" dir="rtl">לֹכֵ֣ד חֲכָמִ֣ים בְּעׇרְמָ֑ם וַעֲצַ֖ת נִפְתָּלִ֣ים נִמְהָֽרָה׃</div>
+        <div class="fr" lang="fr">Il surprend les sages en leur ruse, et le conseil des pervers est renversé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 9,9</td>
-      <td class="gr" lang="grc">Ἐν γὰρ τῷ Μωσέως νόμῳ <strong>γέγραπται</strong>· «Οὐ φιμώσεις βοῦν ἁλοῶντα.» Μὴ τῶν βοῶν μέλει τῷ Θεῷ,<div class="note">« ἐν γὰρ τῷ Μωϋσέως νόμῳ γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Ἐν γὰρ τῷ Μωσέως νόμῳ <strong>γέγραπται</strong>· «Οὐ φιμώσεις βοῦν ἁλοῶντα.» Μὴ τῶν βοῶν μέλει τῷ Θεῷ,<div class="fr" lang="fr">Car il est écrit dans la Loi de Moïse; Tu n’emmuselleras point le boeuf qui foule le grain. [Or] Dieu a-t-il soin des boeufs?</div><div class="note">« ἐν γὰρ τῷ Μωϋσέως νόμῳ γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 25,4</div>
         <div class="he" lang="he" dir="rtl">לֹא־תַחְסֹ֥ם שׁ֖וֹר בְּדִישֽׁוֹ׃</div>
+        <div class="fr" lang="fr">Tu n’emmuselleras point ton boeuf, lorsqu’il foule le grain.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 10,7</td>
-      <td class="gr" lang="grc">Μηδὲ εἰδωλολάτραι γίνεσθε, καθώς τινες αὐτῶν· ὥσπερ <strong>γέγραπται</strong>· «Ἐκάθισεν ὁ λαὸς φαγεῖν καὶ πιεῖν, καὶ ἀνέστησαν παίζειν.»<div class="note">« ὥσπερ γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Μηδὲ εἰδωλολάτραι γίνεσθε, καθώς τινες αὐτῶν· ὥσπερ <strong>γέγραπται</strong>· «Ἐκάθισεν ὁ λαὸς φαγεῖν καὶ πιεῖν, καὶ ἀνέστησαν παίζειν.»<div class="fr" lang="fr">Et que vous ne deveniez point idolâtres, comme quelques-uns d’eux: ainsi qu’il est écrit; Le peuple s’est assis pour manger et pour boire; et puis ils se sont levés pour jouer.</div><div class="note">« ὥσπερ γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ex 32,6</div>
         <div class="he" lang="he" dir="rtl">וַיַּשְׁכִּ֙ימוּ֙ מִֽמׇּחֳרָ֔ת וַיַּעֲל֣וּ עֹלֹ֔ת וַיַּגִּ֖שׁוּ שְׁלָמִ֑ים וַיֵּ֤שֶׁב הָעָם֙ לֶֽאֱכֹ֣ל וְשָׁת֔וֹ וַיָּקֻ֖מוּ לְצַחֵֽק׃</div>
+        <div class="fr" lang="fr">Ainsi ils se levèrent le lendemain dès le matin, et ils offrirent des holocaustes, et présentèrent des sacrifices de prospérité; et le peuple s’assit pour manger et pour boire, puis ils se levèrent pour jouer.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 14,21</td>
-      <td class="gr" lang="grc">Ἐν τῷ νόμῳ <strong>γέγραπται</strong> ὅτι· «Ἐν ἑτερογλώσσοις καὶ ἐν χείλεσιν ἑτέροις λαλήσω τῷ λαῷ τούτῳ, καὶ οὐδ᾿ οὕτως εἰσακούσονταί μου,» λέγει Κύριος.<div class="note">« ἐν τῷ νόμῳ γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Ἐν τῷ νόμῳ <strong>γέγραπται</strong> ὅτι· «Ἐν ἑτερογλώσσοις καὶ ἐν χείλεσιν ἑτέροις λαλήσω τῷ λαῷ τούτῳ, καὶ οὐδ᾿ οὕτως εἰσακούσονταί μου,» λέγει Κύριος.<div class="fr" lang="fr">Il est écrit dans la Loi; Je parlerai à ce peuple par des gens d’une autre Langue, et par des lèvres étrangères: et ainsi ils ne m’entendront point, dit le Seigneur.</div><div class="note">« ἐν τῷ νόμῳ γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 28,11-12</div>
         <div class="he" lang="he" dir="rtl">כִּ֚י בְּלַעֲגֵ֣י שָׂפָ֔ה וּבְלָשׁ֖וֹן אַחֶ֑רֶת יְדַבֵּ֖ר אֶל־הָעָ֥ם הַזֶּֽה׃ אֲשֶׁ֣ר אָמַ֣ר אֲלֵיהֶ֗ם זֹ֤את הַמְּנוּחָה֙ הָנִ֣יחוּ לֶעָיֵ֔ף וְזֹ֖את הַמַּרְגֵּעָ֑ה וְלֹ֥א אָב֖וּא שְׁמֽוֹעַ׃</div>
+        <div class="fr" lang="fr">C’est pourquoi il parlera à ce peuple-ci avec un bégaiement de lèvres, et une langue étrangère. Il lui avait dit: C’[est] ici le repos, que vous donniez du repos à celui qui est lassé, et [c’est] ici le soulagement: mais ils n’ont point voulu écouter.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 15,45</td>
-      <td class="gr" lang="grc">Οὕτως καὶ <strong>γέγραπται</strong>· «Ἐγένετο ὁ πρῶτος ἄνθρωπος, Ἀδάμ, εἰς ψυχὴν ζῶσαν»· ὁ ἔσχατος Ἀδὰμ εἰς πνεῦμα ζωοποιοῦν.<div class="note">« οὕτως καὶ γέγραπται ».</div></td>
+      <td class="gr" lang="grc">Οὕτως καὶ <strong>γέγραπται</strong>· «Ἐγένετο ὁ πρῶτος ἄνθρωπος, Ἀδάμ, εἰς ψυχὴν ζῶσαν»· ὁ ἔσχατος Ἀδὰμ εἰς πνεῦμα ζωοποιοῦν.<div class="fr" lang="fr">Comme aussi il est écrit; Le premier homme Adam a été fait en âme vivante: [et] le dernier Adam en esprit vivifiant.</div><div class="note">« οὕτως καὶ γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Gn 2,7</div>
         <div class="he" lang="he" dir="rtl">וַיִּ֩יצֶר֩ יְהֹוָ֨ה אֱלֹהִ֜ים אֶת־הָֽאָדָ֗ם עָפָר֙ מִן־הָ֣אֲדָמָ֔ה וַיִּפַּ֥ח בְּאַפָּ֖יו נִשְׁמַ֣ת חַיִּ֑ים וַיְהִ֥י הָֽאָדָ֖ם לְנֶ֥פֶשׁ חַיָּֽה׃</div>
+        <div class="fr" lang="fr">Or l’Éternel Dieu avait formé l’homme de la poudre de la terre, et il avait soufflé dans ses narines une respiration de vie: et l’homme fut fait en âme vivante.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">1 Co 15,54</td>
-      <td class="gr" lang="grc">Ὅταν δὲ τὸ φθαρτὸν τοῦτο ἐνδύσηται ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν, τότε γενήσεται ὁ λόγος ὁ <strong>γεγραμμένος</strong>· «Κατεπόθη ὁ θάνατος εἰς νῖκος.»<div class="note">« ὁ λόγος ὁ γεγραμμένος ».</div></td>
+      <td class="gr" lang="grc">Ὅταν δὲ τὸ φθαρτὸν τοῦτο ἐνδύσηται ἀφθαρσίαν καὶ τὸ θνητὸν τοῦτο ἐνδύσηται ἀθανασίαν, τότε γενήσεται ὁ λόγος ὁ <strong>γεγραμμένος</strong>· «Κατεπόθη ὁ θάνατος εἰς νῖκος.»<div class="fr" lang="fr">Or quand ce corruptible aura revêtu l’incorruptibilité, et que ce mortel aura revêtu l’immortalité, alors cette parole de l’Écriture sera accomplie; La mort est engloutie en victoire.</div><div class="note">« ὁ λόγος ὁ γεγραμμένος ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 25,8</div>
         <div class="he" lang="he" dir="rtl">בִּלַּ֤ע הַמָּ֙וֶת֙ לָנֶ֔צַח וּמָחָ֨ה אֲדֹנָ֧י יֱהֹוִ֛ה דִּמְעָ֖ה מֵעַ֣ל כׇּל־פָּנִ֑ים וְחֶרְפַּ֣ת עַמּ֗וֹ יָסִיר֙ מֵעַ֣ל כׇּל־הָאָ֔רֶץ כִּ֥י יְהֹוָ֖ה דִּבֵּֽר׃</div>
+        <div class="fr" lang="fr">Il engloutira la mort en victoire: et le Seigneur l’Éternel essuiera les larmes de dessus tout visage, et il ôtera l’opprobre de son peuple de dessus toute la terre: car l’Éternel a parlé.</div>
       </div></td>
     </tr>
       <tr class="book" id="2-corinthiens"><th colspan="3">2 Corinthiens</th></tr>
 <tr>
       <td class="nt">2 Co 4,13</td>
-      <td class="gr" lang="grc">Ἔχοντες δὲ τὸ αὐτὸ πνεῦμα τῆς πίστεως, κατὰ τὸ <strong>γεγραμμένον</strong>, «Ἐπίστευσα· διὸ ἐλάλησα,» καὶ ἡμεῖς πιστεύομεν, διὸ καὶ λαλοῦμεν,<div class="note">« κατὰ τὸ γεγραμμένον ».</div></td>
+      <td class="gr" lang="grc">Ἔχοντες δὲ τὸ αὐτὸ πνεῦμα τῆς πίστεως, κατὰ τὸ <strong>γεγραμμένον</strong>, «Ἐπίστευσα· διὸ ἐλάλησα,» καὶ ἡμεῖς πιστεύομεν, διὸ καὶ λαλοῦμεν,<div class="fr" lang="fr">Or ayant un même esprit de foi, selon qu’il est écrit; J’ai cru, c’est pourquoi j’ai parlé: nous croyons aussi, et c’est aussi pourquoi nous parlons.</div><div class="note">« κατὰ τὸ γεγραμμένον ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 116,10</div>
         <div class="he" lang="he" dir="rtl">הֶ֭אֱמַנְתִּי כִּ֣י אֲדַבֵּ֑ר אֲ֝נִ֗י עָנִ֥יתִי מְאֹֽד׃</div>
+        <div class="fr" lang="fr">J’ai cru, c’est pourquoi j’ai parlé: j’ai été fort affligé.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">2 Co 8,15</td>
-      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ὁ τὸ πολὺ οὐκ ἐπλεόνασεν, καὶ ὁ τὸ ὀλίγον οὐκ ἠλαττόνησεν.»<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ὁ τὸ πολὺ οὐκ ἐπλεόνασεν, καὶ ὁ τὸ ὀλίγον οὐκ ἠλαττόνησεν.»<div class="fr" lang="fr">Selon ce qui est écrit; Celui qui [avait] beaucoup, n’a rien eu de superflu: et celui qui [avait] peu, n’en a pas eu moins.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ex 16,18</div>
         <div class="he" lang="he" dir="rtl">וַיָּמֹ֣דּוּ בָעֹ֔מֶר וְלֹ֤א הֶעְדִּיף֙ הַמַּרְבֶּ֔ה וְהַמַּמְעִ֖יט לֹ֣א הֶחְסִ֑יר אִ֥ישׁ לְפִֽי־אׇכְל֖וֹ לָקָֽטוּ׃</div>
+        <div class="fr" lang="fr">Et ils le mesuraient par Homers; et celui qui en avait recueilli beaucoup n’en avait pas plus [qu’il ne lui en fallait]; ni celui qui en avait recueilli peu, n’en avait pas moins: mais chacun en recueillait selon ce qu’il en pouvait manger.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">2 Co 9,9</td>
-      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἐσκόρπισεν, ἔδωκεν τοῖς πένησιν· ἡ δικαιοσύνη αὐτοῦ μένει εἰς τὸν αἰῶνα»—<div class="note">« καθὼς γέγραπται ».</div></td>
+      <td class="gr" lang="grc">καθὼς <strong>γέγραπται</strong>· «Ἐσκόρπισεν, ἔδωκεν τοῖς πένησιν· ἡ δικαιοσύνη αὐτοῦ μένει εἰς τὸν αἰῶνα»—<div class="fr" lang="fr">Selon ce qui est écrit; Il a épars et donné aux pauvres: sa justice demeure éternellement.</div><div class="note">« καθὼς γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Ps 112,9</div>
         <div class="he" lang="he" dir="rtl">פִּזַּ֤ר נָ֘תַ֤ן לָאֶבְיוֹנִ֗ים צִ֭דְקָתוֹ עֹמֶ֣דֶת לָעַ֑ד קַ֝רְנ֗וֹ תָּר֥וּם בְּכָבֽוֹד׃</div>
+        <div class="fr" lang="fr">[Pe.] Il a répandu, il a donné aux pauvres: [Tsade.] sa justice demeure à perpétuité: [Koph.] sa corne sera élevée en gloire.</div>
       </div></td>
     </tr>
       <tr class="book" id="galates"><th colspan="3">Galates</th></tr>
 <tr>
       <td class="nt">Ga 3,10</td>
-      <td class="gr" lang="grc">Ὅσοι γὰρ ἐξ ἔργων νόμου εἰσίν, ὑπὸ κατάραν εἰσίν· <strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει ἐν πᾶσιν τοῖς <strong>γεγραμμένοις</strong> ἐν τῷ βιβλίῳ τοῦ νόμου, τοῦ ποιῆσαι αὐτά.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc">Ὅσοι γὰρ ἐξ ἔργων νόμου εἰσίν, ὑπὸ κατάραν εἰσίν· <strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὃς οὐκ ἐμμένει ἐν πᾶσιν τοῖς <strong>γεγραμμένοις</strong> ἐν τῷ βιβλίῳ τοῦ νόμου, τοῦ ποιῆσαι αὐτά.»<div class="fr" lang="fr">Mais tous ceux qui sont des oeuvres de la Loi, sont sous la malédiction: car il est écrit; Maudit [est] quiconque ne persévère pas dans toutes les choses qui sont écrites au Livre de la Loi pour les faire.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 27,26</div>
         <div class="he" lang="he" dir="rtl">אָר֗וּר אֲשֶׁ֧ר לֹא־יָקִ֛ים אֶת־דִּבְרֵ֥י הַתּוֹרָֽה־הַזֹּ֖את לַעֲשׂ֣וֹת אוֹתָ֑ם וְאָמַ֥ר כׇּל־הָעָ֖ם אָמֵֽן׃</div>
+        <div class="fr" lang="fr">Maudit [soit] celui qui ne persévère point dans les paroles de cette Loi, pour les faire; et tout le peuple dira: Amen.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ga 3,13</td>
-      <td class="gr" lang="grc">Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου, γενόμενος ὑπὲρ ἡμῶν κατάρα—<strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου»—<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc">Χριστὸς ἡμᾶς ἐξηγόρασεν ἐκ τῆς κατάρας τοῦ νόμου, γενόμενος ὑπὲρ ἡμῶν κατάρα—<strong>γέγραπται</strong> γάρ, «Ἐπικατάρατος πᾶς ὁ κρεμάμενος ἐπὶ ξύλου»—<div class="fr" lang="fr">Christ nous a rachetés de la malédiction de la Loi, quand il a été fait malédiction pour nous: (car il est écrit, Maudit [est] quiconque pend au bois.)</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 21,23</div>
         <div class="he" lang="he" dir="rtl">לֹא־תָלִ֨ין נִבְלָת֜וֹ עַל־הָעֵ֗ץ כִּֽי־קָב֤וֹר תִּקְבְּרֶ֙נּוּ֙ בַּיּ֣וֹם הַה֔וּא כִּֽי־קִלְלַ֥ת אֱלֹהִ֖ים תָּל֑וּי וְלֹ֤א תְטַמֵּא֙ אֶת־אַדְמָ֣תְךָ֔ אֲשֶׁר֙ יְהֹוָ֣ה אֱלֹהֶ֔יךָ נֹתֵ֥ן לְךָ֖ נַחֲלָֽה׃</div>
+        <div class="fr" lang="fr">Son corps mort ne demeurera point la nuit sur le bois, mais tu ne manqueras point de l’ensevelir le même jour, car celui qui est pendu [est] malédiction de Dieu; c’est pourquoi tu ne souilleras point la terre que l’Éternel ton Dieu te donne en héritage.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ga 4,27</td>
-      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Εὐφράνθητι, στεῖρα, ἡ οὐ τίκτουσα· ῥῆξον καὶ βόησον, ἡ οὐκ ὠδίνουσα· ὅτι πολλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον ἢ τῆς ἐχούσης τὸν ἄνδρα.»<div class="note">« γέγραπται γάρ ».</div></td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γάρ· «Εὐφράνθητι, στεῖρα, ἡ οὐ τίκτουσα· ῥῆξον καὶ βόησον, ἡ οὐκ ὠδίνουσα· ὅτι πολλὰ τὰ τέκνα τῆς ἐρήμου μᾶλλον ἢ τῆς ἐχούσης τὸν ἄνδρα.»<div class="fr" lang="fr">Car il est écrit; Réjouis-toi, stérile, qui n’enfantais point: efforce-toi, et t’écrie, toi qui n’étais point en travail d’enfant: car il y a beaucoup plus d’enfants de [celle qui avait été] laissée, que de celle qui avait un mari.</div><div class="note">« γέγραπται γάρ ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 54,1</div>
         <div class="he" lang="he" dir="rtl">רׇנִּ֥י עֲקָרָ֖ה לֹ֣א יָלָ֑דָה פִּצְחִ֨י רִנָּ֤ה וְצַֽהֲלִי֙ לֹא־חָ֔לָה כִּֽי־רַבִּ֧ים בְּֽנֵי־שׁוֹמֵמָ֛ה מִבְּנֵ֥י בְעוּלָ֖ה אָמַ֥ר יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Réjouis-toi, avec chant de triomphe, stérile [qui] n’enfantais point, [toi qui] ne savais ce que c’est du travail d’enfant, éclate de joie avec chant de triomphe, et t’égaye: car les enfants de celle qui était délaissée, [seront] en plus grand nombre que les enfants de celle qui était mariée, a dit l’Éternel.</div>
       </div></td>
     </tr>
       <tr class="book" id="1-pierre"><th colspan="3">1 Pierre</th></tr>
 <tr>
       <td class="nt">1 P 1,16</td>
-      <td class="gr" lang="grc">διότι <strong>γέγραπται</strong>, «Ἅγιοι γίνεσθε, ὅτι ἐγὼ ἅγιός εἰμι.»<div class="note">« διότι γέγραπται ».</div></td>
+      <td class="gr" lang="grc">διότι <strong>γέγραπται</strong>, «Ἅγιοι γίνεσθε, ὅτι ἐγὼ ἅγιός εἰμι.»<div class="fr" lang="fr">Parce qu’il est écrit; Soyez saints, car je suis saint.</div><div class="note">« διότι γέγραπται ».</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Lv 19,2</div>
         <div class="he" lang="he" dir="rtl">דַּבֵּ֞ר אֶל־כׇּל־עֲדַ֧ת בְּנֵי־יִשְׂרָאֵ֛ל וְאָמַרְתָּ֥ אֲלֵהֶ֖ם קְדֹשִׁ֣ים תִּהְי֑וּ כִּ֣י קָד֔וֹשׁ אֲנִ֖י יְהֹוָ֥ה אֱלֹהֵיכֶֽם׃</div>
+        <div class="fr" lang="fr">Parle à toute l’assemblée des enfants d’Israël, et leur dis: Soyez saints: car je [suis] saint, moi l’Éternel votre Dieu.</div>
       </div></td>
     </tr>
     </tbody>
@@ -717,39 +805,44 @@ strong { font-weight: 700; }
     <tbody>
 <tr>
       <td class="nt">Lc 4,17-19</td>
-      <td class="gr" lang="grc">Καὶ ἐπεδόθη αὐτῷ βιβλίον Ἡσαΐου τοῦ προφήτου· καὶ ἀναπτύξας τὸ βιβλίον εὗρεν τὸν τόπον οὗ ἦν <strong>γεγραμμένον</strong>· «Πνεῦμα Κυρίου ἐπ᾿ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς. Ἀπέσταλκέν με ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν, κηρύξαι αἰχμαλώτοις ἄφεσιν καὶ τυφλοῖς ἀνάβλεψιν, ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει, κηρύξαι ἐνιαυτὸν Κυρίου δεκτόν.»<div class="note">« οὗ ἦν γεγραμμένον » : formule narrative ; Jésus lit Is 61,1-2 dans la synagogue de Nazareth.</div></td>
+      <td class="gr" lang="grc">Καὶ ἐπεδόθη αὐτῷ βιβλίον Ἡσαΐου τοῦ προφήτου· καὶ ἀναπτύξας τὸ βιβλίον εὗρεν τὸν τόπον οὗ ἦν <strong>γεγραμμένον</strong>· «Πνεῦμα Κυρίου ἐπ᾿ ἐμέ, οὗ εἵνεκεν ἔχρισέν με εὐαγγελίσασθαι πτωχοῖς. Ἀπέσταλκέν με ἰάσασθαι τοὺς συντετριμμένους τὴν καρδίαν, κηρύξαι αἰχμαλώτοις ἄφεσιν καὶ τυφλοῖς ἀνάβλεψιν, ἀποστεῖλαι τεθραυσμένους ἐν ἀφέσει, κηρύξαι ἐνιαυτὸν Κυρίου δεκτόν.»<div class="fr" lang="fr">Et on lui donna le Livre du Prophète Ésaïe, et quand il eut déployé le Livre, il trouva le passage où il est écrit: L’Esprit du Seigneur [est] sur moi, parce qu’il m’a oint: il m’a envoyé pour évangéliser aux pauvres; pour guérir ceux qui ont le coeur froissé. Pour publier aux captifs la délivrance, et aux aveugles le recouvrement de la vue; pour mettre en liberté ceux qui sont foulés; et pour publier l’an agréable du Seigneur.</div><div class="note">« οὗ ἦν γεγραμμένον » : formule narrative ; Jésus lit Is 61,1-2 dans la synagogue de Nazareth.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Is 61,1-2</div>
         <div class="he" lang="he" dir="rtl">ר֛וּחַ אֲדֹנָ֥י יֱהֹוִ֖ה עָלָ֑י יַ֡עַן מָשַׁח֩ יְהֹוָ֨ה אֹתִ֜י לְבַשֵּׂ֣ר עֲנָוִ֗ים שְׁלָחַ֙נִי֙ לַחֲבֹ֣שׁ לְנִשְׁבְּרֵי־לֵ֔ב לִקְרֹ֤א לִשְׁבוּיִם֙ דְּר֔וֹר וְלַאֲסוּרִ֖ים פְּקַח־קֽוֹחַ׃ לִקְרֹ֤א שְׁנַת־רָצוֹן֙ לַֽיהֹוָ֔ה וְי֥וֹם נָקָ֖ם לֵאלֹהֵ֑ינוּ לְנַחֵ֖ם כׇּל־אֲבֵלִֽים׃</div>
+        <div class="fr" lang="fr">L’Esprit du Seigneur l’Éternel [est] sur moi, c’est pourquoi l’Éternel m’a oint pour évangéliser aux débonnaires, il m’a envoyé pour guérir ceux qui ont le coeur froissé, pour publier aux captifs la liberté, et aux prisonniers l’ouverture de la prison. Pour publier l’an de la bienveillance de l’Éternel, et le jour de la vengeance de notre Dieu; pour consoler tous ceux qui mènent deuil;</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Lc 10,26-27</td>
-      <td class="gr" lang="grc">Ὁ δὲ εἶπεν πρὸς αὐτόν· «Ἐν τῷ νόμῳ τί <strong>γέγραπται</strong>; Πῶς ἀναγινώσκεις;» Ὁ δὲ ἀποκριθεὶς εἶπεν· «Ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καί, τὸν πλησίον σου ὡς σεαυτόν.»<div class="note">« τί γέγραπται; » : formule interrogative ; la réponse du légiste cite Dt 6,5 et Lv 19,18.</div></td>
+      <td class="gr" lang="grc">Ὁ δὲ εἶπεν πρὸς αὐτόν· «Ἐν τῷ νόμῳ τί <strong>γέγραπται</strong>; Πῶς ἀναγινώσκεις;» Ὁ δὲ ἀποκριθεὶς εἶπεν· «Ἀγαπήσεις Κύριον τὸν Θεόν σου ἐξ ὅλης τῆς καρδίας σου, καὶ ἐξ ὅλης τῆς ψυχῆς σου, καὶ ἐξ ὅλης τῆς ἰσχύος σου, καὶ ἐξ ὅλης τῆς διανοίας σου, καί, τὸν πλησίον σου ὡς σεαυτόν.»<div class="fr" lang="fr">Et il lui dit; Qu’est-il écrit dans la Loi? Comment lis-tu? Et il répondit, et dit; Tu aimeras le Seigneur ton Dieu de tout ton coeur, et de toute ton âme, et de toute ta force, et de toute ta pensée: et [tu aimeras] ton prochain comme toi-même.</div><div class="note">« τί γέγραπται; » : formule interrogative ; la réponse du légiste cite Dt 6,5 et Lv 19,18.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Dt 6,5</div>
         <div class="he" lang="he" dir="rtl">וְאָ֣הַבְתָּ֔ אֵ֖ת יְהֹוָ֣ה אֱלֹהֶ֑יךָ בְּכׇל־לְבָבְךָ֥ וּבְכׇל־נַפְשְׁךָ֖ וּבְכׇל־מְאֹדֶֽךָ׃</div>
+        <div class="fr" lang="fr">Tu aimeras donc l’Éternel ton Dieu de tout ton coeur, de toute ton âme, et de toutes tes forces.</div>
       </div>
       <div class="ot">
         <div class="otref">Lv 19,18</div>
         <div class="he" lang="he" dir="rtl">לֹֽא־תִקֹּ֤ם וְלֹֽא־תִטֹּר֙ אֶת־בְּנֵ֣י עַמֶּ֔ךָ וְאָֽהַבְתָּ֥ לְרֵעֲךָ֖ כָּמ֑וֹךָ אֲנִ֖י יְהֹוָֽה׃</div>
+        <div class="fr" lang="fr">Tu n’useras point de vengeance, et ne la garderas point aux enfants de ton peuple: mais tu aimeras ton prochain comme toi-même: Je [suis] l’Éternel.</div>
       </div></td>
     </tr>
 <tr>
       <td class="nt">Ga 4,22</td>
-      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γὰρ ὅτι Ἁβραὰμ δύο υἱοὺς ἔσχεν· ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.<div class="note">« γέγραπται γάρ » introduit un résumé narratif de Gn 16 et 21, non une citation verbatim.</div></td>
+      <td class="gr" lang="grc"><strong>Γέγραπται</strong> γὰρ ὅτι Ἁβραὰμ δύο υἱοὺς ἔσχεν· ἕνα ἐκ τῆς παιδίσκης καὶ ἕνα ἐκ τῆς ἐλευθέρας.<div class="fr" lang="fr">Car il est écrit qu’Abraham a eu deux fils, l’un de la servante, et l’autre de la libre.</div><div class="note">« γέγραπται γάρ » introduit un résumé narratif de Gn 16 et 21, non une citation verbatim.</div></td>
       <td class="otcell"><div class="ot">
         <div class="otref">Gn 16,15</div>
         <div class="he" lang="he" dir="rtl">וַתֵּ֧לֶד הָגָ֛ר לְאַבְרָ֖ם בֵּ֑ן וַיִּקְרָ֨א אַבְרָ֧ם שֶׁם־בְּנ֛וֹ אֲשֶׁר־יָלְדָ֥ה הָגָ֖ר יִשְׁמָעֵֽאל׃</div>
+        <div class="fr" lang="fr">Agar donc enfanta un fils à Abram; et Abram appela le nom de son fils, qu’Agar lui avait enfanté, Ismaël.</div>
       </div>
       <div class="ot">
         <div class="otref">Gn 21,2-3</div>
         <div class="he" lang="he" dir="rtl">וַתַּ֩הַר֩ וַתֵּ֨לֶד שָׂרָ֧ה לְאַבְרָהָ֛ם בֵּ֖ן לִזְקֻנָ֑יו לַמּוֹעֵ֕ד אֲשֶׁר־דִּבֶּ֥ר אֹת֖וֹ אֱלֹהִֽים׃ וַיִּקְרָ֨א אַבְרָהָ֜ם אֶֽת־שֶׁם־בְּנ֧וֹ הַנּֽוֹלַד־ל֛וֹ אֲשֶׁר־יָלְדָה־לּ֥וֹ שָׂרָ֖ה יִצְחָֽק׃</div>
+        <div class="fr" lang="fr">Sara donc conçut, et enfanta un fils à Abraham en sa vieillesse, au temps précis que Dieu lui avait dit. Et Abraham appela le nom de son fils, qui lui était né, [et] que Sara lui avait enfanté, Isaac.</div>
       </div></td>
     </tr>
     </tbody>
   </table>
 
-<p class="footer">Sources : texte grec <code>f35.txt</code> (Family 35) ; texte hébreu <em>Miqra according to the Masorah</em>, via Sefaria (CC-BY-SA). Les références vétérotestamentaires suivent la numérotation hébraïque.</p>
+<p class="footer">Sources : texte grec <code>f35.txt</code> (Family 35) ; texte hébreu <em>Miqra according to the Masorah</em>, via Sefaria (CC-BY-SA) ; traduction française de David Martin (1707), domaine public. Les références vétérotestamentaires suivent la numérotation hébraïque.</p>
 </body>
 </html>
